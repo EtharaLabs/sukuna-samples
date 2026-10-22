@@ -60,8 +60,11 @@ Each bundle directory is a complete Harbor task: `task.toml` is the runner manif
 ## Cite
 
 ```bibtex
-@misc{sukunasamples,
-  title = {sukuna: samples}
+@misc{sukuna2026,
+  title        = {sukuna: Harbor-format terminal tasks for tool-use competency, measured against the frontier},
+  author       = {{Ethara.AI}},
+  year         = {2026},
+  howpublished = {\url{https://github.com/EtharaOrion/sukuna}}
 }
 ```
 
@@ -71,4 +74,4 @@ See the license of the repository that publishes this lane.
 
 ## Contact
 
-[Ethara AI on GitHub](https://github.com/Ethara-Ai), [SECURITY.md](SECURITY.md) for a private report, and [CONTRIBUTING.md](CONTRIBUTING.md) for the contribution route.
+Questions and collaboration go through the [Ethara.AI GitHub organization](https://github.com/Ethara-Ai). Report a vulnerability privately as [SECURITY.md](SECURITY.md) describes, and read [CONTRIBUTING.md](CONTRIBUTING.md) before you open a pull request.
