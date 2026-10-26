@@ -70,7 +70,7 @@ Each bundle directory is a complete Harbor task: `task.toml` is the runner manif
 
 ## License
 
-See the license of the repository that publishes this lane.
+sukuna is released under the MIT License ([LICENSE](LICENSE)). The license grants permission, free of charge, to use, copy, modify, merge, publish, distribute, sublicense, and sell copies of the software, provided the copyright notice and permission notice are included in all copies or substantial portions of it. The software is provided as is, without warranty of any kind.
 
 ## Contact
 
