@@ -76,8 +76,4 @@ sukuna is released under the MIT License ([LICENSE](LICENSE)). The license grant
 
 Questions and collaboration go through the [Ethara.AI GitHub organization](https://github.com/Ethara-Ai). Report a vulnerability privately as [SECURITY.md](SECURITY.md) describes, and read [CONTRIBUTING.md](CONTRIBUTING.md) before you open a pull request.
 
----
-
-## Copyright
-
 Copyright (c) 2026 Green Rider Technology LLP (Ethara AI). All rights reserved.
