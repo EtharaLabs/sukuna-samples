@@ -1,0 +1,24 @@
+DRAFT - dispatch desk circulation only - not issued by response standards
+
+From: Calderwick dispatch desk
+To: Standby supervisors
+Subject: How the desk is reading Revision C for this period
+
+Revision C lands on Monday 19 October. The desk reading, for planning only:
+
+1. Use the date the ticket was raised to pick the revision. If a ticket was opened on the
+   18th it stays on Revision B even if the engineer was paged out on the 20th. It keeps the
+   ticket and the revision on one line and nobody has to split a call down the middle.
+
+2. Keep the flat 45 minute travel allowance for everything. Pulling telemetry per call is
+   more work than the figure is worth and the flat number is close enough most weeks.
+
+3. Parts waits: carry on leaving them inside the response figure. A wait is still time the
+   customer is down, so it belongs in the number.
+
+4. Remote attempts: ignore them for response purposes as we always have.
+
+5. For the night the clocks go back, read the labels off the desk board and subtract.
+
+Response standards have not signed any of this off. Where the audit disagrees with this
+note, the audit governs.

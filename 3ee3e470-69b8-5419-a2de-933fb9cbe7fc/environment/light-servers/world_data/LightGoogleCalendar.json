@@ -1,0 +1,117 @@
+{
+ "attendees": {},
+ "calendars": [
+  {
+   "id": "cal-crn-hub",
+   "primary": true,
+   "summary": "Calderwick Regional Network Operations calendar"
+  }
+ ],
+ "events": [
+  {
+   "all_day": true,
+   "calendar_id": "cal-crn-hub",
+   "creator": "cal-crn-hub",
+   "description": "Revision C governs any call whose paging dispatch instant falls on or after midnight depot local on this date.",
+   "end": "2026-10-19T23:59:00+01:00",
+   "id": "evt-crn-revc",
+   "location": "Calderwick Regional Network Operations",
+   "organizer": "cal-crn-hub",
+   "recurrence": [],
+   "start": "2026-10-19T00:00:00+01:00",
+   "status": "confirmed",
+   "summary": "FSR-9 Revision C takes effect",
+   "visibility": "default"
+  },
+  {
+   "all_day": false,
+   "calendar_id": "cal-crn-hub",
+   "creator": "cal-crn-hub",
+   "description": "At 02:00 depot local the clocks go back to 01:00, so depot local runs one hour ahead of the archive before this instant and level with it afterwards.",
+   "end": "2026-10-25T02:00:00+00:00",
+   "id": "evt-crn-clocks",
+   "location": "Calderwick Regional Network Operations",
+   "organizer": "cal-crn-hub",
+   "recurrence": [],
+   "start": "2026-10-25T01:00:00+01:00",
+   "status": "confirmed",
+   "summary": "Depot clocks go back one hour",
+   "visibility": "default"
+  },
+  {
+   "all_day": true,
+   "calendar_id": "cal-crn-hub",
+   "creator": "cal-crn-hub",
+   "description": "Monday 5 October to Sunday 1 November inclusive",
+   "end": "2026-11-01T23:59:00+00:00",
+   "id": "evt-crn-period",
+   "location": "Calderwick Regional Network Operations",
+   "organizer": "cal-crn-hub",
+   "recurrence": [],
+   "start": "2026-10-05T00:00:00+01:00",
+   "status": "confirmed",
+   "summary": "28 day on-call response audit period",
+   "visibility": "default"
+  },
+  {
+   "all_day": false,
+   "calendar_id": "cal-crn-hub",
+   "creator": "cal-crn-hub",
+   "description": "Standby rota and cover for the week",
+   "end": "2026-10-05T08:00:00+01:00",
+   "id": "evt-crn-week1",
+   "location": "Calderwick Regional Network Operations",
+   "organizer": "cal-crn-hub",
+   "recurrence": [],
+   "start": "2026-10-05T07:30:00+01:00",
+   "status": "confirmed",
+   "summary": "Week 1 on-call briefing",
+   "visibility": "default"
+  },
+  {
+   "all_day": false,
+   "calendar_id": "cal-crn-hub",
+   "creator": "cal-crn-hub",
+   "description": "Standby rota and cover for the week",
+   "end": "2026-10-12T08:00:00+01:00",
+   "id": "evt-crn-week2",
+   "location": "Calderwick Regional Network Operations",
+   "organizer": "cal-crn-hub",
+   "recurrence": [],
+   "start": "2026-10-12T07:30:00+01:00",
+   "status": "confirmed",
+   "summary": "Week 2 on-call briefing",
+   "visibility": "default"
+  },
+  {
+   "all_day": false,
+   "calendar_id": "cal-crn-hub",
+   "creator": "cal-crn-hub",
+   "description": "Standby rota and cover for the week",
+   "end": "2026-10-19T08:00:00+01:00",
+   "id": "evt-crn-week3",
+   "location": "Calderwick Regional Network Operations",
+   "organizer": "cal-crn-hub",
+   "recurrence": [],
+   "start": "2026-10-19T07:30:00+01:00",
+   "status": "confirmed",
+   "summary": "Week 3 on-call briefing",
+   "visibility": "default"
+  },
+  {
+   "all_day": false,
+   "calendar_id": "cal-crn-hub",
+   "creator": "cal-crn-hub",
+   "description": "Standby rota and cover for the week",
+   "end": "2026-10-26T08:00:00+00:00",
+   "id": "evt-crn-week4",
+   "location": "Calderwick Regional Network Operations",
+   "organizer": "cal-crn-hub",
+   "recurrence": [],
+   "start": "2026-10-26T07:30:00+00:00",
+   "status": "confirmed",
+   "summary": "Week 4 on-call briefing",
+   "visibility": "default"
+  }
+ ]
+}

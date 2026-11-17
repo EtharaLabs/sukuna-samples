@@ -1,0 +1,23 @@
+engineer_id,engineer_name,radio_handle,van_code,mail_address,home_region,audit_scope,export_taken
+TFS-ENG-203,Marek Wraysbury,CW310R,VAN-BF-40,"marek.wraysbury@thornby-field.co.uk",Calderwick Regional Network Operations,in-scope,2026-10-28
+TFS-ENG-207,Oriel Molyneaux,CW313R,VAN-CL-41,"oriel.molyneaux@thornby-field.co.uk",Calderwick Regional Network Operations,in-scope,2026-10-28
+TFS-ENG-211,Teagan Tredinnick,CW316R,VAN-DS-42,"teagan.tredinnick@thornby-field.co.uk",Calderwick Regional Network Operations,in-scope,2026-10-28
+TFS-ENG-215,Dov Hasselgrove,CW319R,VAN-FY-43,"dov.hasselgrove@thornby-field.co.uk",Calderwick Regional Network Operations,in-scope,2026-10-28
+TFS-ENG-219,Ingrid Pentreath,CW322R,VAN-GF-44,"ingrid.pentreath@thornby-field.co.uk",Calderwick Regional Network Operations,in-scope,2026-10-28
+TFS-ENG-223,Samira Garmondsway,CW325R,VAN-HL-45,"samira.garmondsway@thornby-field.co.uk",Calderwick Regional Network Operations,in-scope,2026-10-28
+TFS-ENG-227,Lucan Linnersgill,CW328R,VAN-JS-46,"lucan.linnersgill@thornby-field.co.uk",Calderwick Regional Network Operations,in-scope,2026-10-28
+TFS-ENG-231,Ffyona Quennell,CW331R,VAN-KY-47,"ffyona.quennell@thornby-field.co.uk",Calderwick Regional Network Operations,in-scope,2026-10-28
+TFS-ENG-235,Beren Arrowsmith-Vale,CW334R,VAN-LF-48,"barrowsmithvale@thornby-field.co.uk",Calderwick Regional Network Operations,in-scope,2026-10-28
+TFS-ENG-239,Niamh Shackwell,CW337R,VAN-ML-40,"niamh.shackwell@thornby-field.co.uk",Calderwick Regional Network Operations,in-scope,2026-10-28
+TFS-ENG-243,Cosmo Oxenhope,CW340R,VAN-NS-41,"cosmo.oxenhope@thornby-field.co.uk",Calderwick Regional Network Operations,in-scope,2026-10-28
+TFS-ENG-247,Elspeth Dunnamore,CW343R,VAN-PY-42,"elspeth.dunnamore@thornby-field.co.uk",Calderwick Regional Network Operations,in-scope,2026-10-28
+TFS-CTR-641,Juno Trevellick,CW480A,VAN-BF-42,"juno.trevellick@westmarch-engineering.co.uk",Calderwick Regional Network Operations,agency,2026-10-28
+TFS-CTR-647,Casimir Caulderbank,CW484A,VAN-CL-43,"casimir.caulderbank@westmarch-engineering.co.uk",Calderwick Regional Network Operations,agency,2026-10-28
+TFS-CTR-653,Marek Hasselgrove,CW488A,VAN-DS-44,"marek.hasselgrove@westmarch-engineering.co.uk",Calderwick Regional Network Operations,agency,2026-10-28
+TFS-CTR-659,Dov Arrowsmith-Vale,CW492A,VAN-FY-45,"dov.arrowsmithvale@westmarch-engineering.co.uk",Calderwick Regional Network Operations,agency,2026-10-28
+TFS-ENG-212,Niamh Tredinnick,PW710R,VAN-JS-48,"niamh.tredinnick@thornby-field.co.uk",Pellworth Coastal Region,out-of-region,2026-10-28
+TFS-ENG-228,Juno Linnersgill,PW713R,VAN-KY-40,"juno.linnersgill@thornby-field.co.uk",Pellworth Coastal Region,out-of-region,2026-10-28
+TFS-ENG-244,Thandiwe Oxenhope,PW716R,VAN-LF-41,"thandiwe.oxenhope@thornby-field.co.uk",Pellworth Coastal Region,out-of-region,2026-10-28
+# Export taken 2026-10-28, four days before the period ended. Mail addresses
+# move after an export is taken; the engineer register is the live copy.
+# Engineer TFS-ENG-215 has since been re-registered at a different address.

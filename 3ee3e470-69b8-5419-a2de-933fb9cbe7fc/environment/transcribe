@@ -1,0 +1,63 @@
+#!/usr/bin/env python3
+"""Offline dictation for the voice notes in the shared folder.
+
+Usage:
+
+    transcribe evidence/tfs-eng-211/handback-crn-2110-124.wav
+    transcribe --plain note-one.wav note-two.wav
+
+Each argument must be a PCM wave file; the recogniser runs locally against the model
+unpacked under /opt/dictation/model and nothing leaves the workstation.
+"""
+import argparse
+import json
+import os
+import sys
+import wave
+
+MODEL_DIR = os.environ.get("DICTATION_MODEL", "/opt/dictation/model")
+CHUNK_FRAMES = 4000
+
+
+def load_recogniser(rate):
+    from vosk import KaldiRecognizer, Model, SetLogLevel
+
+    SetLogLevel(-1)
+    if not hasattr(load_recogniser, "model"):
+        if not os.path.isdir(MODEL_DIR):
+            raise SystemExit("transcribe: no dictation model under %s" % MODEL_DIR)
+        load_recogniser.model = Model(MODEL_DIR)
+    return KaldiRecognizer(load_recogniser.model, rate)
+
+
+def transcribe_one(path):
+    with wave.open(path, "rb") as handle:
+        if handle.getnchannels() != 1 or handle.getsampwidth() != 2:
+            raise SystemExit("transcribe: %s is not single channel sixteen bit audio" % path)
+        rec = load_recogniser(handle.getframerate())
+        while True:
+            block = handle.readframes(CHUNK_FRAMES)
+            if not block:
+                break
+            rec.AcceptWaveform(block)
+    return json.loads(rec.FinalResult()).get("text", "").strip()
+
+
+def main(argv=None):
+    ap = argparse.ArgumentParser(prog="transcribe", add_help=True,
+                                 description="print the spoken words in one or more wave files")
+    ap.add_argument("audio", nargs="+", help="path to a PCM wave file")
+    ap.add_argument("--plain", action="store_true",
+                    help="print the transcript alone, without the file name in front of it")
+    args = ap.parse_args(sys.argv[1:] if argv is None else argv)
+    missing = [p for p in args.audio if not os.path.isfile(p)]
+    if missing:
+        raise SystemExit("transcribe: no such file: %s" % ", ".join(missing))
+    for path in args.audio:
+        words = transcribe_one(path)
+        print(words if args.plain else "%s: %s" % (path, words))
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

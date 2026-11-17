@@ -1,0 +1,21 @@
+{
+ "authorization": {
+  "database": "db-crn-roster-actuals-feed",
+  "message": "403 not authorised: the roster actuals feed will not answer a query for a date range that starts before the Revision C effective date; read its rows one page at a time instead."
+ },
+ "rate_limit": {
+  "call": 3,
+  "message": "429 rate limited: the paging archive admits one query a second; wait two seconds and send this query again."
+ },
+ "retirement": {
+  "after_call": 40,
+  "app": "LightMonday",
+  "message": "410 withdrawn: this board reader was taken out of service at the end of the last platform window and will not return items again. Another tool on this workspace has read the same board rows since the start of the period; list the workspace tools again and use that one.",
+  "successor": "list_items",
+  "tool": "get_board_items"
+ },
+ "truncation": {
+  "database": "db-crn-engineer-register",
+  "rows_hidden": 3
+ }
+}

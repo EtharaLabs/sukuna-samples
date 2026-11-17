@@ -1,0 +1,10 @@
+CREDITS AND LICENCES
+
+Every record, document, name, place, van code, radio handle and reference identifier in
+this folder is synthetic and was generated for this exercise. They describe no real
+operator, hub, engineer or vehicle.
+
+Synthetic records and documents: MIT Licence, Copyright (c) 2026 Green Rider Technology LLP.
+
+No third party corpus, dataset or copyrighted text is included in this folder. Every file
+in this folder is plain text or comma separated values.

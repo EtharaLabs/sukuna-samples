@@ -1,0 +1,45 @@
+Field Service Response Code FSR-9, Revision C
+
+Issued by the Thornby Field Services Ltd response standards office.
+Effective 19 October 2026.
+
+1. SCOPE
+
+1.1 This code applies to every on-call response an engineer makes from a Thornby field
+    operations hub.
+1.2 The revision that governs a call is the revision in force at the paging dispatch
+    instant, read in depot local time. A call dispatched before a revision takes effect is
+    governed throughout by the earlier revision, however long it runs, and whatever date
+    the ticket carries.
+
+2. RESPONSE TARGET
+
+2.1 The response target is 120 minutes from the start of the response clock. Table 2a,
+    row 1.
+2.2 The acknowledgement target is 20 minutes from the dispatch instant. Table 2a, row 2.
+
+3.1 Start of the response clock. The response clock starts at the engineer's
+    acknowledgement instant, not at dispatch. Table 3b, row 1.
+
+4.1 Travel allowance. The allowance is the travel time the van
+    telemetry records for the call, capped at 60 minutes. Where telemetry
+    records more than 60 minutes, 60 is the allowance. Table 4b, row 1.
+
+5.1 Parts wait. The response clock stops for the whole of any parts wait that
+    appears in the parts wait log, and starts again when the wait ends.
+    Table 5b, row 1.
+
+6.1 Remote resolution. A first remote attempt made within 15 minutes of the
+     dispatch instant satisfies the response on its own, and the response
+     figure is the minutes from dispatch to that attempt. A first attempt made
+     later than 15 minutes after dispatch counts for nothing. Table 6b, row 1.
+
+7. RECORDS
+
+7.1 The paging archive is the record of when a call was dispatched, acknowledged and
+    logged clear. It carries no engineer identity; identity comes from the on-call roster.
+7.2 The auto-logged clear line is a session heartbeat. Where a job sheet countersigned at
+    hand-back exists, and the engineer's own voice note corroborates it, that documentation
+    governs the hand-back instant instead.
+7.3 A roster entry, a keyed actual, a badge export or a rollup total does not displace a
+    record named in 7.1 or 7.2.

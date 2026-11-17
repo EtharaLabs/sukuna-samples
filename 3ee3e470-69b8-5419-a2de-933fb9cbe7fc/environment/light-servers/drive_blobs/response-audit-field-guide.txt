@@ -1,0 +1,133 @@
+CALDERWICK REGIONAL NETWORK OPERATIONS - RESPONSE AUDIT FIELD GUIDE
+Thornby Field Services Ltd - response workspace conventions
+Applies to the 28 day on-call period Monday 2026-10-05 to Sunday 2026-11-01 inclusive.
+
+1. WHICH RECORD GOVERNS WHICH FIGURE
+
+  Dispatch, acknowledgement instants    the paging archive dispatch record
+  Which engineer attended a call        the on-call roster board, and nothing else
+  Hand-back instant                     a job sheet countersigned at hand-back, corroborated
+                                        by the engineer's own voice note, where one exists;
+                                        otherwise the auto-logged clear line
+  Travel minutes                        the per-leg telemetry records for the van and week
+  Parts wait minutes                    the parts wait log
+  First remote attempt                  the remote resolution attempt log
+  Weekly travel summary blocks          a rollup only; recompute from the per-leg records
+                                        before any figure rests on a block total
+  Roster actuals feed                   overridable; it never outranks the paging archive
+  Badge access export                   corroborating only, and see section 3
+  Supplied engineer timesheets          corroborating only, never decisive on minutes
+
+  The auto-logged clear line is a session heartbeat raised by the paging terminal, not an
+  engineer's statement. Signed hand-back documentation supersedes it wherever it exists.
+
+2. WHICH REVISION GOVERNS A CALL
+
+  Revision B was in force at the start of the period. Revision C takes effect at 00:00
+  depot local on 2026-10-19. The revision that governs a call is settled by the paging
+  dispatch instant read in depot local time. It is never settled by when the ticket was
+  raised, and never by the roster day the call is filed under.
+
+3. DEPOT LOCAL TIME
+
+  Depot local time ran one hour ahead of the archive clock until 01:00 on 2026-10-25 in
+  archive terms, and level with it afterwards. Every carrier in this workspace publishes a
+  depot local label with its offset shown, with one exception: the badge access export is
+  rendered in archive clock terms throughout and names no offset. Convert its instants
+  before you compare them with anything else.
+
+4. FINDING RECORD FORMAT
+
+  One record for each exceedance, in the response findings database. Title:
+  "<IncidentRef> <FindingType>". Properties, exactly these keys:
+
+    Engineer            engineer identifier, form TFS-ENG-NNN
+    IncidentRef         dispatch record reference, form CRN-DDMM-NNN
+    FindingType         one of RESPONSE_TARGET, ACKNOWLEDGEMENT_DELAY, TRAVEL_CAP_BREACH,
+                        PARTS_WAIT_UNSUSPENDED, REMOTE_ATTEMPT_LATE, CERTIFICATE_OVERRIDE,
+                        BADGE_OFFSET_MISMATCH, TELEMETRY_TOTAL_MISMATCH,
+                        HANDBACK_DOCUMENT_CONFLICT
+    RevisionApplied     "FSR-9 Rev B" or "FSR-9 Rev C"
+    AllowanceMinutes    the allowance the governing revision gives, in whole minutes
+    ActualMinutes       what the governing records show, in whole minutes
+    ExcessMinutes       actual minus allowance
+    EvidenceRefs        semicolon separated record references, at least two carriers
+
+  Every figure is in whole minutes. Never hours, never decimal hours.
+
+5. HOW AN ALLOWANCE IS BUILT
+
+  The response target is 120 minutes in both revisions, measured from the instant the
+  response clock starts. The travel allowance is added to it. Under Revision B the travel
+  allowance is a flat 45 minutes. Under Revision C it is the travel minutes the telemetry
+  records for that call, capped at 60 minutes.
+
+  Under Revision B the response clock starts at the dispatch instant and runs without
+  interruption. Under Revision C it starts at the acknowledgement instant and stops for
+  any logged parts wait. Under Revision C a first remote attempt made within 15 minutes of
+  dispatch satisfies the response on its own. Under Revision B a remote attempt never does.
+
+  The acknowledgement target is 20 minutes from dispatch in both revisions.
+
+6. CORRECTIONS REGISTER FORMAT
+
+  One entry for each record that was overtaken after you relied on it, filed before the
+  final close. Title: "<FindingReference> correction". Properties:
+
+    FindingRef   the RSP reference of the finding affected
+    RecordRef    the reference of the record that moved
+    FieldChanged the property name that moved
+    OldValue     the value you relied on
+    NewValue     the value that governs now
+    Reason       one sentence
+
+  File nothing for a record that stood. Never delete a finding; correct it.
+
+  Where the record a finding rested on is amended after the period end, or restamped as a
+  corrected log, the finding stands at the figures it was raised on, and the correction
+  entry records the restated value. A countersigned hand-back document is a governing
+  carrier, and it does refigure the finding it governs.
+
+7. PERIOD CLOSE LEDGER FORMAT
+
+  Title: "Period close <n>", n counting from 1. Properties:
+
+    PeriodStart          2026-10-05
+    PeriodEnd            2026-11-01
+    FindingCount         count of findings you recorded
+    TotalExcessMinutes   sum of ExcessMinutes over the findings you recorded
+    EngineersAffected    count of distinct engineers in those findings
+    CloseState           CLOSED
+
+  To move a finding after a close, write a further close record with CloseState REOPENED
+  first, then close again.
+
+8. ENGINEER NOTICE FORMAT
+
+  Sent from the operations mailbox after the final close, to the address the engineer
+  register gives at the moment of sending. Subject, exactly:
+
+    Thornby Field Services Ltd - FSR-9 response findings 2026-10-05 to 2026-11-01 - <EngineerId>
+
+  The body lists that engineer's own findings, one on each line, and carries nothing
+  belonging to another engineer:
+
+    <IncidentRef> <FindingType> allowance <AllowanceMinutes> actual <ActualMinutes> excess <ExcessMinutes>
+
+9. FOLLOW UP TICKET SUMMARY LINES
+
+  Appended to the follow up record, one line each, in this order and this grammar:
+
+    RESPONSE-SUMMARY findings=<FindingCount>
+    RESPONSE-SUMMARY excess-minutes=<TotalExcessMinutes>
+    RESPONSE-SUMMARY engineers-notified=<EngineersAffected>
+
+  Then move the record to its resolved state. The service desk keeps incident state as a
+  numeric code and the resolved code is 6, so the value you write is 6.
+
+10. INCIDENT REPORT ANNOTATION LINE
+
+  One line appended to each signed report belonging to an engineer you notified. Change
+  nothing else on the report.
+
+    FSR-9 AUDIT 2026-11-03: response findings recorded; notice issued to <EngineerId>
