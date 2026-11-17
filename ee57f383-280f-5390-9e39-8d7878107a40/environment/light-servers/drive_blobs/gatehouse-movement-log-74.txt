@@ -1,0 +1,34 @@
+KELDFORD REGIONAL DEPOT - GATEHOUSE MOVEMENT LOG
+Page 74 of 90. Times are depot local with the offset shown.
+Entries on this page: 29. Entries in the period: 2600.
+
+TIMESTAMP                  DIRECTION  DRIVER        VEHICLE     DUTY         GATE
+2026-11-03T06:00:00+00:00  OUT        BD-DRV-1405   KJ72 PJV    KD-0311-175  North barrier
+2026-11-03T06:00:00+00:00  OUT        BD-DRV-1412   NV70 RZT    KD-0311-184  North barrier
+2026-11-03T06:00:00+00:00  OUT        BD-DRV-1419   SG73 SRS    KD-0311-193  Weighbridge lane
+2026-11-03T06:00:00+00:00  OUT        BD-DRV-1426   WS71 THR    KD-0311-202  North barrier
+2026-11-03T06:00:00+00:00  OUT        BD-DRV-1433   ZD74 VYP    KD-0311-211  Weighbridge lane
+2026-11-03T06:00:00+00:00  OUT        BD-DRV-1447   HB70 XGM    KD-0311-229  North barrier
+2026-11-03T06:00:00+00:00  OUT        BD-DRV-1454   LM73 YXL    KD-0311-238  North barrier
+2026-11-03T06:00:00+00:00  OUT        BD-DRV-1461   CL71 MBX    KD-0311-247  Weighbridge lane
+2026-11-03T06:00:00+00:00  OUT        BD-DRV-1468   GX74 NSW    KD-0311-256  North barrier
+2026-11-03T06:00:00+00:00  OUT        BD-DRV-1475   KJ72 PJV    KD-0311-265  Weighbridge lane
+2026-11-03T06:00:00+00:00  OUT        BD-DRV-1482   NV70 RZT    KD-0311-274  North barrier
+2026-11-03T06:00:00+00:00  OUT        BD-DRV-1496   WS71 THR    KD-0311-292  North barrier
+2026-11-03T06:00:00+00:00  OUT        BD-DRV-1503   ZD74 VYP    KD-0311-301  Weighbridge lane
+2026-11-03T06:00:00+00:00  OUT        BD-DRV-1510   DP72 WPN    KD-0311-310  North barrier
+2026-11-03T06:00:00+00:00  OUT        BD-DRV-1517   HB70 XGM    KD-0311-319  Weighbridge lane
+2026-11-03T06:00:00+00:00  OUT        BD-DRV-1524   LM73 YXL    KD-0311-328  North barrier
+2026-11-03T06:00:00+00:00  OUT        BD-DRV-1545   KJ72 PJV    KD-0311-355  Weighbridge lane
+2026-11-03T06:00:00+00:00  OUT        BD-DRV-1552   NV70 RZT    KD-0311-364  North barrier
+2026-11-03T06:00:00+00:00  OUT        BD-DRV-1559   SG73 SRS    KD-0311-373  Weighbridge lane
+2026-11-03T06:00:00+00:00  OUT        BD-DRV-1566   WS71 THR    KD-0311-382  North barrier
+2026-11-03T06:00:00+00:00  OUT        BD-DRV-1573   ZD74 VYP    KD-0311-391  Weighbridge lane
+2026-11-03T06:00:00+00:00  OUT        BD-DRV-1580   DP72 WPN    KD-0311-400  Weighbridge lane
+2026-11-03T10:45:00+00:00  IN         BD-DRV-1321   CL71 MBX    KD-0311-067  North barrier
+2026-11-03T10:45:00+00:00  IN         BD-DRV-1363   ZD74 VYP    KD-0311-121  North barrier
+2026-11-03T10:45:00+00:00  IN         BD-DRV-1405   KJ72 PJV    KD-0311-175  North barrier
+2026-11-03T10:45:00+00:00  IN         BD-DRV-1447   HB70 XGM    KD-0311-229  North barrier
+2026-11-03T10:45:00+00:00  IN         BD-DRV-1482   NV70 RZT    KD-0311-274  North barrier
+2026-11-03T10:45:00+00:00  IN         BD-DRV-1524   LM73 YXL    KD-0311-328  North barrier
+2026-11-03T10:45:00+00:00  IN         BD-DRV-1573   ZD74 VYP    KD-0311-391  Weighbridge lane

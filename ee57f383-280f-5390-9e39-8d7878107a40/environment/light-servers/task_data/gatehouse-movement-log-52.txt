@@ -1,0 +1,34 @@
+KELDFORD REGIONAL DEPOT - GATEHOUSE MOVEMENT LOG
+Page 52 of 90. Times are depot local with the offset shown.
+Entries on this page: 29. Entries in the period: 2600.
+
+TIMESTAMP                  DIRECTION  DRIVER        VEHICLE     DUTY         GATE
+2026-10-27T06:00:00+00:00  OUT        BD-DRV-1566   MR74 HLC    KD-2710-382  North barrier
+2026-10-27T06:00:00+00:00  OUT        BD-DRV-1573   RC72 JCB    KD-2710-391  North barrier
+2026-10-27T06:00:00+00:00  OUT        BD-DRV-1580   VN70 KTZ    KD-2710-400  Weighbridge lane
+2026-10-27T10:45:00+00:00  IN         BD-DRV-1321   GX74 NSW    KD-2710-067  North barrier
+2026-10-27T10:45:00+00:00  IN         BD-DRV-1363   RC72 JCB    KD-2710-121  North barrier
+2026-10-27T10:45:00+00:00  IN         BD-DRV-1405   BH70 DMG    KD-2710-175  North barrier
+2026-10-27T10:45:00+00:00  IN         BD-DRV-1447   YZ73 LKY    KD-2710-229  North barrier
+2026-10-27T10:45:00+00:00  IN         BD-DRV-1482   FT73 FDF    KD-2710-274  North barrier
+2026-10-27T10:45:00+00:00  IN         BD-DRV-1524   CL71 MBX    KD-2710-328  North barrier
+2026-10-27T10:45:00+00:00  IN         BD-DRV-1566   MR74 HLC    KD-2710-382  North barrier
+2026-10-27T14:34:00+00:00  SHUNT      BD-DRV-1482   FT73 FDF    KD-2710-674  Yard gate
+2026-10-27T14:38:00+00:00  SHUNT      BD-DRV-1363   RC72 JCB    KD-2710-521  Yard gate
+2026-10-27T15:00:00+00:00  IN         BD-DRV-1300   VN70 KTZ    KD-2710-040  Weighbridge lane
+2026-10-27T15:00:00+00:00  IN         BD-DRV-1307   YZ73 LKY    KD-2710-049  North barrier
+2026-10-27T15:00:00+00:00  IN         BD-DRV-1314   CL71 MBX    KD-2710-058  Weighbridge lane
+2026-10-27T15:00:00+00:00  IN         BD-DRV-1328   KJ72 PJV    KD-2710-076  North barrier
+2026-10-27T15:00:00+00:00  IN         BD-DRV-1335   BH70 DMG    KD-2710-085  Weighbridge lane
+2026-10-27T15:00:00+00:00  IN         BD-DRV-1349   JF71 GVD    KD-2710-103  North barrier
+2026-10-27T15:00:00+00:00  IN         BD-DRV-1356   MR74 HLC    KD-2710-112  Weighbridge lane
+2026-10-27T15:00:00+00:00  IN         BD-DRV-1370   VN70 KTZ    KD-2710-130  North barrier
+2026-10-27T15:00:00+00:00  IN         BD-DRV-1377   YZ73 LKY    KD-2710-139  Weighbridge lane
+2026-10-27T15:00:00+00:00  IN         BD-DRV-1384   CL71 MBX    KD-2710-148  North barrier
+2026-10-27T15:00:00+00:00  IN         BD-DRV-1398   KJ72 PJV    KD-2710-166  Weighbridge lane
+2026-10-27T15:00:00+00:00  IN         BD-DRV-1412   FT73 FDF    KD-2710-184  North barrier
+2026-10-27T15:00:00+00:00  IN         BD-DRV-1419   JF71 GVD    KD-2710-193  Weighbridge lane
+2026-10-27T15:00:00+00:00  IN         BD-DRV-1426   MR74 HLC    KD-2710-202  North barrier
+2026-10-27T15:00:00+00:00  IN         BD-DRV-1433   RC72 JCB    KD-2710-211  Weighbridge lane
+2026-10-27T15:00:00+00:00  IN         BD-DRV-1454   CL71 MBX    KD-2710-238  North barrier
+2026-10-27T15:00:00+00:00  IN         BD-DRV-1461   GX74 NSW    KD-2710-247  Weighbridge lane

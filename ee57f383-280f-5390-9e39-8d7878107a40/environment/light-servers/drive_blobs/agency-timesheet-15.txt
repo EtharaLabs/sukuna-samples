@@ -1,0 +1,15 @@
+BRANTLOW DISTRIBUTION LTD - AGENCY DRIVER TIMESHEET RECORD
+Supplier: Harrowgate Relief Drivers Ltd
+Register reference: KD-ATS-6298
+Agency driver: Ofydd Mottershead (BD-AGY-2478)
+Records in this file: 4. Records in the period: 160.
+This record corroborates depot carriers. It is not a tachograph record and it
+does not govern driving, break or rest minutes.
+
+DATE        DUTY         SIGNED ON  SIGNED OFF  CORROBORATES
+2026-10-24  KD-2410-076  21:00      07:30       gate log and card download agree
+2026-10-24  KD-2410-085  21:00      07:30       gate log and card download agree
+2026-10-26  KD-2610-058  06:00      15:00       gate log and card download agree
+2026-10-26  KD-2610-121  06:00      15:00       gate log and card download agree
+
+Signed on behalf of the supplier: R. Pennycuick, account manager.

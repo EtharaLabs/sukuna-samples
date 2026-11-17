@@ -1,0 +1,24 @@
+KELDFORD REGIONAL DEPOT - GATEHOUSE MOVEMENT LOG
+Page 90 of 90. Times are depot local with the offset shown.
+Entries on this page: 19. Entries in the period: 2600.
+
+TIMESTAMP                  DIRECTION  DRIVER        VEHICLE     DUTY         GATE
+2026-11-08T15:00:00+00:00  IN         BD-DRV-1440   KJ72 PJV    KD-0811-220  Weighbridge lane
+2026-11-08T15:00:00+00:00  IN         BD-DRV-1447   BH70 DMG    KD-0811-229  North barrier
+2026-11-08T15:00:00+00:00  IN         BD-DRV-1461   JF71 GVD    KD-0811-247  Weighbridge lane
+2026-11-08T15:00:00+00:00  IN         BD-DRV-1468   MR74 HLC    KD-0811-256  North barrier
+2026-11-08T15:00:00+00:00  IN         BD-DRV-1475   RC72 JCB    KD-0811-265  Weighbridge lane
+2026-11-08T15:00:00+00:00  IN         BD-DRV-1482   VN70 KTZ    KD-0811-274  North barrier
+2026-11-08T15:00:00+00:00  IN         BD-DRV-1489   YZ73 LKY    KD-0811-283  Weighbridge lane
+2026-11-08T15:00:00+00:00  IN         BD-DRV-1496   CL71 MBX    KD-0811-292  North barrier
+2026-11-08T15:00:00+00:00  IN         BD-DRV-1510   KJ72 PJV    KD-0811-310  Weighbridge lane
+2026-11-08T15:00:00+00:00  IN         BD-DRV-1517   BH70 DMG    KD-0811-319  North barrier
+2026-11-08T15:00:00+00:00  IN         BD-DRV-1524   FT73 FDF    KD-0811-328  Weighbridge lane
+2026-11-08T15:00:00+00:00  IN         BD-DRV-1531   JF71 GVD    KD-0811-337  North barrier
+2026-11-08T15:00:00+00:00  IN         BD-DRV-1538   MR74 HLC    KD-0811-346  Weighbridge lane
+2026-11-08T15:00:00+00:00  IN         BD-DRV-1545   RC72 JCB    KD-0811-355  North barrier
+2026-11-08T15:00:00+00:00  IN         BD-DRV-1559   YZ73 LKY    KD-0811-373  Weighbridge lane
+2026-11-08T15:00:00+00:00  IN         BD-DRV-1566   CL71 MBX    KD-0811-382  North barrier
+2026-11-08T15:00:00+00:00  IN         BD-DRV-1573   GX74 NSW    KD-0811-391  Weighbridge lane
+2026-11-08T15:00:00+00:00  IN         BD-DRV-1580   KJ72 PJV    KD-0811-400  North barrier
+2026-11-08T15:00:00+00:00  IN         BD-DRV-1587   BH70 DMG    KD-0811-409  Weighbridge lane

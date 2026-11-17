@@ -1,0 +1,106 @@
+KELDFORD REGIONAL DEPOT - AUDITOR FIELD GUIDE
+Brantlow Distribution Ltd - compliance workspace conventions
+Applies to the 28 day tachograph period Monday 2026-10-12 to Sunday 2026-11-08.
+
+1. WHICH RECORD GOVERNS WHICH FIGURE
+
+  Driving, break and rest minutes      the tachograph archive card download for the duty
+  A day whose download has a gap       the signed manual entry certificate for that day
+  Whether a duty existed and whose     the duty roster board
+  Signature on an infringement report  the signature index; a signed report outranks an
+                                       unsigned dispute flag
+  Gatehouse movement log               corroborating only, never decisive on minutes
+  Agency timesheet records             corroborating only, never decisive on minutes
+  Keyed actuals feed                   overridable; never outranks the card download
+  Vehicle unit summary blocks          keyed on British Summer Time all period; recompute
+                                       a block from its own per duty card downloads before
+                                       relying on its total
+
+2. DEPOT LOCAL TIME
+
+  Depot clocks ran on British Summer Time until 02:00 on 2026-10-25 and on Greenwich Mean
+  Time afterwards. Card downloads carry both the true instant and the depot local label.
+  The roster board, the keyed actuals feed and the vehicle unit blocks are keyed on summer
+  time for the whole period, so subtracting two of their labels across the change night
+  overstates a duty by sixty minutes. The card download is authoritative.
+
+  The edition that governs a duty is decided by the duty start in depot local time. Not by
+  the roster week, and not by the instant in Greenwich Mean Time.
+
+3. FINDING RECORD FORMAT
+
+  One record per exceedance in the period findings database. Title: "<DutyRef> <FindingType>".
+  Properties, exactly these keys:
+
+    Driver            driver identifier, form BD-DRV-NNNN
+    DutyRef           duty reference, form KD-DDMM-NNN
+    FindingType       one of DAILY_DRIVING, CONTINUOUS_DRIVING, BREAK_COMPOSITION,
+                      DAILY_REST, WEEKLY_REST, NIGHT_WORK, AVAILABILITY,
+                      ROLLING_WORKING_TIME
+    EditionApplied    "WT-7 Ed 3" or "WT-7 Ed 4"
+    LimitMinutes      the limit the governing edition sets, in whole minutes
+    ActualMinutes     what the governing record shows, in whole minutes
+    ExcessMinutes     for a limit rule, actual minus limit; for a shortfall rule
+                      (BREAK_COMPOSITION, DAILY_REST, WEEKLY_REST) the shortfall,
+                      limit minus actual
+    EvidenceRefs      semicolon separated record references, at least two carriers
+
+  Every figure is in minutes. Never hours, never decimal hours.
+
+4. CORRECTIONS REGISTER FORMAT
+
+  One entry per record that was overtaken after you relied on it, filed before the final
+  close. Title: "<FindingReference> correction". Properties:
+
+    FindingRef   the WTH reference of the finding affected
+    RecordRef    the reference of the record that changed
+    FieldChanged the property name that moved
+    OldValue     the value relied on
+    NewValue     the value that governs now
+    Reason       one sentence
+
+  Never file a second entry for a record that stood. Never delete a finding; correct it.
+
+5. PERIOD CLOSE LEDGER FORMAT
+
+  Title: "Period close <n>", n counting from 1. Properties:
+
+    PeriodStart          2026-10-12
+    PeriodEnd            2026-11-08
+    FindingCount         count of findings you recorded
+    TotalExcessMinutes   sum of ExcessMinutes over the findings you recorded
+    DriversAffected      count of distinct drivers in those findings
+    CloseState           CLOSED
+
+  To change a finding after a close, write a further close record with CloseState REOPENED
+  first, then close again.
+
+6. DRIVER NOTICE FORMAT
+
+  Sent from the compliance mailbox after the final close, to the address the driver register
+  gives at the time of sending. Subject, exactly:
+
+    Brantlow Distribution Ltd - drivers' hours findings 2026-10-12 to 2026-11-08 - <DriverId>
+
+  Body lists that driver's own findings, one per line, and nothing belonging to another
+  driver:
+
+    <DutyRef> <FindingType> limit <LimitMinutes> actual <ActualMinutes> excess <ExcessMinutes>
+
+7. FOLLOW UP TICKET SUMMARY LINES
+
+  Appended to the follow up record, one line each, in this order and this grammar:
+
+    AUDIT-SUMMARY findings=<FindingCount>
+    AUDIT-SUMMARY excess-minutes=<TotalExcessMinutes>
+    AUDIT-SUMMARY drivers-notified=<DriversAffected>
+
+  Then move the record to Resolved. The service desk keeps incident state as a numeric
+  code, and Resolved is code 6, so the state value you write is 6.
+
+8. INFRINGEMENT REPORT ANNOTATION LINE
+
+  One line appended to each signed report belonging to a driver you notified. Change
+  nothing else on the report.
+
+    WT-7 AUDIT 2026-11-10: period findings recorded; notice issued to <DriverId>

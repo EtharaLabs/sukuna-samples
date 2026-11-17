@@ -1,0 +1,34 @@
+KELDFORD REGIONAL DEPOT - GATEHOUSE MOVEMENT LOG
+Page 19 of 90. Times are depot local with the offset shown.
+Entries on this page: 29. Entries in the period: 2600.
+
+TIMESTAMP                  DIRECTION  DRIVER        VEHICLE     DUTY         GATE
+2026-10-17T06:00:00+01:00  OUT        BD-DRV-1566   MR74 HLC    KD-1710-382  Weighbridge lane
+2026-10-17T06:00:00+01:00  OUT        BD-DRV-1573   DP72 WPN    KD-1710-391  North barrier
+2026-10-17T06:00:00+01:00  OUT        BD-DRV-1580   HB70 XGM    KD-1710-400  Weighbridge lane
+2026-10-17T06:00:00+01:00  OUT        BD-DRV-1587   LM73 YXL    KD-1710-409  North barrier
+2026-10-17T10:45:00+01:00  IN         BD-DRV-1300   HB70 XGM    KD-1710-040  North barrier
+2026-10-17T10:45:00+01:00  IN         BD-DRV-1342   FT73 FDF    KD-1710-094  North barrier
+2026-10-17T10:45:00+01:00  IN         BD-DRV-1384   PY71 ZNK    KD-1710-148  North barrier
+2026-10-17T10:45:00+01:00  IN         BD-DRV-1426   MR74 HLC    KD-1710-202  North barrier
+2026-10-17T10:45:00+01:00  IN         BD-DRV-1475   BH70 DMG    KD-1710-265  Weighbridge lane
+2026-10-17T10:45:00+01:00  IN         BD-DRV-1517   LM73 YXL    KD-1710-319  Weighbridge lane
+2026-10-17T10:45:00+01:00  IN         BD-DRV-1552   FT73 FDF    KD-1710-364  Weighbridge lane
+2026-10-17T14:35:00+01:00  SHUNT      BD-DRV-1475   BH70 DMG    KD-1710-665  Yard gate
+2026-10-17T14:39:00+01:00  SHUNT      BD-DRV-1342   FT73 FDF    KD-1710-494  Yard gate
+2026-10-17T15:00:00+01:00  IN         BD-DRV-1307   LM73 YXL    KD-1710-049  North barrier
+2026-10-17T15:00:00+01:00  IN         BD-DRV-1321   TK74 BFJ    KD-1710-067  Weighbridge lane
+2026-10-17T15:00:00+01:00  IN         BD-DRV-1328   XW72 CWH    KD-1710-076  North barrier
+2026-10-17T15:00:00+01:00  IN         BD-DRV-1335   BH70 DMG    KD-1710-085  Weighbridge lane
+2026-10-17T15:00:00+01:00  IN         BD-DRV-1349   JF71 GVD    KD-1710-103  North barrier
+2026-10-17T15:00:00+01:00  IN         BD-DRV-1356   MR74 HLC    KD-1710-112  Weighbridge lane
+2026-10-17T15:00:00+01:00  IN         BD-DRV-1370   HB70 XGM    KD-1710-130  North barrier
+2026-10-17T15:00:00+01:00  IN         BD-DRV-1377   LM73 YXL    KD-1710-139  Weighbridge lane
+2026-10-17T15:00:00+01:00  IN         BD-DRV-1391   TK74 BFJ    KD-1710-157  North barrier
+2026-10-17T15:00:00+01:00  IN         BD-DRV-1398   XW72 CWH    KD-1710-166  Weighbridge lane
+2026-10-17T15:00:00+01:00  IN         BD-DRV-1405   BH70 DMG    KD-1710-175  North barrier
+2026-10-17T15:00:00+01:00  IN         BD-DRV-1419   JF71 GVD    KD-1710-193  Weighbridge lane
+2026-10-17T15:00:00+01:00  IN         BD-DRV-1433   DP72 WPN    KD-1710-211  North barrier
+2026-10-17T15:00:00+01:00  IN         BD-DRV-1447   LM73 YXL    KD-1710-229  North barrier
+2026-10-17T15:00:00+01:00  IN         BD-DRV-1454   PY71 ZNK    KD-1710-238  Weighbridge lane
+2026-10-17T15:00:00+01:00  IN         BD-DRV-1468   XW72 CWH    KD-1710-256  North barrier

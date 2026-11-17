@@ -1,0 +1,15 @@
+BRANTLOW DISTRIBUTION LTD - AGENCY DRIVER TIMESHEET RECORD
+Supplier: Harrowgate Relief Drivers Ltd
+Register reference: KD-ATS-6305
+Agency driver: Wenna Dunwoody (BD-AGY-2491)
+Records in this file: 4. Records in the period: 160.
+This record corroborates depot carriers. It is not a tachograph record and it
+does not govern driving, break or rest minutes.
+
+DATE        DUTY         SIGNED ON  SIGNED OFF  CORROBORATES
+2026-10-26  KD-2610-184  06:00      15:00       gate log and card download agree
+2026-10-26  KD-2610-202  06:00      15:00       gate log and card download agree
+2026-10-26  KD-2610-211  06:00      15:00       gate log and card download agree
+2026-10-26  KD-2610-220  06:00      15:00       gate log and card download agree
+
+Signed on behalf of the supplier: R. Pennycuick, account manager.

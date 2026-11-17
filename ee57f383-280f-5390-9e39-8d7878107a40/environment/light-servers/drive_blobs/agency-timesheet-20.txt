@@ -1,0 +1,15 @@
+BRANTLOW DISTRIBUTION LTD - AGENCY DRIVER TIMESHEET RECORD
+Supplier: Harrowgate Relief Drivers Ltd
+Register reference: KD-ATS-6333
+Agency driver: Tegan Jerrold (BD-AGY-2439)
+Records in this file: 4. Records in the period: 160.
+This record corroborates depot carriers. It is not a tachograph record and it
+does not govern driving, break or rest minutes.
+
+DATE        DUTY         SIGNED ON  SIGNED OFF  CORROBORATES
+2026-11-01  KD-0111-710  15:00      20:00       gate log and card download agree
+2026-11-03  KD-0311-337  21:30      04:30       gate log and card download agree
+2026-11-05  KD-0511-373  06:00      15:00       gate log and card download agree
+2026-10-12  KD-1210-067  06:00      15:00       gate log and card download agree
+
+Signed on behalf of the supplier: R. Pennycuick, account manager.

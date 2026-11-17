@@ -1,0 +1,34 @@
+KELDFORD REGIONAL DEPOT - GATEHOUSE MOVEMENT LOG
+Page 42 of 90. Times are depot local with the offset shown.
+Entries on this page: 29. Entries in the period: 2600.
+
+TIMESTAMP                  DIRECTION  DRIVER        VEHICLE     DUTY         GATE
+2026-10-24T06:00:00+01:00  OUT        BD-DRV-1552   BH70 DMG    KD-2410-364  North barrier
+2026-10-24T06:00:00+01:00  OUT        BD-DRV-1566   JF71 GVD    KD-2410-382  North barrier
+2026-10-24T06:00:00+01:00  OUT        BD-DRV-1573   MR74 HLC    KD-2410-391  Weighbridge lane
+2026-10-24T06:00:00+01:00  OUT        BD-DRV-1580   RC72 JCB    KD-2410-400  North barrier
+2026-10-24T06:00:00+01:00  OUT        BD-DRV-1587   VN70 KTZ    KD-2410-409  Weighbridge lane
+2026-10-24T10:45:00+01:00  IN         BD-DRV-1300   RC72 JCB    KD-2410-040  North barrier
+2026-10-24T10:45:00+01:00  IN         BD-DRV-1391   CL71 MBX    KD-2410-157  North barrier
+2026-10-24T10:45:00+01:00  IN         BD-DRV-1433   MR74 HLC    KD-2410-211  North barrier
+2026-10-24T10:45:00+01:00  IN         BD-DRV-1475   KJ72 PJV    KD-2410-265  North barrier
+2026-10-24T10:45:00+01:00  IN         BD-DRV-1517   VN70 KTZ    KD-2410-319  North barrier
+2026-10-24T10:45:00+01:00  IN         BD-DRV-1552   BH70 DMG    KD-2410-364  North barrier
+2026-10-24T13:57:00+01:00  SHUNT      BD-DRV-1475   KJ72 PJV    KD-2410-665  Yard gate
+2026-10-24T14:01:00+01:00  SHUNT      BD-DRV-1300   RC72 JCB    KD-2410-440  Yard gate
+2026-10-24T15:00:00+01:00  IN         BD-DRV-1307   VN70 KTZ    KD-2410-049  North barrier
+2026-10-24T15:00:00+01:00  IN         BD-DRV-1370   RC72 JCB    KD-2410-130  Weighbridge lane
+2026-10-24T15:00:00+01:00  IN         BD-DRV-1377   VN70 KTZ    KD-2410-139  North barrier
+2026-10-24T15:00:00+01:00  IN         BD-DRV-1384   YZ73 LKY    KD-2410-148  Weighbridge lane
+2026-10-24T15:00:00+01:00  IN         BD-DRV-1398   GX74 NSW    KD-2410-166  North barrier
+2026-10-24T15:00:00+01:00  IN         BD-DRV-1405   KJ72 PJV    KD-2410-175  Weighbridge lane
+2026-10-24T15:00:00+01:00  IN         BD-DRV-1419   FT73 FDF    KD-2410-193  North barrier
+2026-10-24T15:00:00+01:00  IN         BD-DRV-1426   JF71 GVD    KD-2410-202  Weighbridge lane
+2026-10-24T15:00:00+01:00  IN         BD-DRV-1440   RC72 JCB    KD-2410-220  North barrier
+2026-10-24T15:00:00+01:00  IN         BD-DRV-1447   VN70 KTZ    KD-2410-229  Weighbridge lane
+2026-10-24T15:00:00+01:00  IN         BD-DRV-1454   YZ73 LKY    KD-2410-238  North barrier
+2026-10-24T15:00:00+01:00  IN         BD-DRV-1468   GX74 NSW    KD-2410-256  Weighbridge lane
+2026-10-24T15:00:00+01:00  IN         BD-DRV-1482   BH70 DMG    KD-2410-274  North barrier
+2026-10-24T15:00:00+01:00  IN         BD-DRV-1489   FT73 FDF    KD-2410-283  Weighbridge lane
+2026-10-24T15:00:00+01:00  IN         BD-DRV-1496   JF71 GVD    KD-2410-292  North barrier
+2026-10-24T15:00:00+01:00  IN         BD-DRV-1503   MR74 HLC    KD-2410-301  Weighbridge lane

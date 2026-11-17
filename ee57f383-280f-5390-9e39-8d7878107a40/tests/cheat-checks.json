@@ -1,0 +1,15 @@
+{
+ "schema": "trinity.cheat-checks/v1",
+ "ids": [
+  "test_R18",
+  "test_R19",
+  "test_R20",
+  "test_R21",
+  "test_R22",
+  "test_R34",
+  "test_R38",
+  "test_R39",
+  "test_R40",
+  "test_R47"
+ ]
+}

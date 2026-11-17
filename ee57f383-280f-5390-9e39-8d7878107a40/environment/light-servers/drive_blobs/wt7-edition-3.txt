@@ -1,0 +1,53 @@
+Working Time and Drivers Hours Code WT-7, Edition 3
+
+Issued by the Brantlow Distribution Ltd transport compliance office.
+Effective 6 April 2026.
+Superseded by Edition 4 with effect from 26 October 2026.
+
+1. SCOPE
+
+1.1 This code applies to every driver of a goods vehicle operated from a Brantlow depot.
+1.2 The edition that governs a duty is the edition in force at the duty's start time in
+    depot local time. A duty that begins before an edition takes effect is governed
+    throughout by the earlier edition, however long it runs.
+
+2. DAILY DRIVING
+
+2.1 Driving time in a duty may not exceed 540 minutes. Table 2a, row 1.
+
+3. CONTINUOUS DRIVING AND BREAKS
+
+3.1 Driving may not continue for more than 270 minutes without a break that satisfies
+    section 5. Table 3a, row 1.
+
+4.1 Night work. Night time is the period from 00:00 to 04:00 depot local time.
+    A driver whose duty includes any night time work may not exceed 480 minutes
+    of working time in that duty. Table 4a, row 1.
+
+5.1 Break composition. The 45 minute break may be taken as one unbroken block of
+    45 minutes, or split into separate blocks. A block counts towards the 45 only
+    if it is at least 15 minutes long. Table 5a, row 2.
+
+6.1 Periods of availability. A period of availability is not working time and is
+    not counted towards any working time limit in this edition. Table 6a, row 1.
+
+7.1 Weekly working time. Working time is totalled over each fixed calendar week,
+    Monday to Sunday, standing alone. No week may exceed 3600 minutes. There is
+    no averaging across weeks in this edition. Table 7a, row 1.
+
+8. DAILY AND WEEKLY REST
+
+8.1 A daily rest of at least 660 minutes must precede each duty. Table 8a, row 1.
+8.2 A weekly rest of at least 2700 minutes must precede each working week. Table 8a, row 2.
+
+9. DAILY WORKING TIME
+
+9.1 Working time in a duty may not exceed 660 minutes. What counts as working time is
+    settled by section 6. Table 9a, row 1.
+
+10. RECORDS
+
+10.1 The tachograph record is the record of what a driver did. Where a download has a gap,
+     a manual entry certificate signed by the transport manager governs that day.
+10.2 A roster entry, a keyed actual, an export or a driver's own account does not displace
+     a tachograph record.

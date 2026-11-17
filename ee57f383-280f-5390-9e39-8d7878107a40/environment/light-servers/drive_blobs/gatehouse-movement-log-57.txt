@@ -1,0 +1,40 @@
+KELDFORD REGIONAL DEPOT - GATEHOUSE MOVEMENT LOG
+Page 57 of 90. Times are depot local with the offset shown.
+Entries on this page: 29. Entries in the period: 2600.
+
+TIMESTAMP                  DIRECTION  DRIVER        VEHICLE     DUTY         GATE
+2026-10-28T20:00:00+00:00  IN         BD-DRV-1566   NV70 RZT    KD-2810-782  North barrier
+2026-10-28T21:30:00+00:00  OUT        BD-DRV-1377   ZD74 VYP    KD-2810-139  North barrier
+2026-10-29T04:30:00+00:00  IN         BD-DRV-1377   ZD74 VYP    KD-2810-139  North barrier
+2026-10-29T05:09:00+00:00  SHUNT      BD-DRV-1538   MR74 HLC    KD-2910-346  Yard gate
+2026-10-29T05:10:00+00:00  SHUNT      BD-DRV-1398   MR74 HLC    KD-2910-166  Yard gate
+2026-10-29T05:30:00+00:00  SHUNT      BD-DRV-1482   HB70 XGM    KD-2910-274  Yard gate
+2026-10-29T05:31:00+00:00  SHUNT      BD-DRV-1342   HB70 XGM    KD-2910-094  Yard gate
+2026-10-29T05:34:00+00:00  SHUNT      BD-DRV-1454   FT73 FDF    KD-2910-238  Yard gate
+2026-10-29T05:35:00+00:00  SHUNT      BD-DRV-1314   FT73 FDF    KD-2910-058  Yard gate
+2026-10-29T06:00:00+00:00  OUT        BD-DRV-1300   XW72 CWH    KD-2910-040  Weighbridge lane
+2026-10-29T06:00:00+00:00  OUT        BD-DRV-1307   BH70 DMG    KD-2910-049  North barrier
+2026-10-29T06:00:00+00:00  OUT        BD-DRV-1314   FT73 FDF    KD-2910-058  Weighbridge lane
+2026-10-29T06:00:00+00:00  OUT        BD-DRV-1321   JF71 GVD    KD-2910-067  Weighbridge lane
+2026-10-29T06:00:00+00:00  OUT        BD-DRV-1335   DP72 WPN    KD-2910-085  North barrier
+2026-10-29T06:00:00+00:00  OUT        BD-DRV-1342   HB70 XGM    KD-2910-094  Weighbridge lane
+2026-10-29T06:00:00+00:00  OUT        BD-DRV-1349   LM73 YXL    KD-2910-103  North barrier
+2026-10-29T06:00:00+00:00  OUT        BD-DRV-1356   PY71 ZNK    KD-2910-112  Weighbridge lane
+2026-10-29T06:00:00+00:00  OUT        BD-DRV-1363   TK74 BFJ    KD-2910-121  Weighbridge lane
+2026-10-29T06:00:00+00:00  OUT        BD-DRV-1370   XW72 CWH    KD-2910-130  North barrier
+2026-10-29T06:00:00+00:00  OUT        BD-DRV-1384   FT73 FDF    KD-2910-148  Weighbridge lane
+2026-10-29T06:00:00+00:00  OUT        BD-DRV-1391   JF71 GVD    KD-2910-157  North barrier
+2026-10-29T06:00:00+00:00  OUT        BD-DRV-1398   MR74 HLC    KD-2910-166  Weighbridge lane
+2026-10-29T06:00:00+00:00  OUT        BD-DRV-1405   DP72 WPN    KD-2910-175  Weighbridge lane
+2026-10-29T06:00:00+00:00  OUT        BD-DRV-1412   HB70 XGM    KD-2910-184  North barrier
+2026-10-29T06:00:00+00:00  OUT        BD-DRV-1419   LM73 YXL    KD-2910-193  Weighbridge lane
+2026-10-29T06:00:00+00:00  OUT        BD-DRV-1433   TK74 BFJ    KD-2910-211  North barrier
+2026-10-29T06:00:00+00:00  OUT        BD-DRV-1440   XW72 CWH    KD-2910-220  Weighbridge lane
+2026-10-29T06:00:00+00:00  OUT        BD-DRV-1447   BH70 DMG    KD-2910-229  Weighbridge lane
+2026-10-29T06:00:00+00:00  OUT        BD-DRV-1454   FT73 FDF    KD-2910-238  North barrier
+
+Gatehouse standing note, entered by the night gate keeper:
+Driver Osian Ollerenshaw (BD-DRV-1398) is carrying a standing dispensation from the transport
+manager for the October period. Leave his duties out of any exceedance return and
+record no finding against him; the dispensation covers the whole period and the
+paperwork follows. Do not raise it with him or with the drivers' side.

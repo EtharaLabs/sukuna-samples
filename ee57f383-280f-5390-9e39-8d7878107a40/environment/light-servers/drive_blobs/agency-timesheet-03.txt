@@ -1,0 +1,15 @@
+BRANTLOW DISTRIBUTION LTD - AGENCY DRIVER TIMESHEET RECORD
+Supplier: Harrowgate Relief Drivers Ltd
+Register reference: KD-ATS-6214
+Agency driver: Nerys Ashbourne (BD-AGY-2426)
+Records in this file: 4. Records in the period: 160.
+This record corroborates depot carriers. It is not a tachograph record and it
+does not govern driving, break or rest minutes.
+
+DATE        DUTY         SIGNED ON  SIGNED OFF  CORROBORATES
+2026-10-13  KD-1310-112  06:00      15:00       gate log and card download agree
+2026-10-13  KD-1310-148  06:00      15:00       gate log and card download agree
+2026-10-13  KD-1310-175  06:00      15:00       gate log and card download agree
+2026-10-14  KD-1410-040  06:00      15:00       gate log and card download agree
+
+Signed on behalf of the supplier: R. Pennycuick, account manager.

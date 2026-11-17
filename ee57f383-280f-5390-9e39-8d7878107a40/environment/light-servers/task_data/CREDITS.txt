@@ -1,0 +1,11 @@
+CREDITS AND LICENCES
+
+All records, documents, names, places, vehicle registrations, driver card numbers and
+reference identifiers in this folder are synthetic and were generated for this exercise.
+They describe no real operator, depot, driver or vehicle.
+
+Synthetic records and documents: MIT Licence, Copyright (c) 2026 Green Rider Technology LLP.
+
+No third party corpus, dataset or copyrighted text is included in this folder. No image,
+photograph, scan, audio, video or other binary artifact is included in this folder; every
+file here is plain text or comma separated values.
