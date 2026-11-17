@@ -1,0 +1,6 @@
+Generated assets in this folder
+
+- Voice notes: synthesized with Piper (MIT) using the en_US libritts_r medium voice (CC BY 4.0), ambience generated procedurally.
+- Ward timesheet photographs and extension-authorisation scans: rendered from authored forms with Pillow (MIT-CMU); fonts DejaVu (Bitstream Vera licence).
+- Standard PDFs: typeset with ReportLab (BSD).
+- Every name, organisation, ward and identifier is invented.

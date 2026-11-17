@@ -1,0 +1,19 @@
+#!/usr/bin/env python3
+"""transcribe <audio.wav> [...]: offline dictation, printing one transcript per file."""
+import json
+import sys
+import wave
+
+from vosk import KaldiRecognizer, Model, SetLogLevel
+
+SetLogLevel(-1)
+model = Model("/opt/dictation/model")
+for path in sys.argv[1:]:
+    with wave.open(path, "rb") as fh:
+        rec = KaldiRecognizer(model, fh.getframerate())
+        while True:
+            data = fh.readframes(4000)
+            if not data:
+                break
+            rec.AcceptWaveform(data)
+        print(f"{path}: {json.loads(rec.FinalResult()).get('text', '')}")
