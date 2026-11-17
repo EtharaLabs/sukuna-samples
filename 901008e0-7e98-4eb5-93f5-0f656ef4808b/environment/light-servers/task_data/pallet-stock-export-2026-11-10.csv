@@ -1,0 +1,361 @@
+pallet,batch,product,location,customer
+PAL-258868,FB-5891,Chicken tikka pots,shipped,Northgate Co-operative
+PAL-284998,FB-5891,Chicken tikka pots,shipped,Northgate Co-operative
+PAL-644879,FB-5891,Chicken tikka pots,shipped,Brackenmoor Stores
+PAL-479776,"FB-2743, FB-1274",Vegetable korma / Chicken tikka pots,shipped,Brackenmoor Stores
+PAL-632357,FB-2743,Vegetable korma,Ridgeway cold store,
+PAL-765415,FB-2743,Vegetable korma,shipped,Tamsin Rowe Catering
+PAL-317831,FB-2743,Vegetable korma,shipped,Tamsin Rowe Catering
+PAL-806390,FB-1274,Chicken tikka pots,shipped,Tamsin Rowe Catering
+PAL-548394,FB-1274,Chicken tikka pots,shipped,Pellow & Finch
+PAL-957151,FB-5079,Vegetable korma,shipped,Ashby Vale Foodservice
+PAL-179435,FB-5079,Vegetable korma,shipped,Pellow & Finch
+PAL-407958,FB-5079,Vegetable korma,shipped,Ashby Vale Foodservice
+PAL-448752,FB-6866,Smoky bean chilli,Ridgeway cold store,
+PAL-334034,FB-6866,Smoky bean chilli,shipped,Tamsin Rowe Catering
+PAL-534967,FB-6866,Smoky bean chilli,shipped,Brackenmoor Stores
+PAL-461387,FB-2460,Beef ragu,shipped,Pellow & Finch
+PAL-862500,FB-2460,Beef ragu,chiller,
+PAL-999353,FB-2460,Beef ragu,shipped,Brackenmoor Stores
+PAL-672570,FB-6102,Smoky bean chilli,shipped,Brackenmoor Stores
+PAL-314998,FB-6102,Smoky bean chilli,shipped,Ashby Vale Foodservice
+PAL-863695,FB-3310,Beef ragu,shipped,Northgate Co-operative
+PAL-741636,FB-3310,Beef ragu,chiller,
+PAL-641952,FB-5314,Spiced lentil soup,chiller,
+PAL-383463,FB-5314,Spiced lentil soup,shipped,Pellow & Finch
+PAL-164557,FB-5314,Spiced lentil soup,Ridgeway cold store,
+PAL-228387,"FB-2315, FB-3044",Pulled pork bowls / Spiced lentil soup,shipped,Brackenmoor Stores
+PAL-180231,FB-2315,Pulled pork bowls,shipped,Brackenmoor Stores
+PAL-184996,FB-3044,Spiced lentil soup,shipped,Tamsin Rowe Catering
+PAL-172531,FB-3044,Spiced lentil soup,shipped,Northgate Co-operative
+PAL-233461,FB-3044,Spiced lentil soup,shipped,Brackenmoor Stores
+PAL-870996,FB-1805,Pulled pork bowls,shipped,Ashby Vale Foodservice
+PAL-457156,FB-1805,Pulled pork bowls,shipped,Northgate Co-operative
+PAL-135533,FB-1805,Pulled pork bowls,shipped,Ashby Vale Foodservice
+PAL-839901,FB-3748,Vegetable korma,shipped,Pellow & Finch
+PAL-116504,FB-3748,Vegetable korma,shipped,Northgate Co-operative
+PAL-372551,FB-3748,Vegetable korma,shipped,Pellow & Finch
+PAL-954825,FB-3748,Vegetable korma,chiller,
+PAL-916090,FB-1842,Chicken tikka pots,shipped,Brackenmoor Stores
+PAL-960983,FB-1842,Chicken tikka pots,chiller,
+PAL-456659,FB-1842,Chicken tikka pots,shipped,Tamsin Rowe Catering
+PAL-353325,"FB-6334, FB-4517",Vegetable korma / Chicken tikka pots,chiller,
+PAL-722318,FB-6334,Vegetable korma,Ridgeway cold store,
+PAL-875216,FB-6334,Vegetable korma,chiller,
+PAL-385703,FB-6334,Vegetable korma,shipped,Ashby Vale Foodservice
+PAL-912818,FB-4517,Chicken tikka pots,shipped,Brackenmoor Stores
+PAL-170401,FB-4517,Chicken tikka pots,shipped,Northgate Co-operative
+PAL-969973,FB-4517,Chicken tikka pots,shipped,Pellow & Finch
+PAL-271272,FB-4805,Beef ragu,shipped,Brackenmoor Stores
+PAL-677958,FB-4805,Beef ragu,chiller,
+PAL-887577,FB-4805,Beef ragu,shipped,Ashby Vale Foodservice
+PAL-145068,FB-4168,Smoky bean chilli,shipped,Northgate Co-operative
+PAL-686172,"FB-4168, FB-5718",Smoky bean chilli / Beef ragu,shipped,Pellow & Finch
+PAL-228074,FB-5718,Beef ragu,shipped,Brackenmoor Stores
+PAL-230902,FB-5718,Beef ragu,shipped,Pellow & Finch
+PAL-477763,FB-5718,Beef ragu,shipped,Northgate Co-operative
+PAL-739891,FB-6513,Smoky bean chilli,shipped,Northgate Co-operative
+PAL-629243,FB-6513,Smoky bean chilli,shipped,Ashby Vale Foodservice
+PAL-224702,FB-6513,Smoky bean chilli,shipped,Pellow & Finch
+PAL-421079,FB-8876,Pulled pork bowls,shipped,Ashby Vale Foodservice
+PAL-981033,FB-8876,Pulled pork bowls,In transit,Pellow & Finch
+PAL-535644,FB-8876,Pulled pork bowls,chiller,
+PAL-561096,FB-8876,Pulled pork bowls,shipped,Tamsin Rowe Catering
+PAL-544845,FB-6097,Spiced lentil soup,shipped,Northgate Co-operative
+PAL-247210,FB-6097,Spiced lentil soup,shipped,Brackenmoor Stores
+PAL-964797,"FB-6097, FB-5492",Spiced lentil soup / Pulled pork bowls,shipped,Brackenmoor Stores
+PAL-705419,FB-6097,Spiced lentil soup,shipped,Northgate Co-operative
+PAL-529929,FB-5492,Pulled pork bowls,shipped,Tamsin Rowe Catering
+PAL-118395,FB-5492,Pulled pork bowls,shipped,Brackenmoor Stores
+PAL-337113,FB-5492,Pulled pork bowls,shipped,Tamsin Rowe Catering
+PAL-511131,FB-3020,Spiced lentil soup,shipped,Ashby Vale Foodservice
+PAL-523742,FB-3020,Spiced lentil soup,shipped,Tamsin Rowe Catering
+PAL-376034,FB-3020,Spiced lentil soup,shipped,Pellow & Finch
+PAL-447468,FB-3020,Spiced lentil soup,shipped,Pellow & Finch
+PAL-736425,"FB-3220, FB-3380",Chicken tikka pots / Vegetable korma,shipped,Northgate Co-operative
+PAL-471764,FB-3220,Chicken tikka pots,shipped,Brackenmoor Stores
+PAL-331263,FB-3380,Vegetable korma,shipped,Northgate Co-operative
+PAL-810072,FB-3380,Vegetable korma,shipped,Northgate Co-operative
+PAL-653698,FB-3380,Vegetable korma,shipped,Brackenmoor Stores
+PAL-574202,FB-3380,Vegetable korma,Ridgeway cold store,
+PAL-828903,FB-3630,Chicken tikka pots,chiller,
+PAL-432927,"FB-3630, FB-6930",Chicken tikka pots / Vegetable korma,shipped,Northgate Co-operative
+PAL-514598,FB-3630,Chicken tikka pots,shipped,Ashby Vale Foodservice
+PAL-320401,FB-3630,Chicken tikka pots,shipped,Tamsin Rowe Catering
+PAL-209374,FB-6930,Vegetable korma,shipped,Ashby Vale Foodservice
+PAL-884061,FB-6930,Vegetable korma,shipped,Tamsin Rowe Catering
+PAL-799138,FB-2072,Smoky bean chilli,shipped,Tamsin Rowe Catering
+PAL-284185,FB-2072,Smoky bean chilli,shipped,Tamsin Rowe Catering
+PAL-456883,FB-2072,Smoky bean chilli,shipped,Brackenmoor Stores
+PAL-579747,FB-2072,Smoky bean chilli,shipped,Tamsin Rowe Catering
+PAL-788186,FB-2839,Beef ragu,shipped,Pellow & Finch
+PAL-885743,FB-2839,Beef ragu,shipped,Tamsin Rowe Catering
+PAL-296196,FB-2839,Beef ragu,shipped,Tamsin Rowe Catering
+PAL-501546,FB-2839,Beef ragu,shipped,Pellow & Finch
+PAL-799411,FB-5910,Smoky bean chilli,shipped,Ashby Vale Foodservice
+PAL-171932,FB-5910,Smoky bean chilli,shipped,Pellow & Finch
+PAL-353967,FB-5910,Smoky bean chilli,shipped,Brackenmoor Stores
+PAL-274521,FB-9137,Beef ragu,shipped,Brackenmoor Stores
+PAL-888157,FB-9137,Beef ragu,shipped,Pellow & Finch
+PAL-876376,FB-9137,Beef ragu,shipped,Northgate Co-operative
+PAL-364294,FB-9137,Beef ragu,shipped,Ashby Vale Foodservice
+PAL-458624,FB-3670,Spiced lentil soup,shipped,Tamsin Rowe Catering
+PAL-433090,"FB-3670, FB-6983",Spiced lentil soup / Pulled pork bowls,shipped,Northgate Co-operative
+PAL-250355,FB-3670,Spiced lentil soup,shipped,Pellow & Finch
+PAL-911537,FB-6983,Pulled pork bowls,Ridgeway cold store,
+PAL-376906,FB-6983,Pulled pork bowls,shipped,Ashby Vale Foodservice
+PAL-866763,"FB-6983, FB-5485",Pulled pork bowls / Spiced lentil soup,shipped,Ashby Vale Foodservice
+PAL-373381,FB-6983,Pulled pork bowls,chiller,
+PAL-871656,FB-5485,Spiced lentil soup,shipped,Northgate Co-operative
+PAL-338579,FB-5485,Spiced lentil soup,shipped,Tamsin Rowe Catering
+PAL-416995,FB-5485,Spiced lentil soup,shipped,Ashby Vale Foodservice
+PAL-303963,FB-8796,Pulled pork bowls,chiller,
+PAL-749828,"FB-8796, FB-2497",Pulled pork bowls,shipped,Northgate Co-operative
+PAL-425050,FB-5576,Vegetable korma,shipped,Northgate Co-operative
+PAL-533791,FB-5576,Vegetable korma,shipped,Pellow & Finch
+PAL-398891,FB-5576,Vegetable korma,Ridgeway cold store,
+PAL-852728,FB-3539,Chicken tikka pots,Ridgeway cold store,
+PAL-728837,FB-3539,Chicken tikka pots,shipped,Ashby Vale Foodservice
+PAL-858158,FB-5180,Vegetable korma,shipped,Brackenmoor Stores
+PAL-401337,FB-5180,Vegetable korma,shipped,Tamsin Rowe Catering
+PAL-192422,FB-9898,Chicken tikka pots,shipped,Ashby Vale Foodservice
+PAL-364244,FB-9898,Chicken tikka pots,shipped,Tamsin Rowe Catering
+PAL-985264,FB-1145,Beef ragu,shipped,Northgate Co-operative
+PAL-691767,FB-1145,Beef ragu,shipped,Tamsin Rowe Catering
+PAL-368275,FB-1145,Beef ragu,shipped,Brackenmoor Stores
+PAL-832961,FB-1145,Beef ragu,shipped,Brackenmoor Stores
+PAL-599397,FB-6539,Smoky bean chilli,shipped,Pellow & Finch
+PAL-156099,FB-6539,Smoky bean chilli,shipped,Northgate Co-operative
+PAL-505216,FB-6539,Smoky bean chilli,chiller,
+PAL-782808,FB-6539,Smoky bean chilli,shipped,Pellow & Finch
+PAL-137721,FB-4856,Beef ragu,shipped,Pellow & Finch
+PAL-509361,FB-4856,Beef ragu,shipped,Tamsin Rowe Catering
+PAL-130034,FB-8045,Smoky bean chilli,shipped,Northgate Co-operative
+PAL-523098,FB-8045,Smoky bean chilli,shipped,Northgate Co-operative
+PAL-186613,FB-8045,Smoky bean chilli,shipped,Northgate Co-operative
+PAL-980099,"FB-2497, FB-7098",Pulled pork bowls / Spiced lentil soup,chiller,
+PAL-604225,FB-2497,Pulled pork bowls,shipped,Ashby Vale Foodservice
+PAL-947681,FB-7098,Spiced lentil soup,shipped,Brackenmoor Stores
+PAL-715982,FB-7098,Spiced lentil soup,Ridgeway cold store,
+PAL-609929,FB-1773,Pulled pork bowls,shipped,Tamsin Rowe Catering
+PAL-655647,FB-1773,Pulled pork bowls,shipped,Northgate Co-operative
+PAL-204090,FB-4930,Spiced lentil soup,shipped,Northgate Co-operative
+PAL-818032,FB-4930,Spiced lentil soup,shipped,Pellow & Finch
+PAL-253235,FB-1606,Chicken tikka pots,shipped,Brackenmoor Stores
+PAL-945936,FB-1606,Chicken tikka pots,shipped,Pellow & Finch
+PAL-492720,FB-1606,Chicken tikka pots,shipped,Northgate Co-operative
+PAL-748760,FB-2736,Vegetable korma,shipped,Pellow & Finch
+PAL-267796,FB-2736,Vegetable korma,shipped,Ashby Vale Foodservice
+PAL-391527,FB-2736,Vegetable korma,shipped,Northgate Co-operative
+PAL-715720,FB-2736,Vegetable korma,shipped,Brackenmoor Stores
+PAL-989802,FB-9875,Chicken tikka pots,shipped,Pellow & Finch
+PAL-742155,FB-9875,Chicken tikka pots,shipped,Ashby Vale Foodservice
+PAL-769482,FB-9875,Chicken tikka pots,shipped,Pellow & Finch
+PAL-449807,FB-8961,Vegetable korma,shipped,Brackenmoor Stores
+PAL-171547,FB-8961,Vegetable korma,shipped,Tamsin Rowe Catering
+PAL-480561,FB-8961,Vegetable korma,shipped,Northgate Co-operative
+PAL-927426,FB-3734,Smoky bean chilli,shipped,Ashby Vale Foodservice
+PAL-322747,FB-3734,Smoky bean chilli,shipped,Northgate Co-operative
+PAL-203685,FB-3734,Smoky bean chilli,Ridgeway cold store,
+PAL-653519,FB-3734,Smoky bean chilli,shipped,Northgate Co-operative
+PAL-558364,FB-1478,Beef ragu,shipped,Pellow & Finch
+PAL-318865,FB-1478,Beef ragu,shipped,Tamsin Rowe Catering
+PAL-832771,FB-1478,Beef ragu,chiller,
+PAL-739523,"FB-1478, FB-3506",Beef ragu / Smoky bean chilli,shipped,Brackenmoor Stores
+PAL-403219,FB-3506,Smoky bean chilli,shipped,Ashby Vale Foodservice
+PAL-245922,FB-3506,Smoky bean chilli,shipped,Northgate Co-operative
+PAL-840581,FB-6787,Beef ragu,shipped,Tamsin Rowe Catering
+PAL-483160,FB-6787,Beef ragu,shipped,Pellow & Finch
+PAL-952727,FB-7871,Spiced lentil soup,shipped,Northgate Co-operative
+PAL-931486,FB-7871,Spiced lentil soup,chiller,
+PAL-183264,FB-7871,Spiced lentil soup,shipped,Brackenmoor Stores
+PAL-345125,FB-4483,Pulled pork bowls,shipped,Tamsin Rowe Catering
+PAL-409294,FB-4483,Pulled pork bowls,shipped,Brackenmoor Stores
+PAL-280806,FB-6455,Spiced lentil soup,shipped,Northgate Co-operative
+PAL-350628,"FB-6455, FB-6822",Spiced lentil soup / Pulled pork bowls,shipped,Tamsin Rowe Catering
+PAL-737415,FB-6455,Spiced lentil soup,shipped,Northgate Co-operative
+PAL-896383,FB-6822,Pulled pork bowls,shipped,Northgate Co-operative
+PAL-149960,FB-6822,Pulled pork bowls,shipped,Tamsin Rowe Catering
+PAL-546154,FB-6822,Pulled pork bowls,shipped,Brackenmoor Stores
+PAL-592069,FB-2647,Vegetable korma,shipped,Northgate Co-operative
+PAL-103321,FB-2647,Vegetable korma,Ridgeway cold store,
+PAL-234449,FB-2647,Vegetable korma,shipped,Brackenmoor Stores
+PAL-869203,FB-2647,Vegetable korma,chiller,
+PAL-821975,"FB-3692, FB-7423",Chicken tikka pots / Vegetable korma,shipped,Tamsin Rowe Catering
+PAL-679041,FB-3692,Chicken tikka pots,shipped,Brackenmoor Stores
+PAL-895101,FB-3692,Chicken tikka pots,shipped,Tamsin Rowe Catering
+PAL-152500,FB-3692,Chicken tikka pots,shipped,Northgate Co-operative
+PAL-877070,FB-7423,Vegetable korma,shipped,Tamsin Rowe Catering
+PAL-480938,FB-7423,Vegetable korma,shipped,Northgate Co-operative
+PAL-429612,FB-7423,Vegetable korma,shipped,Brackenmoor Stores
+PAL-928671,FB-7423,Vegetable korma,shipped,Pellow & Finch
+PAL-392124,FB-7310,Chicken tikka pots,shipped,Brackenmoor Stores
+PAL-572210,FB-7310,Chicken tikka pots,shipped,Ashby Vale Foodservice
+PAL-979181,FB-7310,Chicken tikka pots,shipped,Northgate Co-operative
+PAL-327726,"FB-7310, FB-1113",Chicken tikka pots,shipped,Brackenmoor Stores
+PAL-679890,"FB-3891, FB-4351",Beef ragu / Smoky bean chilli,shipped,Tamsin Rowe Catering
+PAL-410882,FB-3891,Beef ragu,chiller,
+PAL-535682,FB-3891,Beef ragu,shipped,Pellow & Finch
+PAL-245866,FB-3891,Beef ragu,shipped,Tamsin Rowe Catering
+PAL-442754,FB-4351,Smoky bean chilli,shipped,Ashby Vale Foodservice
+PAL-608423,FB-4351,Smoky bean chilli,shipped,Pellow & Finch
+PAL-187906,FB-4351,Smoky bean chilli,shipped,Ashby Vale Foodservice
+PAL-645983,FB-5119,Beef ragu,shipped,Tamsin Rowe Catering
+PAL-844198,FB-5119,Beef ragu,shipped,Northgate Co-operative
+PAL-285112,FB-6724,Smoky bean chilli,shipped,Pellow & Finch
+PAL-463686,FB-6724,Smoky bean chilli,shipped,Brackenmoor Stores
+PAL-893198,"FB-6724, FB-4299",Smoky bean chilli,shipped,Pellow & Finch
+PAL-466840,FB-2915,Pulled pork bowls,shipped,Ashby Vale Foodservice
+PAL-366815,"FB-2915, FB-7751",Pulled pork bowls / Spiced lentil soup,shipped,Pellow & Finch
+PAL-143794,FB-7751,Spiced lentil soup,shipped,Brackenmoor Stores
+PAL-796362,FB-7751,Spiced lentil soup,chiller,
+PAL-401636,"FB-7751, FB-6934",Spiced lentil soup / Pulled pork bowls,shipped,Pellow & Finch
+PAL-926290,FB-7751,Spiced lentil soup,shipped,Tamsin Rowe Catering
+PAL-506553,FB-6934,Pulled pork bowls,shipped,Northgate Co-operative
+PAL-989621,FB-6934,Pulled pork bowls,shipped,Pellow & Finch
+PAL-809002,"FB-8374, FB-1056",Spiced lentil soup,shipped,Northgate Co-operative
+PAL-479508,FB-8374,Spiced lentil soup,shipped,Tamsin Rowe Catering
+PAL-154192,FB-1113,Chicken tikka pots,shipped,Ashby Vale Foodservice
+PAL-342890,FB-1113,Chicken tikka pots,chiller,
+PAL-899889,FB-1113,Chicken tikka pots,shipped,Tamsin Rowe Catering
+PAL-540115,FB-9604,Vegetable korma,chiller,
+PAL-227819,FB-9604,Vegetable korma,shipped,Brackenmoor Stores
+PAL-308633,"FB-9604, FB-5901",Vegetable korma / Chicken tikka pots,shipped,Brackenmoor Stores
+PAL-359174,FB-5901,Chicken tikka pots,shipped,Brackenmoor Stores
+PAL-555441,FB-5901,Chicken tikka pots,shipped,Ashby Vale Foodservice
+PAL-414302,FB-1772,Vegetable korma,chiller,
+PAL-998874,"FB-1772, FB-3685",Vegetable korma,shipped,Brackenmoor Stores
+PAL-687847,"FB-4299, FB-6525",Smoky bean chilli / Beef ragu,shipped,Tamsin Rowe Catering
+PAL-593984,FB-4299,Smoky bean chilli,shipped,Tamsin Rowe Catering
+PAL-394325,FB-6525,Beef ragu,shipped,Tamsin Rowe Catering
+PAL-300273,FB-6525,Beef ragu,shipped,Northgate Co-operative
+PAL-270706,FB-6525,Beef ragu,shipped,Brackenmoor Stores
+PAL-781312,FB-6525,Beef ragu,shipped,Northgate Co-operative
+PAL-794122,FB-7508,Smoky bean chilli,shipped,Brackenmoor Stores
+PAL-991773,FB-7508,Smoky bean chilli,shipped,Pellow & Finch
+PAL-140790,FB-7508,Smoky bean chilli,shipped,Brackenmoor Stores
+PAL-142172,FB-4296,Beef ragu,chiller,
+PAL-567349,FB-4296,Beef ragu,shipped,Pellow & Finch
+PAL-525088,FB-1056,Spiced lentil soup,shipped,Ashby Vale Foodservice
+PAL-816555,"FB-1056, FB-7311",Spiced lentil soup / Pulled pork bowls,shipped,Ashby Vale Foodservice
+PAL-998859,FB-1056,Spiced lentil soup,shipped,Tamsin Rowe Catering
+PAL-405225,FB-1056,Spiced lentil soup,shipped,Pellow & Finch
+PAL-196421,FB-7311,Pulled pork bowls,shipped,Pellow & Finch
+PAL-425949,FB-7311,Pulled pork bowls,shipped,Brackenmoor Stores
+PAL-300615,FB-1832,Spiced lentil soup,shipped,Pellow & Finch
+PAL-121188,FB-1832,Spiced lentil soup,Ridgeway cold store,
+PAL-383197,FB-1832,Spiced lentil soup,Ridgeway cold store,
+PAL-150614,FB-1832,Spiced lentil soup,shipped,Ashby Vale Foodservice
+PAL-866795,FB-3243,Pulled pork bowls,shipped,Brackenmoor Stores
+PAL-563357,"FB-3243, FB-4372",Pulled pork bowls,shipped,Northgate Co-operative
+PAL-346758,FB-3243,Pulled pork bowls,shipped,Brackenmoor Stores
+PAL-726574,FB-3243,Pulled pork bowls,shipped,Ashby Vale Foodservice
+PAL-649669,FB-3685,Vegetable korma,chiller,
+PAL-803762,"FB-3685, FB-9852",Vegetable korma / Chicken tikka pots,Ridgeway cold store,
+PAL-313898,FB-3685,Vegetable korma,dispatch bay,
+PAL-962682,FB-3685,Vegetable korma,chiller,
+PAL-492416,"FB-9852, FB-5469",Chicken tikka pots / Vegetable korma,Ridgeway cold store,
+PAL-791455,FB-9852,Chicken tikka pots,chiller,
+PAL-964037,FB-9852,Chicken tikka pots,shipped,Tamsin Rowe Catering
+PAL-745508,FB-5469,Vegetable korma,chiller,
+PAL-179620,"FB-5469, FB-3794",Vegetable korma / Chicken tikka pots,In transit,Northgate Co-operative
+PAL-892312,FB-5469,Vegetable korma,shipped,Ashby Vale Foodservice
+PAL-258968,FB-3794,Chicken tikka pots,chiller,
+PAL-439083,FB-3794,Chicken tikka pots,dispatch bay,
+PAL-530639,FB-6614,Beef ragu,dispatch bay,
+PAL-230615,FB-6614,Beef ragu,chiller,
+PAL-550163,FB-6614,Beef ragu,dispatch bay,
+PAL-643079,FB-6614,Beef ragu,chiller,
+PAL-854102,FB-6337,Smoky bean chilli,chiller,
+PAL-415955,FB-6337,Smoky bean chilli,dispatch bay,
+PAL-192233,FB-3719,Beef ragu,In transit,Brackenmoor Stores
+PAL-913701,FB-3719,Beef ragu,chiller,
+PAL-778481,FB-3719,Beef ragu,Ridgeway cold store,
+PAL-111636,FB-6156,Smoky bean chilli,Ridgeway cold store,
+PAL-499230,FB-6156,Smoky bean chilli,In transit,Brackenmoor Stores
+PAL-477183,FB-4372,Pulled pork bowls,dispatch bay,
+PAL-667298,"FB-4372, FB-7454",Pulled pork bowls / Spiced lentil soup,chiller,
+PAL-229651,FB-7454,Spiced lentil soup,Ridgeway cold store,
+PAL-195275,FB-7454,Spiced lentil soup,chiller,
+PAL-605195,FB-7454,Spiced lentil soup,shipped,Pellow & Finch
+PAL-404934,FB-7454,Spiced lentil soup,dispatch bay,
+PAL-666748,FB-2938,Pulled pork bowls,Ridgeway cold store,
+PAL-827720,FB-2938,Pulled pork bowls,Ridgeway cold store,
+PAL-507639,FB-2938,Pulled pork bowls,chiller,
+PAL-274558,FB-6758,Spiced lentil soup,chiller,
+PAL-232372,FB-6758,Spiced lentil soup,dispatch bay,
+PAL-348284,FB-6758,Spiced lentil soup,Ridgeway cold store,
+PAL-607365,FB-6758,Spiced lentil soup,Ridgeway cold store,
+PAL-918468,"FB-9080, FB-1265",Chicken tikka pots / Vegetable korma,In transit,Northgate Co-operative
+PAL-503173,FB-9080,Chicken tikka pots,dispatch bay,
+PAL-704074,FB-9080,Chicken tikka pots,dispatch bay,
+PAL-815027,FB-1265,Vegetable korma,chiller,
+PAL-172414,"FB-1265, FB-8062",Vegetable korma / Chicken tikka pots,dispatch bay,
+PAL-267982,FB-8062,Chicken tikka pots,Ridgeway cold store,
+PAL-238029,FB-8062,Chicken tikka pots,dispatch bay,
+PAL-406152,FB-8062,Chicken tikka pots,shipped,Pellow & Finch
+PAL-624624,FB-8062,Chicken tikka pots,dispatch bay,
+PAL-905323,FB-5921,Vegetable korma,In transit,Pellow & Finch
+PAL-232920,FB-5921,Vegetable korma,chiller,
+PAL-298544,FB-5921,Vegetable korma,chiller,
+PAL-172500,FB-7935,Smoky bean chilli,dispatch bay,
+PAL-279575,"FB-7935, FB-5480",Smoky bean chilli / Beef ragu,dispatch bay,
+PAL-945955,FB-7935,Smoky bean chilli,In transit,Ashby Vale Foodservice
+PAL-911751,FB-5480,Beef ragu,chiller,
+PAL-766523,FB-5480,Beef ragu,In transit,Brackenmoor Stores
+PAL-792415,FB-2866,Smoky bean chilli,shipped,Northgate Co-operative
+PAL-442092,FB-2866,Smoky bean chilli,chiller,
+PAL-139057,FB-2866,Smoky bean chilli,dispatch bay,
+PAL-654263,FB-5106,Beef ragu,chiller,
+PAL-241854,FB-5106,Beef ragu,chiller,
+PAL-622750,FB-5106,Beef ragu,dispatch bay,
+PAL-840137,FB-5106,Beef ragu,In transit,Tamsin Rowe Catering
+PAL-209546,FB-2311,Spiced lentil soup,Ridgeway cold store,
+PAL-359622,FB-2311,Spiced lentil soup,chiller,
+PAL-776233,FB-2311,Spiced lentil soup,dispatch bay,
+PAL-614581,FB-2311,Spiced lentil soup,dispatch bay,
+PAL-930547,FB-6226,Pulled pork bowls,dispatch bay,
+PAL-475331,FB-6226,Pulled pork bowls,Ridgeway cold store,
+PAL-199039,FB-6226,Pulled pork bowls,dispatch bay,
+PAL-228228,FB-6226,Pulled pork bowls,Ridgeway cold store,
+PAL-443929,FB-1824,Spiced lentil soup,chiller,
+PAL-812843,FB-1824,Spiced lentil soup,dispatch bay,
+PAL-610169,FB-1824,Spiced lentil soup,dispatch bay,
+PAL-986001,FB-1665,Pulled pork bowls,Ridgeway cold store,
+PAL-524639,FB-1665,Pulled pork bowls,chiller,
+PAL-328297,FB-1665,Pulled pork bowls,Ridgeway cold store,
+PAL-772533,FB-1665,Pulled pork bowls,shipped,Brackenmoor Stores
+PAL-578749,FB-6240,Vegetable korma,Ridgeway cold store,
+PAL-707093,"FB-6240, FB-6776",Vegetable korma / Chicken tikka pots,Ridgeway cold store,
+PAL-411686,FB-6240,Vegetable korma,chiller,
+PAL-617144,FB-6776,Chicken tikka pots,Ridgeway cold store,
+PAL-826943,FB-6776,Chicken tikka pots,chiller,
+PAL-449005,FB-6776,Chicken tikka pots,chiller,
+PAL-812599,FB-6776,Chicken tikka pots,Ridgeway cold store,
+PAL-575252,FB-4078,Vegetable korma,chiller,
+PAL-832478,"FB-4078, FB-9400",Vegetable korma / Chicken tikka pots,Ridgeway cold store,
+PAL-549749,"FB-4078, FB-9400",Vegetable korma / Chicken tikka pots,chiller,
+PAL-318055,FB-9400,Chicken tikka pots,chiller,
+PAL-686735,FB-9400,Chicken tikka pots,chiller,
+PAL-489984,FB-3080,Beef ragu,chiller,
+PAL-245067,FB-3080,Beef ragu,Ridgeway cold store,
+PAL-106856,FB-3080,Beef ragu,chiller,
+PAL-414150,FB-4941,Smoky bean chilli,chiller,
+PAL-339206,FB-4941,Smoky bean chilli,chiller,
+PAL-425029,FB-8372,Beef ragu,chiller,
+PAL-703879,FB-8372,Beef ragu,Ridgeway cold store,
+PAL-341424,FB-6869,Smoky bean chilli,chiller,
+PAL-840960,FB-6869,Smoky bean chilli,chiller,
+PAL-561062,FB-6869,Smoky bean chilli,Ridgeway cold store,
+PAL-907728,FB-1763,Pulled pork bowls,Ridgeway cold store,
+PAL-906501,FB-1763,Pulled pork bowls,chiller,
+PAL-168857,FB-7760,Spiced lentil soup,chiller,
+PAL-986797,FB-7760,Spiced lentil soup,chiller,
+PAL-177037,FB-7760,Spiced lentil soup,chiller,
+PAL-748560,"FB-7760, FB-3527",Spiced lentil soup / Pulled pork bowls,Ridgeway cold store,
+PAL-311302,FB-3527,Pulled pork bowls,chiller,
+PAL-641759,FB-3527,Pulled pork bowls,chiller,
+PAL-817964,FB-3527,Pulled pork bowls,chiller,
+PAL-146751,FB-3527,Pulled pork bowls,Ridgeway cold store,
+PAL-767461,FB-3017,Spiced lentil soup,chiller,
+PAL-261001,FB-3017,Spiced lentil soup,chiller,
