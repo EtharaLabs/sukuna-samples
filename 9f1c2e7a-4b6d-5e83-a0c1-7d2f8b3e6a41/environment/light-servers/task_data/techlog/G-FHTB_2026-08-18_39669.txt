@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-39669    Aircraft G-FHTB    Date 2026-08-18    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH412 | ABZ | BHX | 06:46 | 07:47 | 1:01
+2 | FH917 | BHX | ABZ | 08:33 | 09:37 | 1:04
+3 | FH666 | ABZ | KOI | 10:25 | 11:22 | 0:57
+4 | FH418 | KOI | ABZ | 12:07 | 13:12 | 1:05

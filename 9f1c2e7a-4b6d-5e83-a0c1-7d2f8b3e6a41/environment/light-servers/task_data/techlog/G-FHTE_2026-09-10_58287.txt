@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-58287    Aircraft G-FHTE    Date 2026-09-10    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH573 | ABZ | LSI | 12:37 | 13:36 | 0:59
+2 | FH646 | LSI | ABZ | 14:24 | 15:23 | 0:59
+3 | FH127 | ABZ | MAN | 16:02 | 17:04 | 1:02
+4 | FH391 | MAN | ABZ | 17:49 | 18:53 | 1:04

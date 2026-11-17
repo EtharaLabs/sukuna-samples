@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-39472    Aircraft G-FHNB    Date 2026-09-17    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH922 | ABZ | NCL | 14:04 | 15:00 | 0:56
+2 | FH859 | NCL | ABZ | 15:41 | 16:36 | 0:55
+3 | FH796 | ABZ | SOU | 17:28 | 18:34 | 1:06
+4 | FH130 | SOU | ABZ | 19:19 | 20:27 | 1:08

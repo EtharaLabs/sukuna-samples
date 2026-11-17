@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-24303    Aircraft G-FHTA    Date 2026-09-05    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH858 | ABZ | LSI | 14:10 | 15:26 | 1:16
+2 | FH267 | LSI | ABZ | 16:10 | 17:37 | 1:27
+3 | FH514 | ABZ | KOI | 18:23 | 19:43 | 1:20
+4 | FH438 | KOI | ABZ | 20:29 | 21:59 | 1:30

@@ -1,0 +1,7 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-58439    Aircraft G-FHTB    Date 2026-08-26    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH603 | ABZ | KOI | 08:45 | 09:50 | 1:05
+2 | FH444 | KOI | ABZ | 10:24 | 11:30 | 1:06
+3 | FH476 | ABZ | SOU | 12:01 | 12:57 | 0:56

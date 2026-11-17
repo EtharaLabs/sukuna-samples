@@ -1,0 +1,7 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-97620    Aircraft G-FHNC    Date 2026-08-04    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH273 | ABZ | LSI | 06:13 | 07:38 | 1:25
+2 | FH166 | LSI | ABZ | 08:23 | 09:46 | 1:23
+3 | FH224 | ABZ | SYY | 10:21 | 11:48 | 1:27

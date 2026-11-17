@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-76362    Aircraft G-FHED    Date 2026-09-20    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH288 | EDI | LSI | 11:21 | 12:22 | 1:01
+2 | FH326 | LSI | EDI | 13:12 | 14:14 | 1:02
+3 | FH711 | EDI | KOI | 14:56 | 15:57 | 1:01
+4 | FH554 | KOI | EDI | 16:42 | 17:45 | 1:03

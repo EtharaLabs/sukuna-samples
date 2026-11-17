@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-60705    Aircraft G-FHED    Date 2026-09-15    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH177 | EDI | MAN | 09:07 | 10:06 | 0:59
+2 | FH455 | MAN | EDI | 10:46 | 11:44 | 0:58
+3 | FH796 | EDI | BHX | 12:34 | 13:36 | 1:02
+4 | FH532 | BHX | EDI | 14:27 | 15:28 | 1:01

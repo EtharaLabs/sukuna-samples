@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-29317    Aircraft G-FHTC    Date 2026-08-27    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH366 | ABZ | BHD | 09:00 | 10:07 | 1:07
+2 | FH241 | BHD | ABZ | 10:51 | 12:04 | 1:13
+3 | FH316 | ABZ | BHX | 12:58 | 14:11 | 1:13
+4 | FH707 | BHX | ABZ | 14:56 | 16:07 | 1:11

@@ -1,0 +1,7 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-62809    Aircraft G-FHTD    Date 2026-09-15    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH520 | ABZ | NCL | 14:54 | 16:15 | 1:21
+2 | FH565 | NCL | ABZ | 16:58 | 18:18 | 1:20
+3 | FH337 | ABZ | BHX | 19:13 | 20:27 | 1:14

@@ -1,0 +1,6 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-74907    Aircraft G-FHTA    Date 2026-08-14    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH566 | ABZ | SOU | 11:50 | 13:03 | 1:13
+2 | FH683 | SOU | ABZ | 13:43 | 14:51 | 1:08

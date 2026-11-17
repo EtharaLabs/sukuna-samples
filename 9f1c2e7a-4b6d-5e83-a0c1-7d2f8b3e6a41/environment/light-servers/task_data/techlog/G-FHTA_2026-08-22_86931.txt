@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-86931    Aircraft G-FHTA    Date 2026-08-22    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH196 | ABZ | BHX | 06:50 | 07:47 | 0:57
+2 | FH467 | BHX | ABZ | 08:39 | 09:42 | 1:03
+3 | FH679 | ABZ | BHX | 10:14 | 11:19 | 1:05
+4 | FH332 | BHX | ABZ | 12:17 | 13:14 | 0:57

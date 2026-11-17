@@ -1,0 +1,1 @@
+{"authorization": {"database": "db-duty-actuals-to-0914", "message": "403 Forbidden: your role may not query the archive database. Open archived records individually."}, "rate_limit": {"call": 3, "message": "429 Too Many Requests: query_database is rate limited for this session; retry after 20 seconds."}, "truncation": {"database": "db-roster-aug-sep-2026", "rows_hidden": 663}}

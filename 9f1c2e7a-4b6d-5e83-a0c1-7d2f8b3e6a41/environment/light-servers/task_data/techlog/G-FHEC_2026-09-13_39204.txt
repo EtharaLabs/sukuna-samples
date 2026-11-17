@@ -1,0 +1,7 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-39204    Aircraft G-FHEC    Date 2026-09-13    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH303 | ABZ | MAN | 13:32 | 14:34 | 1:02
+2 | FH984 | MAN | ABZ | 15:15 | 16:10 | 0:55
+3 | FH962 | ABZ | KOI | 16:53 | 17:58 | 1:05

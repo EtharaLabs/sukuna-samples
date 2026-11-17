@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-84006    Aircraft G-FHEA    Date 2026-09-14    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH425 | EDI | BHX | 06:58 | 08:06 | 1:08
+2 | FH524 | BHX | EDI | 08:51 | 09:51 | 1:00
+3 | FH480 | EDI | BHX | 10:34 | 11:33 | 0:59
+4 | FH140 | BHX | EDI | 12:13 | 13:13 | 1:00

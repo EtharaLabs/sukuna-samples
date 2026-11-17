@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-39318    Aircraft G-FHEE    Date 2026-09-08    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH237 | EDI | SOU | 06:59 | 08:02 | 1:03
+2 | FH584 | SOU | EDI | 08:41 | 09:49 | 1:08
+3 | FH871 | EDI | SYY | 10:25 | 11:26 | 1:01
+4 | FH556 | SYY | EDI | 12:08 | 13:06 | 0:58

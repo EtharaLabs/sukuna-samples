@@ -1,0 +1,6 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-45641    Aircraft G-FHEC    Date 2026-09-20    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH400 | EDI | KOI | 08:48 | 09:48 | 1:00
+2 | FH297 | KOI | EDI | 10:34 | 11:33 | 0:59

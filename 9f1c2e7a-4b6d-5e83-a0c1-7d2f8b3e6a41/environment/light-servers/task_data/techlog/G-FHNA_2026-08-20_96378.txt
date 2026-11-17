@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-96378    Aircraft G-FHNA    Date 2026-08-20    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH482 | ABZ | MAN | 09:29 | 10:33 | 1:04
+2 | FH104 | MAN | ABZ | 11:30 | 12:33 | 1:03
+3 | FH388 | ABZ | KOI | 13:24 | 14:34 | 1:10
+4 | FH811 | KOI | ABZ | 15:16 | 16:25 | 1:09

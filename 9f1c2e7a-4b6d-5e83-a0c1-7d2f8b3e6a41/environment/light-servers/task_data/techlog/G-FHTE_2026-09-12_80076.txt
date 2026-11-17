@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-80076    Aircraft G-FHTE    Date 2026-09-12    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH319 | ABZ | SOU | 14:51 | 16:00 | 1:09
+2 | FH428 | SOU | ABZ | 16:35 | 17:41 | 1:06
+3 | FH322 | ABZ | KOI | 18:12 | 19:25 | 1:13
+4 | FH812 | KOI | ABZ | 20:17 | 21:18 | 1:01

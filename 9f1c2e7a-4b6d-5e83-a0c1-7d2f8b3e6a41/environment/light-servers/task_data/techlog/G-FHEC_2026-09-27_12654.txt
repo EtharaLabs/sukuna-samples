@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-12654    Aircraft G-FHEC    Date 2026-09-27    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH819 | EDI | LSI | 05:33 | 06:31 | 0:58
+2 | FH657 | LSI | EDI | 07:07 | 08:02 | 0:55
+3 | FH528 | EDI | NCL | 08:40 | 09:31 | 0:51
+4 | FH515 | NCL | EDI | 10:20 | 11:24 | 1:04

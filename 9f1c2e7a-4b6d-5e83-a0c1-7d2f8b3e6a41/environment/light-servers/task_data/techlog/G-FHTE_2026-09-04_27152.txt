@@ -1,0 +1,7 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-27152    Aircraft G-FHTE    Date 2026-09-04    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH618 | ABZ | NCL | 14:51 | 15:50 | 0:59
+2 | FH857 | NCL | ABZ | 16:37 | 17:43 | 1:06
+3 | FH643 | ABZ | MAN | 18:33 | 19:32 | 0:59

@@ -1,0 +1,7 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-42827    Aircraft G-FHTF    Date 2026-08-04    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH608 | ABZ | SOU | 05:28 | 06:36 | 1:08
+2 | FH802 | SOU | ABZ | 07:07 | 08:11 | 1:04
+3 | FH838 | ABZ | MAN | 08:52 | 09:59 | 1:07

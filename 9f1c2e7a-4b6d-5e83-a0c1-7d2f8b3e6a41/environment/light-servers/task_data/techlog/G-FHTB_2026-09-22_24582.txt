@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-24582    Aircraft G-FHTB    Date 2026-09-22    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH293 | ABZ | KOI | 08:58 | 10:15 | 1:17
+2 | FH763 | KOI | ABZ | 10:59 | 12:28 | 1:29
+3 | FH628 | ABZ | MAN | 13:19 | 14:47 | 1:28
+4 | FH943 | MAN | ABZ | 15:32 | 16:50 | 1:18

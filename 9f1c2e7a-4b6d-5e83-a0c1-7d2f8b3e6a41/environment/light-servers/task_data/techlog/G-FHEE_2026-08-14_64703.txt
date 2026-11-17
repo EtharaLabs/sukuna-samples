@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-64703    Aircraft G-FHEE    Date 2026-08-14    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH986 | EDI | SOU | 11:17 | 12:33 | 1:16
+2 | FH325 | SOU | EDI | 13:08 | 14:27 | 1:19
+3 | FH212 | EDI | NCL | 15:13 | 16:27 | 1:14
+4 | FH182 | NCL | EDI | 17:02 | 18:24 | 1:22

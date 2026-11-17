@@ -1,0 +1,4 @@
+Generated assets in this folder
+
+- Manual PDFs: typeset with ReportLab (BSD).
+- Every name, organisation, aircraft registration and identifier is invented.

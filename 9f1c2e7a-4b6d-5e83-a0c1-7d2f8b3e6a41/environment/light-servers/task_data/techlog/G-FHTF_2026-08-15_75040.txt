@@ -1,0 +1,6 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-75040    Aircraft G-FHTF    Date 2026-08-15    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH496 | ABZ | KOI | 11:26 | 12:30 | 1:04
+2 | FH858 | KOI | ABZ | 13:03 | 14:12 | 1:09

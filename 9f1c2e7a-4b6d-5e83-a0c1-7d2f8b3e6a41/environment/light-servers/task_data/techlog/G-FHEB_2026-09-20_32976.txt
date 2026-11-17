@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-32976    Aircraft G-FHEB    Date 2026-09-20    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH145 | ABZ | KOI | 13:33 | 14:27 | 0:54
+2 | FH385 | KOI | ABZ | 15:10 | 16:04 | 0:54
+3 | FH646 | ABZ | NCL | 16:47 | 17:50 | 1:03
+4 | FH270 | NCL | ABZ | 18:44 | 01:08 | 6:24

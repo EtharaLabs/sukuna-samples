@@ -1,0 +1,7 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-31384    Aircraft G-FHTA    Date 2026-08-29    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH772 | ABZ | BHD | 05:42 | 07:02 | 1:20
+2 | FH886 | BHD | ABZ | 07:48 | 09:05 | 1:17
+3 | FH917 | ABZ | NCL | 09:56 | 11:21 | 1:25

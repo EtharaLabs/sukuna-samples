@@ -1,0 +1,7 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-75173    Aircraft G-FHNB    Date 2026-09-04    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH713 | ABZ | MAN | 07:00 | 08:18 | 1:18
+2 | FH479 | MAN | ABZ | 09:14 | 10:32 | 1:18
+3 | FH252 | ABZ | SYY | 11:17 | 12:46 | 1:29

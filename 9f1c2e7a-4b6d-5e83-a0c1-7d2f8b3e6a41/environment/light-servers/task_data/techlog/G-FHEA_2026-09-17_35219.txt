@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-35219    Aircraft G-FHEA    Date 2026-09-17    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH709 | EDI | SYY | 05:41 | 06:51 | 1:10
+2 | FH673 | SYY | EDI | 07:45 | 08:51 | 1:06
+3 | FH689 | EDI | MAN | 09:38 | 10:43 | 1:05
+4 | FH202 | MAN | EDI | 11:27 | 12:35 | 1:08

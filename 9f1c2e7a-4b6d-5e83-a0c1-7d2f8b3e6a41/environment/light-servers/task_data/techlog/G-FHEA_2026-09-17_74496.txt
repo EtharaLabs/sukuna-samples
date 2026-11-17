@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-74496    Aircraft G-FHEA    Date 2026-09-17    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH194 | EDI | SOU | 07:36 | 08:52 | 1:16
+2 | FH634 | SOU | EDI | 09:40 | 10:56 | 1:16
+3 | FH352 | EDI | LSI | 11:32 | 12:52 | 1:20
+4 | FH169 | LSI | EDI | 13:45 | 15:02 | 1:17

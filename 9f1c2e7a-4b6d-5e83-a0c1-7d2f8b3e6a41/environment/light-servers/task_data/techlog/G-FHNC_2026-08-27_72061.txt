@@ -1,0 +1,7 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-72061    Aircraft G-FHNC    Date 2026-08-27    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH958 | ABZ | LSI | 14:02 | 14:54 | 0:52
+2 | FH383 | LSI | ABZ | 15:42 | 16:42 | 1:00
+3 | FH485 | ABZ | NCL | 17:32 | 18:20 | 0:48

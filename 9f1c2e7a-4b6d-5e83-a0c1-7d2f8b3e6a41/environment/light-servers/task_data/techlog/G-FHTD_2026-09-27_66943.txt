@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-66943    Aircraft G-FHTD    Date 2026-09-27    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH206 | ABZ | LSI | 11:20 | 12:26 | 1:06
+2 | FH628 | LSI | ABZ | 13:19 | 14:18 | 0:59
+3 | FH250 | ABZ | KOI | 15:13 | 16:21 | 1:08
+4 | FH838 | KOI | ABZ | 17:06 | 18:18 | 1:12

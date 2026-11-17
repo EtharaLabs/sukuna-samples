@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-99819    Aircraft G-FHTD    Date 2026-08-20    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH124 | ABZ | SYY | 05:56 | 07:03 | 1:07
+2 | FH107 | SYY | ABZ | 07:53 | 08:52 | 0:59
+3 | FH384 | ABZ | KOI | 09:38 | 10:43 | 1:05
+4 | FH312 | KOI | ABZ | 11:38 | 12:35 | 0:57

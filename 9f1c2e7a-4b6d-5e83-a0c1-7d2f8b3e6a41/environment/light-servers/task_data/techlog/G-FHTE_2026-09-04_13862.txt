@@ -1,0 +1,6 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-13862    Aircraft G-FHTE    Date 2026-09-04    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH664 | ABZ | NCL | 06:53 | 07:48 | 0:55
+2 | FH392 | NCL | ABZ | 08:37 | 09:29 | 0:52

@@ -1,0 +1,1 @@
+{"calendars": {"cal_fh_office": {"cid": "cal_fh_office", "color": "blue", "name": "Crew office"}}, "events": {"evt_fh_party": {"all_day": false, "attendees": [], "calendar_id": "cal_fh_office", "description": "Social.", "eid": "evt_fh_party", "end": "2026-10-09T19:00:00Z", "location": "Aberdeen", "start": "2026-10-09T17:00:00Z", "title": "Crew room opening"}}}

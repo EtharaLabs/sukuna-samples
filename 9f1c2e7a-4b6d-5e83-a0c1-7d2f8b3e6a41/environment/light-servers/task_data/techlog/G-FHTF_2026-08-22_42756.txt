@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-42756    Aircraft G-FHTF    Date 2026-08-22    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH433 | ABZ | BHD | 06:54 | 08:01 | 1:07
+2 | FH108 | BHD | ABZ | 08:37 | 09:52 | 1:15
+3 | FH247 | ABZ | NCL | 10:39 | 11:51 | 1:12
+4 | FH589 | NCL | ABZ | 12:37 | 13:52 | 1:15

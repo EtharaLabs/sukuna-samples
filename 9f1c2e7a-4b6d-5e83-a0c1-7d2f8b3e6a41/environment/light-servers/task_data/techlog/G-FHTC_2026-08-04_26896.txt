@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-26896    Aircraft G-FHTC    Date 2026-08-04    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH177 | ABZ | BHD | 05:41 | 06:52 | 1:11
+2 | FH667 | BHD | ABZ | 07:35 | 08:45 | 1:10
+3 | FH517 | ABZ | SOU | 09:31 | 10:52 | 1:21
+4 | FH965 | SOU | ABZ | 11:45 | 13:10 | 1:25

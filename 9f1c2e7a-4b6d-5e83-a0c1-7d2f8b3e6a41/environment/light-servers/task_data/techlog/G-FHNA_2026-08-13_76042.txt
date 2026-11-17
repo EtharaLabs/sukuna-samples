@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-76042    Aircraft G-FHNA    Date 2026-08-13    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH394 | ABZ | KOI | 05:35 | 06:50 | 1:15
+2 | FH868 | KOI | ABZ | 07:30 | 08:54 | 1:24
+3 | FH289 | ABZ | LSI | 09:47 | 11:12 | 1:25
+4 | FH182 | LSI | ABZ | 11:48 | 13:01 | 1:13

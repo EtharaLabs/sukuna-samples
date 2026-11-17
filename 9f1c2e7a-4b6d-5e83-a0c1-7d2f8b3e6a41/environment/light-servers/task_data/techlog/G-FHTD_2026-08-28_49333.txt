@@ -1,0 +1,7 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-49333    Aircraft G-FHTD    Date 2026-08-28    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH590 | ABZ | KOI | 14:54 | 15:46 | 0:52
+2 | FH769 | KOI | ABZ | 16:29 | 17:30 | 1:01
+3 | FH838 | ABZ | SYY | 18:22 | 19:29 | 1:07

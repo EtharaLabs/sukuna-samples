@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-22201    Aircraft G-FHTC    Date 2026-08-08    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH920 | ABZ | MAN | 06:58 | 08:11 | 1:13
+2 | FH645 | MAN | ABZ | 08:50 | 10:09 | 1:19
+3 | FH142 | ABZ | SOU | 11:05 | 12:19 | 1:14
+4 | FH915 | SOU | ABZ | 13:11 | 14:36 | 1:25

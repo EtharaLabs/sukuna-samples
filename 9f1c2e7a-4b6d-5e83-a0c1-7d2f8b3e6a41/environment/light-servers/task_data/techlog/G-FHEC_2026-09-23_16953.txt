@@ -1,0 +1,7 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-16953    Aircraft G-FHEC    Date 2026-09-23    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH775 | EDI | BHD | 14:06 | 14:59 | 0:53
+2 | FH498 | BHD | EDI | 15:34 | 16:34 | 1:00
+3 | FH780 | EDI | BHX | 17:20 | 18:08 | 0:48

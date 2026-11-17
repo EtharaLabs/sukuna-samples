@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-53461    Aircraft G-FHTC    Date 2026-09-28    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH865 | ABZ | SOU | 08:58 | 10:20 | 1:22
+2 | FH226 | SOU | ABZ | 10:59 | 12:17 | 1:18
+3 | FH488 | ABZ | LSI | 13:06 | 14:24 | 1:18
+4 | FH376 | LSI | ABZ | 14:56 | 16:22 | 1:26

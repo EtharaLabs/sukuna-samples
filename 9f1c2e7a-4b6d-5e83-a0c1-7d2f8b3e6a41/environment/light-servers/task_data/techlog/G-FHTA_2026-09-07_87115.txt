@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-87115    Aircraft G-FHTA    Date 2026-09-07    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH230 | ABZ | SOU | 06:20 | 07:21 | 1:01
+2 | FH406 | SOU | ABZ | 07:54 | 08:56 | 1:02
+3 | FH713 | ABZ | BHD | 09:42 | 10:50 | 1:08
+4 | FH119 | BHD | ABZ | 11:28 | 12:27 | 0:59

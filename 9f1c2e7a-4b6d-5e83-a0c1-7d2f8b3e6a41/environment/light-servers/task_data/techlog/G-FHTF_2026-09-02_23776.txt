@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-23776    Aircraft G-FHTF    Date 2026-09-02    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH506 | ABZ | BHD | 07:31 | 08:30 | 0:59
+2 | FH637 | BHD | ABZ | 09:20 | 10:27 | 1:07
+3 | FH188 | ABZ | KOI | 11:14 | 12:18 | 1:04
+4 | FH806 | KOI | ABZ | 13:01 | 13:54 | 0:53

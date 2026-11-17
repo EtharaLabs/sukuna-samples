@@ -1,0 +1,7 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-67621    Aircraft G-FHTB    Date 2026-08-31    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH628 | ABZ | SOU | 14:46 | 15:39 | 0:53
+2 | FH783 | SOU | ABZ | 16:31 | 17:19 | 0:48
+3 | FH429 | ABZ | BHD | 18:03 | 19:02 | 0:59

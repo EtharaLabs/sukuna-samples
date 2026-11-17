@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-48199    Aircraft G-FHNC    Date 2026-09-18    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH917 | ABZ | KOI | 13:58 | 15:25 | 1:27
+2 | FH392 | KOI | ABZ | 16:06 | 17:31 | 1:25
+3 | FH876 | ABZ | NCL | 18:26 | 19:41 | 1:15
+4 | FH412 | NCL | ABZ | 20:14 | 21:41 | 1:27

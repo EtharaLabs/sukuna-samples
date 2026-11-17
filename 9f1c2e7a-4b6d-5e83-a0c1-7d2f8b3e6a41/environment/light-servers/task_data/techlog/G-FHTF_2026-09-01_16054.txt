@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-16054    Aircraft G-FHTF    Date 2026-09-01    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH170 | ABZ | LSI | 13:57 | 15:09 | 1:12
+2 | FH211 | LSI | ABZ | 16:07 | 17:19 | 1:12
+3 | FH680 | ABZ | SOU | 17:55 | 19:01 | 1:06
+4 | FH446 | SOU | ABZ | 19:57 | 21:15 | 1:18

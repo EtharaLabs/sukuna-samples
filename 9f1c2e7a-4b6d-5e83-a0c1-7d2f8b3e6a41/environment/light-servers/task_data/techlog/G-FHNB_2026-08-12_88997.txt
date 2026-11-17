@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-88997    Aircraft G-FHNB    Date 2026-08-12    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH239 | ABZ | KOI | 12:54 | 14:08 | 1:14
+2 | FH362 | KOI | ABZ | 14:55 | 16:06 | 1:11
+3 | FH287 | ABZ | BHD | 16:52 | 18:14 | 1:22
+4 | FH512 | BHD | ABZ | 19:02 | 20:12 | 1:10

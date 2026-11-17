@@ -1,0 +1,7 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-11973    Aircraft G-FHTA    Date 2026-08-19    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH418 | ABZ | BHD | 11:30 | 12:48 | 1:18
+2 | FH470 | BHD | ABZ | 13:32 | 14:59 | 1:27
+3 | FH773 | ABZ | SOU | 15:44 | 17:02 | 1:18

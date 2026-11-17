@@ -1,0 +1,6 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-22188    Aircraft G-FHEB    Date 2026-09-04    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH943 | EDI | MAN | 06:07 | 07:36 | 1:29
+2 | FH380 | MAN | EDI | 08:32 | 09:56 | 1:24

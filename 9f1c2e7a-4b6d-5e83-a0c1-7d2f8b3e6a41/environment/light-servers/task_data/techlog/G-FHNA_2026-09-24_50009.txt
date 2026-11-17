@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-50009    Aircraft G-FHNA    Date 2026-09-24    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH224 | ABZ | LSI | 14:52 | 16:09 | 1:17
+2 | FH250 | LSI | ABZ | 16:48 | 17:59 | 1:11
+3 | FH232 | ABZ | BHD | 18:36 | 19:53 | 1:17
+4 | FH219 | BHD | ABZ | 20:31 | 21:38 | 1:07

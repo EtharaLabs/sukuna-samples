@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-28592    Aircraft G-FHTF    Date 2026-09-24    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH552 | ABZ | BHX | 14:45 | 16:01 | 1:16
+2 | FH341 | BHX | ABZ | 16:49 | 17:59 | 1:10
+3 | FH772 | ABZ | LSI | 18:29 | 19:50 | 1:21
+4 | FH627 | LSI | ABZ | 20:42 | 21:57 | 1:15

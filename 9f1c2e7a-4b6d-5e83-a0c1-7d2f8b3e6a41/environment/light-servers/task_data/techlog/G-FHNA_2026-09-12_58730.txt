@@ -1,0 +1,8 @@
+FERNHOLLOW AIR TECHNICAL LOG
+Page TL-58730    Aircraft G-FHNA    Date 2026-09-12    Times UTC
+
+Sector | Flight | From | To | Off-blocks | On-blocks | Block
+1 | FH272 | ABZ | MAN | 15:00 | 16:11 | 1:11
+2 | FH492 | MAN | ABZ | 17:02 | 18:29 | 1:27
+3 | FH719 | ABZ | SOU | 19:26 | 20:49 | 1:23
+4 | FH175 | SOU | ABZ | 21:37 | 23:04 | 1:27
