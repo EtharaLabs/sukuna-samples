@@ -1,0 +1,141 @@
+{
+ "store": [
+  {
+   "database": "db-kd-period-findings",
+   "on": "create_page",
+   "sequence": {
+    "field": "Reference",
+    "prefix": "WTH-",
+    "width": 5
+   }
+  },
+  {
+   "database": "db-kd-corrections-register",
+   "on": "create_page",
+   "sequence": {
+    "field": "Reference",
+    "prefix": "KDX-",
+    "width": 5
+   }
+  }
+ ],
+ "triggers": [
+  {
+   "id": "a",
+   "set": [
+    {
+     "page": "page-cert-kdmec5100",
+     "properties": {
+      "DeclaredDrivingMinutes": 585,
+      "FiledOn": "2026-11-10",
+      "LateFiling": "filed after the first period close",
+      "Signature": "signed: G. Ambleforth, transport manager",
+      "SignatureStatus": "signed"
+     }
+    }
+   ],
+   "when": {
+    "count": 1,
+    "database": "db-kd-period-close-ledger",
+    "tool": "create_page"
+   }
+  },
+  {
+   "id": "b",
+   "set": [
+    {
+     "page": "page-drv-bddrv1342",
+     "properties": {
+      "AddressChangedOn": "2026-11-10",
+      "ContactAddress": "g.gatacre@brantlow-distribution.co.uk"
+     }
+    }
+   ],
+   "when": {
+    "count": 12,
+    "database": "db-kd-period-findings",
+    "tool": "create_page"
+   }
+  },
+  {
+   "id": "c",
+   "set": [
+    {
+     "page": "page-rosact-0000",
+     "properties": {
+      "KeyedBy": "traffic office backfill",
+      "KeyedDrivingMinutes": 517,
+      "RecordClass": "overridable keyed actual, backfilled after period end"
+     }
+    },
+    {
+     "page": "page-rosact-0007",
+     "properties": {
+      "KeyedBy": "traffic office backfill",
+      "KeyedDrivingMinutes": 295,
+      "RecordClass": "overridable keyed actual, backfilled after period end"
+     }
+    }
+   ],
+   "when": {
+    "count": 20,
+    "database": "db-kd-period-findings",
+    "tool": "create_page"
+   }
+  },
+  {
+   "id": "d",
+   "set": [
+    {
+     "page": "page-tcard-kd1210139",
+     "properties": {
+      "DownloadRef": "KD-DL-10012R",
+      "DownloadSource": "driver-card replacement download",
+      "DrivingMinutes": 608,
+      "OtherWorkMinutes": 23
+     }
+    }
+   ],
+   "when": {
+    "count": 2,
+    "database": "db-kd-period-close-ledger",
+    "tool": "create_page"
+   }
+  },
+  {
+   "id": "e",
+   "set": [
+    {
+     "page": "page-infr-07",
+     "properties": {
+      "DisputeFlag": "withdrawn",
+      "Signature": "signed: G. Ambleforth, transport manager",
+      "SignatureStatus": "signed"
+     }
+    }
+   ],
+   "when": {
+    "count": 1,
+    "database": "db-kd-period-close-ledger",
+    "tool": "create_page"
+   }
+  },
+  {
+   "id": "f",
+   "set": [
+    {
+     "page": "page-tsindex-23",
+     "properties": {
+      "RetractionNote": "agency supplier retracted the duty for KD-2610-202",
+      "Status": "retracted"
+     }
+    }
+   ],
+   "when": {
+    "count": 2,
+    "database": "db-kd-period-close-ledger",
+    "tool": "create_page"
+   }
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "store": [
+  {
+   "database": "db-crn-response-findings",
+   "on": "create_page",
+   "sequence": {
+    "field": "Reference",
+    "prefix": "RSP-",
+    "width": 5
+   }
+  },
+  {
+   "database": "db-crn-corrections-register",
+   "on": "create_page",
+   "sequence": {
+    "field": "Reference",
+    "prefix": "CRX-",
+    "width": 5
+   }
+  }
+ ],
+ "triggers": [
+  {
+   "id": "a",
+   "set": [
+    {
+     "page": "page-hbc-crnhbc2410",
+     "properties": {
+      "CountersignedBy": "site contact, at hand-back",
+      "DeclaredHandbackDepotLocal": "2026-10-12T12:52:00+01:00",
+      "FiledOn": "2026-11-03",
+      "LateFiling": "lodged after the first period close",
+      "SignatureStatus": "countersigned"
+     }
+    }
+   ],
+   "when": {
+    "count": 1,
+    "database": "db-crn-period-close-ledger",
+    "tool": "create_page"
+   }
+  },
+  {
+   "id": "b",
+   "set": [
+    {
+     "page": "page-eng-tfseng215",
+     "properties": {
+      "MailAddress": "dhasselgrove@thornby-field.co.uk",
+      "MailAddressChangedOn": "2026-11-03"
+     }
+    }
+   ],
+   "when": {
+    "count": 12,
+    "database": "db-crn-response-findings",
+    "tool": "create_page"
+   }
+  },
+  {
+   "id": "c",
+   "set": [
+    {
+     "page": "page-parts-crn2710110",
+     "properties": {
+      "LoggedWaitMinutes": 60,
+      "WaitSource": "stores despatch log, amended after period end"
+     }
+    }
+   ],
+   "when": {
+    "count": 20,
+    "database": "db-crn-response-findings",
+    "tool": "create_page"
+   }
+  },
+  {
+   "id": "d",
+   "set": [
+    {
+     "page": "page-remote-crn1910117",
+     "properties": {
+      "AttemptSource": "remote access gateway, corrected log",
+      "FirstAttemptDepotLocal": "2026-10-19T09:44:00+01:00",
+      "FirstAttemptMinutesAfterDispatch": 11
+     }
+    }
+   ],
+   "when": {
+    "count": 2,
+    "database": "db-crn-period-close-ledger",
+    "tool": "create_page"
+   }
+  },
+  {
+   "id": "e",
+   "set": [
+    {
+     "page": "page-report-05",
+     "properties": {
+      "DisputeFlag": "withdrawn",
+      "Signature": "signed: Perrin Oakhollow, response manager",
+      "SignatureStatus": "signed"
+     }
+    }
+   ],
+   "when": {
+    "count": 1,
+    "database": "db-crn-period-close-ledger",
+    "tool": "create_page"
+   }
+  },
+  {
+   "id": "f",
+   "set": [
+    {
+     "page": "page-tsindex-09",
+     "properties": {
+      "RetractionNote": "supplier withdrew the sheet covering CRN-1210-117",
+      "Status": "retracted"
+     }
+    }
+   ],
+   "when": {
+    "count": 2,
+    "database": "db-crn-period-close-ledger",
+    "tool": "create_page"
+   }
+  }
+ ]
+}

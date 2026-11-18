@@ -3,11 +3,12 @@
 # verify time by calling solution/recompute.py over the world bytes, so no answer file is baked
 # into this image and none is carried into the agent's environment.
 #
-# The build context is the BUNDLE ROOT, set by `build.context: ..` in tests/docker-compose.yaml,
-# which Harbor merges over its own base compose for the separate verifier. That is what lets the
-# two COPY lines before WORKDIR bake solution/recompute.py and the world bytes into this image at
-# /opt/truth, the first real candidates on test.sh's truth search path, so ground truth no longer
-# depends on a run-time bind. Every other path in this file is therefore prefixed `tests/`.
+# The build context is tests/, as for every separate verifier. tests/truth/ carries byte-for-byte
+# copies of the inputs ground truth is recomputed from: solution/recompute.py and
+# solution/media_facts.json, the environment/light-servers/world_data overlays, and the corpus
+# files of environment/light-servers/software. Refresh tests/truth/ whenever one of those
+# originals changes. The copies are baked into /opt/truth, the first candidates on test.sh's truth
+# search path, and removed from /tests, so /tests holds only what Reward Kit should discover.
 #
 # The guards diff the end state against the world the light servers SERVE, which each app builds
 # from its own `software/<App>/corpus/*.yaml` plus the `world_data/<App>.json` overlay on top. The
@@ -15,7 +16,7 @@
 # no blob -- so the final image carries the second half of the baseline as text and nothing else.
 FROM python:3.12-slim@sha256:78387bc3881b8273120a12ebe6c1ab22b018ccc2c9adf565ae1ac9b536e184ea AS corpus
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
-COPY environment/light-servers/software /src/software
+COPY truth/software /src/software
 RUN set -eu; \
     find /src/software -mindepth 2 -maxdepth 2 ! -name corpus -exec rm -rf {} +; \
     find /src/software -type f ! -name '*.yaml' ! -name '*.yml' ! -name '*.json' -delete; \
@@ -48,12 +49,13 @@ RUN mv /etc/apt/sources.list.d/debian.sources /etc/apt/debian.sources.default \
 RUN pip install --no-cache-dir "harbor-rewardkit==0.2.3" \
  && python -c "import rewardkit"
 
-COPY tests/ /tests/
+COPY . /tests/
 
 ENV PYTHONPATH=/tests
 
 RUN set -eu; \
     chmod +x /tests/test.sh; \
+    rm -rf /tests/truth; \
     mkdir -p /logs/verifier /logs/agent /logs/artifacts/atlas /opt/truth /workspace; \
     python -c "import json; json.load(open('/tests/old_env.json')); json.load(open('/tests/oracle.json'))"
 
@@ -63,9 +65,9 @@ RUN set -eu; \
 # removed once they have run, so /tests holds only what Reward Kit should discover.
 RUN python /tests/build_reference.py && rm /tests/build_reference.py
 
-COPY solution/recompute.py /opt/truth/recompute.py
-COPY solution/media_facts.json /opt/truth/media_facts.json
-COPY environment/light-servers/world_data /opt/truth/world_data
+COPY truth/recompute.py /opt/truth/recompute.py
+COPY truth/media_facts.json /opt/truth/media_facts.json
+COPY truth/world_data /opt/truth/world_data
 COPY --from=corpus /src/software /opt/truth/software
 
 RUN python /tests/check_world.py && rm /tests/check_world.py

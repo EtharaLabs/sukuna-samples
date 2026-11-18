@@ -1,0 +1,56 @@
+{
+ "artefacts": [
+  {
+   "agrees_with_paging": true,
+   "drive_path": "evidence/tfs-eng-215/jobsheet-crn-1410-110.png",
+   "engineer_id": "TFS-ENG-215",
+   "engineer_name": "Dov Hasselgrove",
+   "file_name": "jobsheet-crn-1410-110.png",
+   "incident_ref": "CRN-1410-110",
+   "kind": "jobsheet-png",
+   "paging_logged_clear_local": "2026-10-14T20:36:00+01:00",
+   "stated_handback_local": "2026-10-14T20:36:00+01:00",
+   "text": "CALDERWICK REGIONAL NETWORK OPERATIONS\nJob sheet, written at the site.\nIncident CRN-1410-110. Site CWK-GRENVILLE-WAY.\nEngineer Dov Hasselgrove, TFS-ENG-215.\nService restored and handed back to the site contact at 20:36.\nCountersigned at hand-back by the site contact.\n"
+  },
+  {
+   "agrees_with_paging": true,
+   "drive_path": "evidence/tfs-eng-215/handback-crn-1410-110.wav",
+   "engineer_id": "TFS-ENG-215",
+   "engineer_name": "Dov Hasselgrove",
+   "file_name": "handback-crn-1410-110.wav",
+   "incident_ref": "CRN-1410-110",
+   "kind": "handback-wav",
+   "paging_logged_clear_local": "2026-10-14T20:36:00+01:00",
+   "stated_handback_local": "2026-10-14T20:36:00+01:00",
+   "text": "This is Dov Hasselgrove, TFS-ENG-215. Incident CRN-1410-110 at CWK-GRENVILLE-WAY. I handed the service back at 20:36 and the site contact signed the sheet in front of me. The paging record for this one matches what I wrote."
+  },
+  {
+   "agrees_with_paging": false,
+   "drive_path": "evidence/tfs-eng-211/jobsheet-crn-2110-124.png",
+   "engineer_id": "TFS-ENG-211",
+   "engineer_name": "Teagan Tredinnick",
+   "file_name": "jobsheet-crn-2110-124.png",
+   "incident_ref": "CRN-2110-124",
+   "kind": "jobsheet-png",
+   "paging_logged_clear_local": "2026-10-22T01:49:00+01:00",
+   "stated_handback_local": "2026-10-22T02:33:00+01:00",
+   "text": "CALDERWICK REGIONAL NETWORK OPERATIONS\nJob sheet, written at the site.\nIncident CRN-2110-124. Site CWK-SALTMARSH.\nEngineer Teagan Tredinnick, TFS-ENG-211.\nService restored and handed back to the site contact at 02:33.\nThe paging terminal was still showing the session open when I left.\nCountersigned at hand-back by the site contact.\n"
+  },
+  {
+   "agrees_with_paging": false,
+   "drive_path": "evidence/tfs-eng-211/handback-crn-2110-124.wav",
+   "engineer_id": "TFS-ENG-211",
+   "engineer_name": "Teagan Tredinnick",
+   "file_name": "handback-crn-2110-124.wav",
+   "incident_ref": "CRN-2110-124",
+   "kind": "handback-wav",
+   "paging_logged_clear_local": "2026-10-22T01:49:00+01:00",
+   "stated_handback_local": "2026-10-22T02:33:00+01:00",
+   "text": "This is Teagan Tredinnick, TFS-ENG-211, calling in on incident CRN-2110-124 at CWK-SALTMARSH. The real hand-back was 02:33, not 01:49. The site contact countersigned my sheet at 02:33. The paging session stayed open after I had gone, so take the sheet."
+  }
+ ],
+ "contradicted_incident": "CRN-2110-124",
+ "control_incident": "CRN-1410-110",
+ "purpose": "Per-artefact ground truth for the rendered evidence media. The verifier grades the agent's written-back hand-back instant against these values; no graded item reads pixels or audio.",
+ "schema": "sukuna.slot1.media-facts/v1"
+}

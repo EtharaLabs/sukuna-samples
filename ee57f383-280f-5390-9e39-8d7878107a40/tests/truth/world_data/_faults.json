@@ -1,0 +1,14 @@
+{
+ "authorization": {
+  "database": "db-kd-roster-actuals-feed",
+  "message": "403 not authorised: the keyed actuals feed is not queryable for date ranges before the Edition 4 effective date; read its rows one page at a time."
+ },
+ "rate_limit": {
+  "call": 3,
+  "message": "429 rate limited: the tachograph archive accepts one query a second; retry this query after 2 seconds."
+ },
+ "truncation": {
+  "database": "db-kd-driver-register",
+  "rows_hidden": 3
+ }
+}

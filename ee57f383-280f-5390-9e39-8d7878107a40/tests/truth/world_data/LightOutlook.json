@@ -1,0 +1,478 @@
+{
+ "contacts": [
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Gwenda Ambleforth",
+   "email": "g.ambleforth@brantlow-distribution.co.uk",
+   "givenName": "Gwenda",
+   "id": "ct-kd-001",
+   "jobTitle": "Transport manager",
+   "mobilePhone": "07700 900412",
+   "surname": "Ambleforth"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Alun Ashbourne",
+   "email": "bd-drv-1300@brantlow-distribution.co.uk",
+   "givenName": "Alun",
+   "id": "ct-bddrv1300",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900410",
+   "surname": "Ashbourne"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Bryher Beddingfield",
+   "email": "bd-drv-1307@brantlow-distribution.co.uk",
+   "givenName": "Bryher",
+   "id": "ct-bddrv1307",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900419",
+   "surname": "Beddingfield"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Caradoc Carvell",
+   "email": "bd-drv-1314@brantlow-distribution.co.uk",
+   "givenName": "Caradoc",
+   "id": "ct-bddrv1314",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900415",
+   "surname": "Carvell"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Dilys Dunwoody",
+   "email": "bd-drv-1321@brantlow-distribution.co.uk",
+   "givenName": "Dilys",
+   "id": "ct-bddrv1321",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900414",
+   "surname": "Dunwoody"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Eifion Easterbrook",
+   "email": "bd-drv-1328@brantlow-distribution.co.uk",
+   "givenName": "Eifion",
+   "id": "ct-bddrv1328",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900418",
+   "surname": "Easterbrook"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Ffion Fennimore",
+   "email": "bd-drv-1335@brantlow-distribution.co.uk",
+   "givenName": "Ffion",
+   "id": "ct-bddrv1335",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900415",
+   "surname": "Fennimore"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Gethin Gatacre",
+   "email": "bd-drv-1342@brantlow-distribution.co.uk",
+   "givenName": "Gethin",
+   "id": "ct-bddrv1342",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900414",
+   "surname": "Gatacre"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Haf Halliwell",
+   "email": "bd-drv-1349@brantlow-distribution.co.uk",
+   "givenName": "Haf",
+   "id": "ct-bddrv1349",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900413",
+   "surname": "Halliwell"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Idris Inchbald",
+   "email": "bd-drv-1356@brantlow-distribution.co.uk",
+   "givenName": "Idris",
+   "id": "ct-bddrv1356",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900414",
+   "surname": "Inchbald"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Jowan Jerrold",
+   "email": "bd-drv-1363@brantlow-distribution.co.uk",
+   "givenName": "Jowan",
+   "id": "ct-bddrv1363",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900413",
+   "surname": "Jerrold"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Kerensa Kesterton",
+   "email": "bd-drv-1370@brantlow-distribution.co.uk",
+   "givenName": "Kerensa",
+   "id": "ct-bddrv1370",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900410",
+   "surname": "Kesterton"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Llewelyn Lanyon",
+   "email": "bd-drv-1377@brantlow-distribution.co.uk",
+   "givenName": "Llewelyn",
+   "id": "ct-bddrv1377",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900415",
+   "surname": "Lanyon"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Mabyn Mawdsley",
+   "email": "bd-drv-1384@brantlow-distribution.co.uk",
+   "givenName": "Mabyn",
+   "id": "ct-bddrv1384",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900414",
+   "surname": "Mawdsley"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Nerys Netherwood",
+   "email": "bd-drv-1391@brantlow-distribution.co.uk",
+   "givenName": "Nerys",
+   "id": "ct-bddrv1391",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900416",
+   "surname": "Netherwood"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Osian Ollerenshaw",
+   "email": "bd-drv-1398@brantlow-distribution.co.uk",
+   "givenName": "Osian",
+   "id": "ct-bddrv1398",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900417",
+   "surname": "Ollerenshaw"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Petroc Pennington",
+   "email": "bd-drv-1405@brantlow-distribution.co.uk",
+   "givenName": "Petroc",
+   "id": "ct-bddrv1405",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900417",
+   "surname": "Pennington"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Rhodri Quarrell",
+   "email": "bd-drv-1412@brantlow-distribution.co.uk",
+   "givenName": "Rhodri",
+   "id": "ct-bddrv1412",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900415",
+   "surname": "Quarrell"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Sulwen Rowntree",
+   "email": "bd-drv-1419@brantlow-distribution.co.uk",
+   "givenName": "Sulwen",
+   "id": "ct-bddrv1419",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900415",
+   "surname": "Rowntree"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Tegan Scarisbrick",
+   "email": "bd-drv-1426@brantlow-distribution.co.uk",
+   "givenName": "Tegan",
+   "id": "ct-bddrv1426",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900417",
+   "surname": "Scarisbrick"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Urien Thurlow",
+   "email": "bd-drv-1433@brantlow-distribution.co.uk",
+   "givenName": "Urien",
+   "id": "ct-bddrv1433",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900413",
+   "surname": "Thurlow"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Wyn Upcott",
+   "email": "bd-drv-1440@brantlow-distribution.co.uk",
+   "givenName": "Wyn",
+   "id": "ct-bddrv1440",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900410",
+   "surname": "Upcott"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Ynyr Vardy",
+   "email": "bd-drv-1447@brantlow-distribution.co.uk",
+   "givenName": "Ynyr",
+   "id": "ct-bddrv1447",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900410",
+   "surname": "Vardy"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Aneira Wakelin",
+   "email": "bd-drv-1454@brantlow-distribution.co.uk",
+   "givenName": "Aneira",
+   "id": "ct-bddrv1454",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900414",
+   "surname": "Wakelin"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Bleddyn Yearsley",
+   "email": "bd-drv-1461@brantlow-distribution.co.uk",
+   "givenName": "Bleddyn",
+   "id": "ct-bddrv1461",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900416",
+   "surname": "Yearsley"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Cadell Allardyce",
+   "email": "bd-drv-1468@brantlow-distribution.co.uk",
+   "givenName": "Cadell",
+   "id": "ct-bddrv1468",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900416",
+   "surname": "Allardyce"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Delwyn Birkenshaw",
+   "email": "bd-drv-1475@brantlow-distribution.co.uk",
+   "givenName": "Delwyn",
+   "id": "ct-bddrv1475",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900417",
+   "surname": "Birkenshaw"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Eurig Crowhurst",
+   "email": "bd-drv-1482@brantlow-distribution.co.uk",
+   "givenName": "Eurig",
+   "id": "ct-bddrv1482",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900415",
+   "surname": "Crowhurst"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Gwenda Delamere",
+   "email": "bd-drv-1489@brantlow-distribution.co.uk",
+   "givenName": "Gwenda",
+   "id": "ct-bddrv1489",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900415",
+   "surname": "Delamere"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Heulwen Everingham",
+   "email": "bd-drv-1496@brantlow-distribution.co.uk",
+   "givenName": "Heulwen",
+   "id": "ct-bddrv1496",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900418",
+   "surname": "Everingham"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Iestyn Fotherby",
+   "email": "bd-drv-1503@brantlow-distribution.co.uk",
+   "givenName": "Iestyn",
+   "id": "ct-bddrv1503",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900415",
+   "surname": "Fotherby"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Lowri Grindrod",
+   "email": "bd-drv-1510@brantlow-distribution.co.uk",
+   "givenName": "Lowri",
+   "id": "ct-bddrv1510",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900410",
+   "surname": "Grindrod"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Meirion Hollinrake",
+   "email": "bd-drv-1517@brantlow-distribution.co.uk",
+   "givenName": "Meirion",
+   "id": "ct-bddrv1517",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900418",
+   "surname": "Hollinrake"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Nia Ibbotson",
+   "email": "bd-drv-1524@brantlow-distribution.co.uk",
+   "givenName": "Nia",
+   "id": "ct-bddrv1524",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900412",
+   "surname": "Ibbotson"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Ofydd Jolliffe",
+   "email": "bd-drv-1531@brantlow-distribution.co.uk",
+   "givenName": "Ofydd",
+   "id": "ct-bddrv1531",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900414",
+   "surname": "Jolliffe"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Pryderi Kingsnorth",
+   "email": "bd-drv-1538@brantlow-distribution.co.uk",
+   "givenName": "Pryderi",
+   "id": "ct-bddrv1538",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900418",
+   "surname": "Kingsnorth"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Rhiannon Loveridge",
+   "email": "bd-drv-1545@brantlow-distribution.co.uk",
+   "givenName": "Rhiannon",
+   "id": "ct-bddrv1545",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900418",
+   "surname": "Loveridge"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Seiriol Mottershead",
+   "email": "bd-drv-1552@brantlow-distribution.co.uk",
+   "givenName": "Seiriol",
+   "id": "ct-bddrv1552",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900419",
+   "surname": "Mottershead"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Tudur Nuttgens",
+   "email": "bd-drv-1559@brantlow-distribution.co.uk",
+   "givenName": "Tudur",
+   "id": "ct-bddrv1559",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900414",
+   "surname": "Nuttgens"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Wenna Oldacre",
+   "email": "bd-drv-1566@brantlow-distribution.co.uk",
+   "givenName": "Wenna",
+   "id": "ct-bddrv1566",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900413",
+   "surname": "Oldacre"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Alwena Prestwich",
+   "email": "bd-drv-1573@brantlow-distribution.co.uk",
+   "givenName": "Alwena",
+   "id": "ct-bddrv1573",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900416",
+   "surname": "Prestwich"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Brynmor Rimmington",
+   "email": "bd-drv-1580@brantlow-distribution.co.uk",
+   "givenName": "Brynmor",
+   "id": "ct-bddrv1580",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900410",
+   "surname": "Rimmington"
+  },
+  {
+   "companyName": "Brantlow Distribution Ltd",
+   "displayName": "Carys Standen",
+   "email": "bd-drv-1587@brantlow-distribution.co.uk",
+   "givenName": "Carys",
+   "id": "ct-bddrv1587",
+   "jobTitle": "LGV driver",
+   "mobilePhone": "07700 900413",
+   "surname": "Standen"
+  }
+ ],
+ "events": [
+  {
+   "attendees": [
+    "g.ambleforth@brantlow-distribution.co.uk"
+   ],
+   "end": "2026-11-10T10:00:00Z",
+   "id": "AAMkAGkdev1",
+   "isAllDay": false,
+   "isOnlineMeeting": false,
+   "location": "Keldford depot office",
+   "organizer_address": "d.chadha@brantlow-distribution.co.uk",
+   "organizer_name": "Dilraj Chadha",
+   "start": "2026-11-10T09:00:00Z",
+   "subject": "Period close review"
+  }
+ ],
+ "messages": [
+  {
+   "bodyPreview": "The 28 day period ends on Sunday 8 November. The audit return is due with me once every driver has had their notice.",
+   "contentType": "text",
+   "from_address": "g.ambleforth@brantlow-distribution.co.uk",
+   "from_name": "Gwenda Ambleforth",
+   "id": "AAMkAGkd001",
+   "importance": "normal",
+   "isRead": true,
+   "receivedDateTime": "2026-11-06T16:20:00Z",
+   "subject": "October period closes Sunday night",
+   "to_address": "d.chadha@brantlow-distribution.co.uk",
+   "to_name": "Dilraj Chadha"
+  },
+  {
+   "bodyPreview": "Both editions are in the document store. Edition 4 governs a duty by the duty's own start time at the depot, not by the roster week.",
+   "contentType": "text",
+   "from_address": "systems@brantlow-distribution.co.uk",
+   "from_name": "Compliance systems",
+   "id": "AAMkAGkd002",
+   "importance": "normal",
+   "isRead": true,
+   "receivedDateTime": "2026-10-26T07:05:00Z",
+   "subject": "Edition 4 rule tables now loaded",
+   "to_address": "d.chadha@brantlow-distribution.co.uk",
+   "to_name": "Dilraj Chadha"
+  }
+ ]
+}

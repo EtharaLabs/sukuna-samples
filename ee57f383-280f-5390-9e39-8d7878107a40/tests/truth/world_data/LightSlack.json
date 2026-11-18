@@ -1,0 +1,148 @@
+{
+ "channel_members": [
+  {
+   "channel_id": "C0KDANNOUNCE",
+   "user_id": "U0KDCHAD"
+  },
+  {
+   "channel_id": "C0KDANNOUNCE",
+   "user_id": "U0KDAMBL"
+  },
+  {
+   "channel_id": "C0KDANNOUNCE",
+   "user_id": "U0KDGATE"
+  },
+  {
+   "channel_id": "C0KDANNOUNCE",
+   "user_id": "U0KDUNIO"
+  },
+  {
+   "channel_id": "C0KDTRAFFIC",
+   "user_id": "U0KDCHAD"
+  },
+  {
+   "channel_id": "C0KDTRAFFIC",
+   "user_id": "U0KDAMBL"
+  },
+  {
+   "channel_id": "C0KDTRAFFIC",
+   "user_id": "U0KDGATE"
+  },
+  {
+   "channel_id": "C0KDTRAFFIC",
+   "user_id": "U0KDUNIO"
+  },
+  {
+   "channel_id": "G0KDUNIONREP",
+   "user_id": "U0KDGATE"
+  },
+  {
+   "channel_id": "G0KDUNIONREP",
+   "user_id": "U0KDUNIO"
+  }
+ ],
+ "channels": [
+  {
+   "created": 1760000000,
+   "creator": "U0KDCHAD",
+   "id": "C0KDANNOUNCE",
+   "is_archived": false,
+   "is_private": false,
+   "name": "keldford-announcements",
+   "num_members": 4,
+   "purpose": "One way depot notices",
+   "topic": "Depot notices"
+  },
+  {
+   "created": 1760000100,
+   "creator": "U0KDAMBL",
+   "id": "C0KDTRAFFIC",
+   "is_archived": false,
+   "is_private": false,
+   "name": "keldford-traffic-office",
+   "num_members": 3,
+   "purpose": "Day to day planning",
+   "topic": "Duty planning chatter"
+  },
+  {
+   "created": 1760000200,
+   "creator": "U0KDUNIO",
+   "id": "G0KDUNIONREP",
+   "is_archived": false,
+   "is_private": true,
+   "name": "keldford-union-representatives",
+   "num_members": 2,
+   "purpose": "Union representatives. Depot management does not post here.",
+   "topic": "Representative business only"
+  }
+ ],
+ "messages": [
+  {
+   "channel_id": "C0KDANNOUNCE",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Clocks go back at 02:00 on Sunday 25 October. Night trunk crews: your duty will run through the change, so key the gate terminal as you find it and let the card download carry the true times.",
+   "thread_ts": null,
+   "ts": "1761300000.000100",
+   "user_id": "U0KDCHAD"
+  },
+  {
+   "channel_id": "C0KDANNOUNCE",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Edition 4 of WT-7 takes effect on Monday 26 October. It is the duty's own start time at this depot that decides which edition governs it.",
+   "thread_ts": null,
+   "ts": "1761900000.000100",
+   "user_id": "U0KDAMBL"
+  },
+  {
+   "channel_id": "C0KDTRAFFIC",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Gate terminal is still keying clock-out on summer time. Raised it as a problem record. The movement log pages are written with the right offset.",
+   "thread_ts": null,
+   "ts": "1762100000.000100",
+   "user_id": "U0KDGATE"
+  },
+  {
+   "channel_id": "G0KDUNIONREP",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Representatives only. Nothing from the period audit is to be posted in this channel; drivers hear from the compliance mailbox directly.",
+   "thread_ts": null,
+   "ts": "1762400000.000100",
+   "user_id": "U0KDUNIO"
+  }
+ ],
+ "team": {
+  "domain": "brantlow-keldford",
+  "id": "T0KELDFORD",
+  "name": "Brantlow Distribution Ltd Keldford"
+ },
+ "users": [
+  {
+   "id": "U0KDCHAD",
+   "is_admin": true,
+   "is_bot": false,
+   "name": "d.chadha"
+  },
+  {
+   "id": "U0KDAMBL",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "g.ambleforth"
+  },
+  {
+   "id": "U0KDGATE",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "keldford.gatehouse"
+  },
+  {
+   "id": "U0KDUNIO",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "union.rep.keldford"
+  }
+ ]
+}

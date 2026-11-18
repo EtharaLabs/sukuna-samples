@@ -1,0 +1,148 @@
+{
+ "channel_members": [
+  {
+   "channel_id": "C0CRNNOTICE",
+   "user_id": "U0CRNMGR"
+  },
+  {
+   "channel_id": "C0CRNNOTICE",
+   "user_id": "U0CRNCTL"
+  },
+  {
+   "channel_id": "C0CRNNOTICE",
+   "user_id": "U0CRNDESK"
+  },
+  {
+   "channel_id": "C0CRNNOTICE",
+   "user_id": "U0CRNLIA"
+  },
+  {
+   "channel_id": "C0CRNDESK",
+   "user_id": "U0CRNMGR"
+  },
+  {
+   "channel_id": "C0CRNDESK",
+   "user_id": "U0CRNCTL"
+  },
+  {
+   "channel_id": "C0CRNDESK",
+   "user_id": "U0CRNDESK"
+  },
+  {
+   "channel_id": "C0CRNDESK",
+   "user_id": "U0CRNLIA"
+  },
+  {
+   "channel_id": "C0CRNLIAISON",
+   "user_id": "U0CRNDESK"
+  },
+  {
+   "channel_id": "C0CRNLIAISON",
+   "user_id": "U0CRNLIA"
+  }
+ ],
+ "channels": [
+  {
+   "created": 1759600000,
+   "creator": "U0CRNMGR",
+   "id": "C0CRNNOTICE",
+   "is_archived": false,
+   "is_private": false,
+   "name": "calderwick-notices",
+   "num_members": 4,
+   "purpose": "One way notices to the region",
+   "topic": "Region notices"
+  },
+  {
+   "created": 1759600100,
+   "creator": "U0CRNCTL",
+   "id": "C0CRNDESK",
+   "is_archived": false,
+   "is_private": false,
+   "name": "calderwick-dispatch-desk",
+   "num_members": 3,
+   "purpose": "Day to day dispatch and cover",
+   "topic": "Dispatch chatter"
+  },
+  {
+   "created": 1759600200,
+   "creator": "U0CRNLIA",
+   "id": "C0CRNLIAISON",
+   "is_archived": false,
+   "is_private": false,
+   "name": "customer-liaison-calderwick",
+   "num_members": 2,
+   "purpose": "Customer liaison. Audit material is never posted here.",
+   "topic": "Customer liaison business only"
+  }
+ ],
+ "messages": [
+  {
+   "channel_id": "C0CRNNOTICE",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Revision C of the response code starts at midnight on Monday 19 October, depot local. The dispatch instant on the page decides which revision covers a call.",
+   "thread_ts": null,
+   "ts": "1760900000.000100",
+   "user_id": "U0CRNMGR"
+  },
+  {
+   "channel_id": "C0CRNNOTICE",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Clocks go back in the early hours of Sunday 25 October. Key the desk as you find it and let the paging archive carry the true instants.",
+   "thread_ts": null,
+   "ts": "1761300000.000100",
+   "user_id": "U0CRNCTL"
+  },
+  {
+   "channel_id": "C0CRNDESK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Reminder for standby crews: a job sheet countersigned at hand-back beats the paging clear line, which only tells us when the session dropped.",
+   "thread_ts": null,
+   "ts": "1761700000.000100",
+   "user_id": "U0CRNDESK"
+  },
+  {
+   "channel_id": "C0CRNLIAISON",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Liaison business only in here. Nothing from a response audit is posted in this channel; engineers hear from the operations mailbox.",
+   "thread_ts": null,
+   "ts": "1762000000.000100",
+   "user_id": "U0CRNLIA"
+  }
+ ],
+ "team": {
+  "domain": "thornby-calderwick",
+  "id": "T0CALDERWICK",
+  "name": "Thornby Field Services Ltd Calderwick"
+ },
+ "users": [
+  {
+   "id": "U0CRNMGR",
+   "is_admin": true,
+   "is_bot": false,
+   "name": "p.oakhollow"
+  },
+  {
+   "id": "U0CRNCTL",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "s.blackmarsh"
+  },
+  {
+   "id": "U0CRNDESK",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "calderwick.desk"
+  },
+  {
+   "id": "U0CRNLIA",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "liaison.desk"
+  }
+ ]
+}
