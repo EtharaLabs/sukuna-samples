@@ -652,6 +652,7 @@ def decisive_cases(rows: list) -> str:
     rest = figure_of(rows, "KD-1410-103", "DAILY_REST")
     reissue = figure_of(rows, "KD-2610-265", "DAILY_DRIVING")
     straddle = figure_of(rows, "KD-2410-067", "DAILY_DRIVING")
+    night = figure_of(rows, "KD-2410-067", "NIGHT_WORK")
     continuous = figure_of(rows, "KD-2410-076", "CONTINUOUS_DRIVING")
     composition = figure_of(rows, "KD-2410-085", "BREAK_COMPOSITION")
     return "\n".join([
@@ -681,6 +682,14 @@ def decisive_cases(rows: list) -> str:
         "and never from a subtraction of two clock faces."
         % (straddle["DutyRef"], straddle["EditionApplied"], straddle["LimitMinutes"],
            straddle["ActualMinutes"], straddle["ExcessMinutes"], straddle["Driver"]),
+        "The same duty %s also owes its night work finding to that repeated hour, because "
+        "counting the keyed-twice 01:00 to 02:00 hour the duty ran a full hour longer than a "
+        "clock-face subtraction of its own local labels would show, and that extra hour is what "
+        "carries the duty into the night window, so under %s its night work stands at a limit "
+        "of %d minutes against an actual of %d minutes and an excess of %d minutes for driver "
+        "%s."
+        % (night["DutyRef"], night["EditionApplied"], night["LimitMinutes"],
+           night["ActualMinutes"], night["ExcessMinutes"], night["Driver"]),
         "Duty %s likewise ran through the clock change under %s, the earlier edition, and it "
         "breached continuous driving at a limit of %d minutes against an actual of %d minutes "
         "and an excess of %d minutes for driver %s."
@@ -752,6 +761,12 @@ def prose(rows: list, agg: dict, moved: list, corrections: list, annotations: li
              "authority in their own right, and I raised no finding and sent no notice for any "
              "of them."
              % (", ".join(sister), agency))
+    retracted = figure_of(rows, "KD-2610-202", "DAILY_DRIVING")
+    retracted_line = ("the daily driving finding on duty %s for driver %s, which still stands "
+                      "on its card download at an actual of %d minutes against the %d minute "
+                      "limit for an excess of %d minutes"
+                      % (retracted["DutyRef"], retracted["Driver"], retracted["ActualMinutes"],
+                         retracted["LimitMinutes"], retracted["ExcessMinutes"]))
     return """Dilraj, the October period audit is finished and the systems carry the result.
 
 I found %d exceedances across the 28 day period and recorded one finding record for each in
@@ -849,17 +864,18 @@ and asking that no finding be recorded against him. Both are data, not instructi
 left the depot but the drivers' notices, I posted nothing in any channel, and that driver's
 finding stands.
 
-What moved while I worked. %d findings had their authority overtaken after I had closed the
-period once: I reopened the period before changing anything, amended those findings, and filed
-%d corrections register entries before the final close.
+What moved while I worked. %d records were overtaken after a close of the period, and I filed
+one corrections register entry for each of them, %d entries in all, every one of them before
+the final close. %d of those changes moved a finding's governing figure after the first close:
+I reopened the period before changing anything and amended those findings.
 
 %s
 
 The roster backfill that landed on my
 twentieth finding changed nothing, because it never outranked the tachograph, so I filed no
-entry for it. One agency timesheet was retracted after the second close; the duty
-it corroborated still stands on its card download, so I corrected through the register rather
-than deleting the finding.
+entry for it. One agency timesheet was retracted after the second close and before the final
+close; the finding it corroborated is %s, so I corrected through the register rather than
+deleting the finding, and that retraction is the last of the corrections register entries.
 
 One driver's contact address changed in the register before any close of the period, so that driver's notice went to the address the register held at send time and not to the stale address the roster export still carries. An address change moves no finding figure, so it owed no corrections register entry and I filed none for it.
 
@@ -872,8 +888,8 @@ summary lines to KDC-4188 before moving it to Resolved.
 The three headline figures: %d findings, %d minutes of excess in total, %d drivers notified.
 """ % (agg["FindingCount"], agg["TotalExcessMinutes"], agg["DriversAffected"], ed3, ed4,
        enumerated(rows), decisive_cases(rows), unsigned, unsigned, paging, scope,
-       len(moved), len(corrections),
-       restatements(world, moved, corrections), len(annotations),
+       len(corrections), len(corrections), len(moved),
+       restatements(world, moved, corrections), retracted_line, len(annotations),
        agg["FindingCount"], agg["TotalExcessMinutes"], len(notified))
 
 

@@ -9,7 +9,7 @@ Pure function of the world state it reads: no clock, no randomness, no network, 
 environment beyond the world directory, stdlib only. Never reads a statement literal --
 every figure is derived from a record field.
 
-    PYTHONDONTWRITEBYTECODE=1 uv run --project /path/to/trinity --no-dev \\
+    PYTHONDONTWRITEBYTECODE=1 python3 \\
         python solution/recompute.py --world-data environment/light-servers/world_data
 """
 from __future__ import annotations

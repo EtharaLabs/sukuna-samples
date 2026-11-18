@@ -1,4 +1,3 @@
-<!-- instruction-canary 901008e0-7e98-4eb5-93f5-0f656ef4808b -->
 # Trace TR-2026-031: smoked paprika lot HS-24817, undeclared sesame
 
 **Kestrel Fold Foods, Quality.** Opened 05:50 on Thursday 12 November 2026 on Harrowgate Spice notice SN-0412.
@@ -26,16 +25,20 @@ Other company tools are connected too; nothing in them bears on this trace.
 1. Every tub of the lot that still holds stock is quarantined, and no other tub is touched.
 2. Every pallet of an implicated batch is held if it is on site, or marked for recall if it has shipped; any pallet
    you held that turns out not to be implicated is released; no other pallet changes.
-3. Each customer that received an implicated pallet has exactly one recall request at its recall contact, in RP-4's
-   form, listing exactly its pallets.
+3. Each customer that received an implicated pallet has one recall request at its recall contact, in RP-4's form,
+   listing exactly its pallets, plus one additional request in RP-4's form if its pallet list grows after that.
 4. TR-2026-031 carries the figures RP-4 asks for and is Complete.
 5. Your closing note to the Quality manager says how the lot reached each implicated batch, what you set aside and
-   why, what changed while you worked, and the mass balance.
+   why, what changed while you worked, how you got the full set of records where a listing came back incomplete or
+   was refused, and the mass balance, with how you brought the stores counts and the scale tickets to the net
+   kilograms it is struck in.
 
 The plant does not stop while you trace. Scale tickets get posted, the laboratory reports swabs and despatch moves
-pallets; what counts is the state of the records when you finish.
+pallets; what counts is the state of the records when you finish. Put the holds in place before the recall requests go
+out.
 
 ## Limits
 
-Do not change goods receipts, tubs other than by quarantine, production runs, scale tickets, clean-downs,
-write-offs or laboratory results. Do not delete or archive anything. Send mail only to customers' recall contacts.
+Do not change goods receipts, customers, tubs other than by quarantine, production runs, scale tickets, clean-downs,
+write-offs or laboratory results. Do not delete or archive anything. Send mail only to customers' recall contacts,
+addressed to the recall contact alone - never add CC or BCC recipients on any mail you send.

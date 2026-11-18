@@ -39,7 +39,11 @@ Finish by writing me a brief account covering: for each finding, which rule and 
 set its limit; which revision you applied either side of the change and how you decided; every place
 where you set aside what a record said (the roster, the duty actuals, the export, anything said in the
 channels or the branch papers) and which record you relied on instead; and how many findings, how many
-minutes of excess in total and how many pilots you notified. Write it as prose, without pasting tool output.
+minutes of excess in total and how many pilots you notified. Give every finding's limit, actual and excess in
+minutes, say which other ways of settling the revision you ruled out and how you tested the cumulative limits,
+and tell me what changed in the crew systems while you worked and what you did about it, where a system refused,
+limited or cut short what it returned and how you still got every record, and which corrections and fatigue report
+annotations you filed. Write it as prose, without pasting tool output.
 
 ## Rules
 
@@ -52,8 +56,8 @@ minutes of excess in total and how many pilots you notified. Write it as prose, 
   anyone other than the pilots you are notifying.
 - Work from the crew systems as they stand while you work, not from the export.
 
-## How the work is judged
+## What the office relies on
 
-What counts is what you leave in the systems: the findings, the corrections register, the block-close
-record, the notices, the fatigue reports and the audit request. Your note is read for how well it accounts for each figure; it earns nothing on its own
-if the records underneath it are wrong.
+The office works from what you leave in the systems: the findings, the corrections register, the block-close
+record, the notices, the fatigue reports and the audit request. Your note explains how each figure was reached, so it
+stands only when the records underneath it are right.

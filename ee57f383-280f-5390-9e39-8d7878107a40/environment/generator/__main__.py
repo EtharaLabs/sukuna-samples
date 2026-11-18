@@ -2,7 +2,7 @@
 
 Run from this file's parent directory (environment/):
 
-    PYTHONDONTWRITEBYTECODE=1 uv run --project /path/to/trinity \\
+    PYTHONDONTWRITEBYTECODE=1 python3 \\
         --no-dev python -m generator --root .
 
 The world is a pure function of the world seed and the slot generation-input digest. The

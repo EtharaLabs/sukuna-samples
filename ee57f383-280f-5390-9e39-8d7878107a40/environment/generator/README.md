@@ -9,7 +9,7 @@ at `/workspace/data`, and `/workspace` scratch.
 Run from `environment/` (the generator's parent directory):
 
 ```
-PYTHONDONTWRITEBYTECODE=1 uv run --project /path/to/trinity \
+PYTHONDONTWRITEBYTECODE=1 python3 \
     --no-dev python -m generator --root .
 ```
 
@@ -51,15 +51,15 @@ cd <root>/light-servers && find world_data task_data drive_blobs -type f | sort 
 
 This pipeline digest is an **internal cross-check only**. The digest the bundle's provenance
 binds is the canonical sorted `{path, sha256}` entries value over the same 303 files, which
-`solution/TRUTH.md` section 10 defines and reports; it is
+the bundle's provenance record defines; it is
 `447373bb4af8a026e5fbd497fa19807b9ebab7c687d31bb3a20751c56076563c` for this draft.
 
 The digest moved from `17e9583b…` when the driver register's `ContactAddress` was reissued
 in electronic-mail form, and again from `24e37078…` when the follow-up ticket's finished
 state was corrected to the platform's own `Resolved` — the field guide's section 7 line and
 the `KDC-4188` description both changed. It moved a third time, from `c8455155…`, when the
-`forge_canary` string field was removed from all thirty overlays: a canary a model under
-test can read is a hint, not a tripwire, so every canary carrier now lives only in private
+`forge_tripwire` string field was removed from all thirty overlays: a marker a model under
+test can read is a hint, not a tripwire, so every such carrier now lives only in private
 bytes and this generator emits none. The reference finding set did not move with any of the
 three.
 
@@ -358,7 +358,7 @@ Two, both ordinary in-world record text addressed to depot staff, never to a mod
    records. Closing the remaining twenty is a mechanical follow-up once their schemas are read.
    Each of the twenty is the JSON object `{}`: `world_data.py` appends every collection the
    overlay names, so an overlay that names none adds nothing and leaves the vendored corpus
-   whole. These files previously carried a `forge_canary` field and nothing else.
+   whole. These files previously carried a `forge_tripwire` field and nothing else.
 
 5. **`contradicting_carrier_duties` was left "bound at Phase build"** by the contract; this
    world binds it at 3.

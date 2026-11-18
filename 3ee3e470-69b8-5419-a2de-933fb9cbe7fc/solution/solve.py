@@ -965,24 +965,34 @@ def correction_account(entries, moved, settled, corrected):
         after = next((f for f in corrected if f["incident_ref"] == entry["incident_ref"]),
                      None)
         if after is None:
+            disposition = "withdrawn"
             consequence = ("would withdraw the finding on incident %s altogether"
                            % entry["incident_ref"])
         else:
+            disposition = "refigured"
             consequence = ("would refigure the finding on incident %s from an excess of %d "
                            "minutes to an excess of %d minutes"
                            % (entry["incident_ref"],
                               0 if row is None else row["excess_minutes"],
                               after["excess_minutes"]))
+        window = ""
+        if (entry["FieldChanged"] == "FirstAttemptMinutesAfterDispatch"
+                and str(entry["NewValue"]).isdigit()
+                and int(entry["NewValue"]) <= R.REMOTE_WINDOW_C):
+            window = (", a first remote attempt %s minutes after dispatch that falls inside the "
+                      "Revision C remote window of %d minutes"
+                      % (entry["NewValue"], R.REMOTE_WINDOW_C))
         lines.append(
             "Record %s moved on %s from %s to %s after I had already relied on it and the "
-            "log says so on its face, which on the moved reading %s, and because a finding is "
+            "log says so on its face%s, which on the moved reading %s, and because a finding is "
             "corrected and never deleted I left finding %s standing on the figure it was "
             "raised on, an excess of %d minutes for engineer %s, and filed a corrections "
-            "register entry against that record before the final close."
+            "register entry against that record before the final close, carrying the %s "
+            "disposition."
             % (entry["RecordRef"], entry["FieldChanged"], entry["OldValue"],
-               entry["NewValue"], consequence, entry["FindingRef"],
+               entry["NewValue"], window, consequence, entry["FindingRef"],
                0 if row is None else row["excess_minutes"],
-               "unknown" if row is None else row["engineer_id"]))
+               "unknown" if row is None else row["engineer_id"], disposition))
     return "\n".join(lines)
 
 

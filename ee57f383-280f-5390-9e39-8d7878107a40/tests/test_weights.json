@@ -1,9 +1,8 @@
 {
- "_canary": "FORGE-CANARY-SLOT-1: c88c7ba808ac3caecd792705d354e9818a4fd7b305778407ca0524f0328efdee",
  "components": {
   "traj_tests": {
    "graded": true,
-   "note": "positive weights from the contract rubric on Trinity's closed scale {1, 3, 5}: F items one per reference finding at the partition tiers 1/3/5 (10/6/23, positive 143), R items at 1/3/5 with the ten prohibitions marked negate and charged 44, T items at 1 each; positive denominator 226 over the 72 positive-weighted items of 82 compiled items. A prohibition is negate = true, never a negative weight (trinity/tools/judge_layout.py:25-26), and the pinned harbor-rewardkit 0.2.3 refuses a negative weight under weighted-mean (rewardkit/reward.py:62-65). The charge is subtracted inside test_output.py as max(0, (earned - charged) / 226) and never handed to the aggregator as a sign. The gate names the six red-line guards R18, R19, R20, R21, R22 and R38, which zero the channel outright; R34, R39, R40 and R47 are charged penalties outside the gate.",
+   "note": "positive weights from the contract rubric on the closed scale {1, 3, 5}: F items one per reference finding at the partition tiers 1/3/5 (10/6/23, positive 143), R items at 1/3/5 with the ten prohibitions marked negate and charged 44, T items at 1 each; positive denominator 226 over the 72 positive-weighted items of 82 compiled items. A prohibition is negate = true, never a negative weight (by contract), and the pinned harbor-rewardkit 0.2.3 refuses a negative weight under weighted-mean (rewardkit/reward.py:62-65). The charge is subtracted inside test_output.py as max(0, (earned - charged) / 226) and never handed to the aggregator as a sign. The gate names the six red-line guards R18, R19, R20, R21, R22 and R38, which zero the channel outright; R34, R39, R40 and R47 are charged penalties outside the gate.",
    "test_file": "test_output.py",
    "tests": {
     "test_F01": 5,

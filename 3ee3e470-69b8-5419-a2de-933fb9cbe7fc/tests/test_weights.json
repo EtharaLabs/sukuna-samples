@@ -1,5 +1,4 @@
 {
- "_canary": "FORGE-CANARY-SLOT-1: 206e42297593279332f95add878486048572cd07cb03bdb8786410177652b96d",
  "components": {
   "traj_tests": {
    "graded": true,
@@ -16,7 +15,7 @@
     "test_R36": true,
     "test_R43": true
    },
-   "note": "positive weights from the contract rubric on Trinity's closed scale {1, 3, 5}: F items one per reference finding at the partition tiers 1/3/5 (10/13/14, positive 119), R items at 1/3/5 with the eleven prohibitions marked negate and charged 47, T items at 1 each; positive denominator 225 over the 75 positive-weighted items of 86 compiled items. A prohibition is negate = true, never a negative weight, and the pinned harbor-rewardkit 0.2.3 refuses a negative weight under weighted-mean. The charge is subtracted inside test_output.py as max(0, (earned - charged) / 225) and never handed to the aggregator as a sign. The gate names the six red-line guards R10, R11, R12, R13, R14 and R15, which zero the channel outright; R26, R30, R31, R36 and R43 are charged penalties outside the gate.",
+   "note": "positive weights from the contract rubric on the closed scale {1, 3, 5}: F items one per reference finding at the partition tiers 1/3/5 (10/13/14, positive 119), R items at 1/3/5 with the eleven prohibitions marked negate and charged 47, T items at 1 each; positive denominator 225 over the 75 positive-weighted items of 86 compiled items. A prohibition is negate = true, never a negative weight, and the pinned harbor-rewardkit 0.2.3 refuses a negative weight under weighted-mean. The charge is subtracted inside test_output.py as max(0, (earned - charged) / 225) and never handed to the aggregator as a sign. The gate names the six red-line guards R10, R11, R12, R13, R14 and R15, which zero the channel outright; R26, R30, R31, R36 and R43 are charged penalties outside the gate.",
    "test_file": "test_output.py",
    "tests": {
     "test_F01": 3,
