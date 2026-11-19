@@ -1,0 +1,149 @@
+{
+  "mcpServers": {
+    "LightNotion": {
+      "type": "http",
+      "url": "http://localhost:9099/mcp"
+    },
+    "LightJira": {
+      "type": "http",
+      "url": "http://localhost:9086/mcp"
+    },
+    "LightGmail": {
+      "type": "http",
+      "url": "http://localhost:9074/mcp"
+    },
+    "LightGoogleDrive": {
+      "type": "http",
+      "url": "http://localhost:9078/mcp"
+    },
+    "LightMicrosoftTeams": {
+      "type": "http",
+      "url": "http://localhost:9094/mcp"
+    },
+    "LightGoogleCalendar": {
+      "type": "http",
+      "url": "http://localhost:9076/mcp"
+    },
+    "LightPagerDuty": {
+      "type": "http",
+      "url": "http://localhost:9105/mcp"
+    },
+    "LightAsana": {
+      "type": "http",
+      "url": "http://localhost:9052/mcp"
+    },
+    "LightBox": {
+      "type": "http",
+      "url": "http://localhost:9056/mcp"
+    },
+    "LightCalendar": {
+      "type": "http",
+      "url": "http://localhost:9008/mcp"
+    },
+    "LightConfluence": {
+      "type": "http",
+      "url": "http://localhost:9060/mcp"
+    },
+    "LightDatadog": {
+      "type": "http",
+      "url": "http://localhost:9062/mcp"
+    },
+    "LightDocuSign": {
+      "type": "http",
+      "url": "http://localhost:9064/mcp"
+    },
+    "LightDropbox": {
+      "type": "http",
+      "url": "http://localhost:9066/mcp"
+    },
+    "LightFreshdesk": {
+      "type": "http",
+      "url": "http://localhost:9071/mcp"
+    },
+    "LightHubspot": {
+      "type": "http",
+      "url": "http://localhost:9082/mcp"
+    },
+    "LightIntercom": {
+      "type": "http",
+      "url": "http://localhost:9085/mcp"
+    },
+    "LightLinear": {
+      "type": "http",
+      "url": "http://localhost:9090/mcp"
+    },
+    "LightMonday": {
+      "type": "http",
+      "url": "http://localhost:9096/mcp"
+    },
+    "LightOkta": {
+      "type": "http",
+      "url": "http://localhost:9101/mcp"
+    },
+    "LightOutlook": {
+      "type": "http",
+      "url": "http://localhost:9104/mcp"
+    },
+    "LightQuickBooks": {
+      "type": "http",
+      "url": "http://localhost:9110/mcp"
+    },
+    "LightSalesforce": {
+      "type": "http",
+      "url": "http://localhost:9113/mcp"
+    },
+    "LightSentry": {
+      "type": "http",
+      "url": "http://localhost:9116/mcp"
+    },
+    "LightServiceNow": {
+      "type": "http",
+      "url": "http://localhost:9117/mcp"
+    },
+    "LightSlack": {
+      "type": "http",
+      "url": "http://localhost:9119/mcp"
+    },
+    "LightTrello": {
+      "type": "http",
+      "url": "http://localhost:9127/mcp"
+    },
+    "LightXero": {
+      "type": "http",
+      "url": "http://localhost:9139/mcp"
+    },
+    "LightZendesk": {
+      "type": "http",
+      "url": "http://localhost:9142/mcp"
+    },
+    "LightZoom": {
+      "type": "http",
+      "url": "http://localhost:9144/mcp"
+    }
+  },
+  "firstStartTime": "2026-11-18T09:45:45.594Z",
+  "firstStartVersion": "2.1.327",
+  "machineID": "a423406dd098e8db3d9e47d54e5a3ef7b6da8238bd191fa33c90cf329895784c",
+  "opusProMigrationComplete": true,
+  "seenNotifications": {},
+  "hasResetAutoModeOptInForDefaultOffer": true,
+  "migrationVersion": 15,
+  "userID": "e423169514dd3ff94b83abe5acaa3591e78cdf74706cbec694082a7331fe4665",
+  "pluginUsage": {
+    "cc-plugin-agents-md@builtin": {
+      "usageCount": 0,
+      "lastUsedAt": 1794995145745,
+      "lastUsedNumStartups": 0
+    },
+    "cc-plugin-privacy@builtin": {
+      "usageCount": 0,
+      "lastUsedAt": 1794995145745,
+      "lastUsedNumStartups": 0
+    },
+    "cc-plugin-plugin-authoring@builtin": {
+      "usageCount": 0,
+      "lastUsedAt": 1794995145745,
+      "lastUsedNumStartups": 0
+    }
+  }
+}

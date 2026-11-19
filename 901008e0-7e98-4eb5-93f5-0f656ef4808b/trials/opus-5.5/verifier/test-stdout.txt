@@ -1,0 +1,4 @@
+[1/5 trajectory] 254 steps from claude-code.txt; final message 3425 chars
+[2/5 state] snapshot present
+[3/5 pytest] some checks failed (reporting only; the ledger scores them)
+[5/5 reward] {"pytest": 0.865942, "reward": 0.588526, "rubric": 0.311111}

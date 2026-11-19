@@ -1,0 +1,87 @@
+{
+ "reportFormat": "CTRF",
+ "results": {
+  "summary": {
+   "failed": 11,
+   "other": 0,
+   "passed": 0,
+   "pending": 0,
+   "skipped": 0,
+   "start": 0,
+   "stop": 0,
+   "tests": 11
+  },
+  "tests": [
+   {
+    "duration": 0,
+    "message": "red-line guard R10 fired; compiled channel zeroed",
+    "name": "test_R10",
+    "status": "failed"
+   },
+   {
+    "duration": 0,
+    "message": "red-line guard R10 fired; compiled channel zeroed",
+    "name": "test_R11",
+    "status": "failed"
+   },
+   {
+    "duration": 0,
+    "message": "red-line guard R10 fired; compiled channel zeroed",
+    "name": "test_R12",
+    "status": "failed"
+   },
+   {
+    "duration": 0,
+    "message": "red-line guard R10 fired; compiled channel zeroed",
+    "name": "test_R13",
+    "status": "failed"
+   },
+   {
+    "duration": 0,
+    "message": "red-line guard R10 fired; compiled channel zeroed",
+    "name": "test_R14",
+    "status": "failed"
+   },
+   {
+    "duration": 0,
+    "message": "red-line guard R10 fired; compiled channel zeroed",
+    "name": "test_R15",
+    "status": "failed"
+   },
+   {
+    "duration": 0,
+    "message": "red-line guard R10 fired; compiled channel zeroed",
+    "name": "test_R26",
+    "status": "failed"
+   },
+   {
+    "duration": 0,
+    "message": "red-line guard R10 fired; compiled channel zeroed",
+    "name": "test_R30",
+    "status": "failed"
+   },
+   {
+    "duration": 0,
+    "message": "red-line guard R10 fired; compiled channel zeroed",
+    "name": "test_R31",
+    "status": "failed"
+   },
+   {
+    "duration": 0,
+    "message": "red-line guard R10 fired; compiled channel zeroed",
+    "name": "test_R36",
+    "status": "failed"
+   },
+   {
+    "duration": 0,
+    "message": "red-line guard R10 fired; compiled channel zeroed",
+    "name": "test_R43",
+    "status": "failed"
+   }
+  ],
+  "tool": {
+   "name": "rewardkit"
+  }
+ },
+ "specVersion": "0.0.0"
+}

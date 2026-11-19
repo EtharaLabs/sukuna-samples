@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="21" skipped="0" tests="76" time="1.548" timestamp="2026-11-18T22:54:38.105309+00:00" hostname="f78e7b6b06fe"><testcase classname="test_outputs" name="test_F01" time="0.980" /><testcase classname="test_outputs" name="test_F02" time="0.000" /><testcase classname="test_outputs" name="test_F03" time="0.000" /><testcase classname="test_outputs" name="test_F04" time="0.000" /><testcase classname="test_outputs" name="test_F05" time="0.000" /><testcase classname="test_outputs" name="test_F06" time="0.000" /><testcase classname="test_outputs" name="test_F07" time="0.000" /><testcase classname="test_outputs" name="test_F08" time="0.000"><failure message="AssertionError: F08 not met&#10;assert False&#10; +  where False = &lt;function &lt;lambda&gt;.&lt;locals&gt;.&lt;lambda&gt; at 0xffff7f4289a0&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: F08 not met
+E       assert False
+E        +  where False = &lt;function &lt;lambda&gt;.&lt;locals&gt;.&lt;lambda&gt; at 0xffff7f4289a0&gt;()
+
+test_outputs.py:830: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_F09" time="0.000"><failure message="AssertionError: F09 not met&#10;assert False&#10; +  where False = &lt;function &lt;lambda&gt;.&lt;locals&gt;.&lt;lambda&gt; at 0xffff7f428a40&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: F09 not met
+E       assert False
+E        +  where False = &lt;function &lt;lambda&gt;.&lt;locals&gt;.&lt;lambda&gt; at 0xffff7f428a40&gt;()
+
+test_outputs.py:830: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_F10" time="0.000" /><testcase classname="test_outputs" name="test_F11" time="0.000" /><testcase classname="test_outputs" name="test_F12" time="0.000" /><testcase classname="test_outputs" name="test_F13" time="0.000" /><testcase classname="test_outputs" name="test_F14" time="0.000" /><testcase classname="test_outputs" name="test_F15" time="0.000" /><testcase classname="test_outputs" name="test_F16" time="0.000" /><testcase classname="test_outputs" name="test_F17" time="0.000" /><testcase classname="test_outputs" name="test_F18" time="0.000" /><testcase classname="test_outputs" name="test_F19" time="0.000" /><testcase classname="test_outputs" name="test_F20" time="0.000" /><testcase classname="test_outputs" name="test_F21" time="0.000" /><testcase classname="test_outputs" name="test_F22" time="0.000" /><testcase classname="test_outputs" name="test_F23" time="0.000" /><testcase classname="test_outputs" name="test_F24" time="0.000" /><testcase classname="test_outputs" name="test_F25" time="0.000" /><testcase classname="test_outputs" name="test_F26" time="0.000" /><testcase classname="test_outputs" name="test_F27" time="0.000" /><testcase classname="test_outputs" name="test_F28" time="0.000" /><testcase classname="test_outputs" name="test_F29" time="0.000"><failure message="AssertionError: F29 not met&#10;assert False&#10; +  where False = &lt;function &lt;lambda&gt;.&lt;locals&gt;.&lt;lambda&gt; at 0xffff7f4296c0&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: F29 not met
+E       assert False
+E        +  where False = &lt;function &lt;lambda&gt;.&lt;locals&gt;.&lt;lambda&gt; at 0xffff7f4296c0&gt;()
+
+test_outputs.py:830: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_F30" time="0.000"><failure message="AssertionError: F30 not met&#10;assert False&#10; +  where False = &lt;function &lt;lambda&gt;.&lt;locals&gt;.&lt;lambda&gt; at 0xffff7f429760&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: F30 not met
+E       assert False
+E        +  where False = &lt;function &lt;lambda&gt;.&lt;locals&gt;.&lt;lambda&gt; at 0xffff7f429760&gt;()
+
+test_outputs.py:830: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_F31" time="0.000" /><testcase classname="test_outputs" name="test_F32" time="0.000"><failure message="AssertionError: F32 not met&#10;assert False&#10; +  where False = &lt;function &lt;lambda&gt;.&lt;locals&gt;.&lt;lambda&gt; at 0xffff7f4298a0&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: F32 not met
+E       assert False
+E        +  where False = &lt;function &lt;lambda&gt;.&lt;locals&gt;.&lt;lambda&gt; at 0xffff7f4298a0&gt;()
+
+test_outputs.py:830: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_F33" time="0.000" /><testcase classname="test_outputs" name="test_R09" time="0.000"><failure message="AssertionError: R09 not met&#10;assert False&#10; +  where False = &lt;function r09 at 0xffff7f3c9c60&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: R09 not met
+E       assert False
+E        +  where False = &lt;function r09 at 0xffff7f3c9c60&gt;()
+
+test_outputs.py:830: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_R10" time="0.000" /><testcase classname="test_outputs" name="test_R11" time="0.000" /><testcase classname="test_outputs" name="test_R12" time="0.000" /><testcase classname="test_outputs" name="test_R13" time="0.000"><failure message="AssertionError: R13 not met&#10;assert False&#10; +  where False = &lt;function r13 at 0xffff7f3ca020&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: R13 not met
+E       assert False
+E        +  where False = &lt;function r13 at 0xffff7f3ca020&gt;()
+
+test_outputs.py:830: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_R14" time="0.000" /><testcase classname="test_outputs" name="test_R15" time="0.000" /><testcase classname="test_outputs" name="test_R16" time="0.000" /><testcase classname="test_outputs" name="test_R17" time="0.000" /><testcase classname="test_outputs" name="test_R24" time="0.000" /><testcase classname="test_outputs" name="test_R25" time="0.000" /><testcase classname="test_outputs" name="test_R26" time="0.000" /><testcase classname="test_outputs" name="test_R27" time="0.000"><failure message="AssertionError: R27 not met&#10;assert False&#10; +  where False = &lt;function r27 at 0xffff7f3cb060&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: R27 not met
+E       assert False
+E        +  where False = &lt;function r27 at 0xffff7f3cb060&gt;()
+
+test_outputs.py:830: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_R28" time="0.000"><failure message="AssertionError: R28 not met&#10;assert False&#10; +  where False = &lt;function r28 at 0xffff7f3c9bc0&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: R28 not met
+E       assert False
+E        +  where False = &lt;function r28 at 0xffff7f3c9bc0&gt;()
+
+test_outputs.py:830: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_R29" time="0.000"><failure message="AssertionError: R29 not met&#10;assert False&#10; +  where False = &lt;function r29 at 0xffff7f3ca3e0&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: R29 not met
+E       assert False
+E        +  where False = &lt;function r29 at 0xffff7f3ca3e0&gt;()
+
+test_outputs.py:830: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_R30" time="0.000" /><testcase classname="test_outputs" name="test_R31" time="0.000" /><testcase classname="test_outputs" name="test_R32" time="0.000"><failure message="AssertionError: R32 not met&#10;assert False&#10; +  where False = &lt;function r32 at 0xffff7f3cb100&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: R32 not met
+E       assert False
+E        +  where False = &lt;function r32 at 0xffff7f3cb100&gt;()
+
+test_outputs.py:830: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_R33" time="0.000"><failure message="AssertionError: R33 not met&#10;assert False&#10; +  where False = &lt;function r33 at 0xffff7f3cb1a0&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: R33 not met
+E       assert False
+E        +  where False = &lt;function r33 at 0xffff7f3cb1a0&gt;()
+
+test_outputs.py:830: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_R35" time="0.000"><failure message="AssertionError: R35 not met&#10;assert False&#10; +  where False = &lt;function r35 at 0xffff7f3cb240&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: R35 not met
+E       assert False
+E        +  where False = &lt;function r35 at 0xffff7f3cb240&gt;()
+
+test_outputs.py:830: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_R36" time="0.000"><failure message="AssertionError: R36 not met&#10;assert False&#10; +  where False = &lt;function r36 at 0xffff7f3cb2e0&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: R36 not met
+E       assert False
+E        +  where False = &lt;function r36 at 0xffff7f3cb2e0&gt;()
+
+test_outputs.py:830: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_R37" time="0.000"><failure message="AssertionError: R37 not met&#10;assert False&#10; +  where False = &lt;function r37 at 0xffff7f3cb380&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: R37 not met
+E       assert False
+E        +  where False = &lt;function r37 at 0xffff7f3cb380&gt;()
+
+test_outputs.py:830: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_R43" time="0.001"><failure message="AssertionError: R43 not met&#10;assert False&#10; +  where False = &lt;function r43 at 0xffff7f3cb7e0&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: R43 not met
+E       assert False
+E        +  where False = &lt;function r43 at 0xffff7f3cb7e0&gt;()
+
+test_outputs.py:830: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_R44" time="0.001"><failure message="AssertionError: R44 not met&#10;assert False&#10; +  where False = &lt;function r44 at 0xffff7f3cb880&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: R44 not met
+E       assert False
+E        +  where False = &lt;function r44 at 0xffff7f3cb880&gt;()
+
+test_outputs.py:830: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_R45" time="0.000" /><testcase classname="test_outputs" name="test_R46" time="0.000"><failure message="AssertionError: R46 not met&#10;assert False&#10; +  where False = &lt;function r46 at 0xffff7f3cbb00&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: R46 not met
+E       assert False
+E        +  where False = &lt;function r46 at 0xffff7f3cbb00&gt;()
+
+test_outputs.py:830: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_R48" time="0.000"><failure message="AssertionError: R48 not met&#10;assert False&#10; +  where False = &lt;function r48 at 0xffff7f3cbc40&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: R48 not met
+E       assert False
+E        +  where False = &lt;function r48 at 0xffff7f3cbc40&gt;()
+
+test_outputs.py:830: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_T01" time="0.042" /><testcase classname="test_outputs" name="test_T02" time="0.030" /><testcase classname="test_outputs" name="test_T03" time="0.033" /><testcase classname="test_outputs" name="test_T04" time="0.023" /><testcase classname="test_outputs" name="test_T05" time="0.000" /><testcase classname="test_outputs" name="test_T06" time="0.032" /><testcase classname="test_outputs" name="test_R18" time="0.000" /><testcase classname="test_outputs" name="test_R19" time="0.004" /><testcase classname="test_outputs" name="test_R20" time="0.001" /><testcase classname="test_outputs" name="test_R21" time="0.000" /><testcase classname="test_outputs" name="test_R22" time="0.000" /><testcase classname="test_outputs" name="test_R34" time="0.000" /><testcase classname="test_outputs" name="test_R38" time="0.000" /><testcase classname="test_outputs" name="test_R39" time="0.000"><failure message="AssertionError: R39 not met&#10;assert False&#10; +  where False = &lt;function &lt;lambda&gt;.&lt;locals&gt;.&lt;lambda&gt; at 0xffff7f42a200&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: R39 not met
+E       assert False
+E        +  where False = &lt;function &lt;lambda&gt;.&lt;locals&gt;.&lt;lambda&gt; at 0xffff7f42a200&gt;()
+
+test_outputs.py:830: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_R40" time="0.000"><failure message="AssertionError: R40 not met&#10;assert False&#10; +  where False = &lt;function &lt;lambda&gt;.&lt;locals&gt;.&lt;lambda&gt; at 0xffff7f42a2a0&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: R40 not met
+E       assert False
+E        +  where False = &lt;function &lt;lambda&gt;.&lt;locals&gt;.&lt;lambda&gt; at 0xffff7f42a2a0&gt;()
+
+test_outputs.py:830: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_R47" time="0.000" /></testsuite></testsuites>

@@ -1,0 +1,962 @@
+{
+ "annotations": [
+  {
+   "annotation_line": "FSR-9 AUDIT 2026-11-03: response findings recorded; notice issued to TFS-ENG-243",
+   "engineer_id": "TFS-ENG-243",
+   "incident_ref": "CRN-0111-117",
+   "index_page": "page-report-00",
+   "report_ref": "CRR-4100",
+   "service_desk_ref": "CRR-4100"
+  },
+  {
+   "annotation_line": "FSR-9 AUDIT 2026-11-03: response findings recorded; notice issued to TFS-ENG-203",
+   "engineer_id": "TFS-ENG-203",
+   "incident_ref": "CRN-0510-110",
+   "index_page": "page-report-01",
+   "report_ref": "CRR-4111",
+   "service_desk_ref": "CRR-4111"
+  },
+  {
+   "annotation_line": "FSR-9 AUDIT 2026-11-03: response findings recorded; notice issued to TFS-ENG-223",
+   "engineer_id": "TFS-ENG-223",
+   "incident_ref": "CRN-0610-117",
+   "index_page": "page-report-02",
+   "report_ref": "CRR-4122",
+   "service_desk_ref": "CRR-4122"
+  },
+  {
+   "annotation_line": "FSR-9 AUDIT 2026-11-03: response findings recorded; notice issued to TFS-ENG-231",
+   "engineer_id": "TFS-ENG-231",
+   "incident_ref": "CRN-0710-117",
+   "index_page": "page-report-03",
+   "report_ref": "CRR-4133",
+   "service_desk_ref": "CRR-4133"
+  },
+  {
+   "annotation_line": "FSR-9 AUDIT 2026-11-03: response findings recorded; notice issued to TFS-ENG-239",
+   "engineer_id": "TFS-ENG-239",
+   "incident_ref": "CRN-0810-110",
+   "index_page": "page-report-04",
+   "report_ref": "CRR-4144",
+   "service_desk_ref": "CRR-4144"
+  },
+  {
+   "annotation_line": "FSR-9 AUDIT 2026-11-03: response findings recorded; notice issued to TFS-ENG-211",
+   "engineer_id": "TFS-ENG-211",
+   "incident_ref": "CRN-0910-124",
+   "index_page": "page-report-05",
+   "report_ref": "CRR-4155",
+   "service_desk_ref": "CRR-4155"
+  },
+  {
+   "annotation_line": "FSR-9 AUDIT 2026-11-03: response findings recorded; notice issued to TFS-ENG-223",
+   "engineer_id": "TFS-ENG-223",
+   "incident_ref": "CRN-1010-124",
+   "index_page": "page-report-06",
+   "report_ref": "CRR-4166",
+   "service_desk_ref": "CRR-4166"
+  },
+  {
+   "annotation_line": "FSR-9 AUDIT 2026-11-03: response findings recorded; notice issued to TFS-ENG-227",
+   "engineer_id": "TFS-ENG-227",
+   "incident_ref": "CRN-1110-110",
+   "index_page": "page-report-07",
+   "report_ref": "CRR-4177",
+   "service_desk_ref": "CRR-4177"
+  },
+  {
+   "annotation_line": "FSR-9 AUDIT 2026-11-03: response findings recorded; notice issued to TFS-ENG-235",
+   "engineer_id": "TFS-ENG-235",
+   "incident_ref": "CRN-1110-124",
+   "index_page": "page-report-08",
+   "report_ref": "CRR-4188",
+   "service_desk_ref": "CRR-4188"
+  },
+  {
+   "annotation_line": "FSR-9 AUDIT 2026-11-03: response findings recorded; notice issued to TFS-ENG-243",
+   "engineer_id": "TFS-ENG-243",
+   "incident_ref": "CRN-1210-117",
+   "index_page": "page-report-09",
+   "report_ref": "CRR-4199",
+   "service_desk_ref": "CRR-4199"
+  },
+  {
+   "annotation_line": "FSR-9 AUDIT 2026-11-03: response findings recorded; notice issued to TFS-ENG-207",
+   "engineer_id": "TFS-ENG-207",
+   "incident_ref": "CRN-1310-117",
+   "index_page": "page-report-10",
+   "report_ref": "CRR-4210",
+   "service_desk_ref": "CRR-4210"
+  },
+  {
+   "annotation_line": "FSR-9 AUDIT 2026-11-03: response findings recorded; notice issued to TFS-ENG-219",
+   "engineer_id": "TFS-ENG-219",
+   "incident_ref": "CRN-1410-117",
+   "index_page": "page-report-11",
+   "report_ref": "CRR-4221",
+   "service_desk_ref": "CRR-4221"
+  },
+  {
+   "annotation_line": "FSR-9 AUDIT 2026-11-03: response findings recorded; notice issued to TFS-ENG-227",
+   "engineer_id": "TFS-ENG-227",
+   "incident_ref": "CRN-1510-110",
+   "index_page": "page-report-12",
+   "report_ref": "CRR-4232",
+   "service_desk_ref": "CRR-4232"
+  },
+  {
+   "annotation_line": "FSR-9 AUDIT 2026-11-03: response findings recorded; notice issued to TFS-ENG-247",
+   "engineer_id": "TFS-ENG-247",
+   "incident_ref": "CRN-1610-124",
+   "index_page": "page-report-13",
+   "report_ref": "CRR-4243",
+   "service_desk_ref": "CRR-4243"
+  }
+ ],
+ "applied_changes": [
+  {
+   "field": "CountersignedBy",
+   "fires_on": "create_page create number 1 in db-crn-period-close-ledger",
+   "new_value": "site contact, at hand-back",
+   "old_value": "site contact, at hand-back",
+   "page": "page-hbc-crnhbc2410",
+   "post_close": true,
+   "trigger": "a"
+  },
+  {
+   "field": "DeclaredHandbackDepotLocal",
+   "fires_on": "create_page create number 1 in db-crn-period-close-ledger",
+   "new_value": "2026-10-12T12:52:00+01:00",
+   "old_value": "2026-10-12T12:26:00+01:00",
+   "page": "page-hbc-crnhbc2410",
+   "post_close": true,
+   "trigger": "a"
+  },
+  {
+   "field": "FiledOn",
+   "fires_on": "create_page create number 1 in db-crn-period-close-ledger",
+   "new_value": "2026-11-03",
+   "old_value": "2026-11-03",
+   "page": "page-hbc-crnhbc2410",
+   "post_close": true,
+   "trigger": "a"
+  },
+  {
+   "field": "LateFiling",
+   "fires_on": "create_page create number 1 in db-crn-period-close-ledger",
+   "new_value": "lodged after the first period close",
+   "old_value": null,
+   "page": "page-hbc-crnhbc2410",
+   "post_close": true,
+   "trigger": "a"
+  },
+  {
+   "field": "SignatureStatus",
+   "fires_on": "create_page create number 1 in db-crn-period-close-ledger",
+   "new_value": "countersigned",
+   "old_value": "countersigned",
+   "page": "page-hbc-crnhbc2410",
+   "post_close": true,
+   "trigger": "a"
+  },
+  {
+   "field": "MailAddress",
+   "fires_on": "create_page create number 12 in db-crn-response-findings",
+   "new_value": "dhasselgrove@thornby-field.co.uk",
+   "old_value": "dov.hasselgrove@thornby-field.co.uk",
+   "page": "page-eng-tfseng215",
+   "post_close": false,
+   "trigger": "b"
+  },
+  {
+   "field": "MailAddressChangedOn",
+   "fires_on": "create_page create number 12 in db-crn-response-findings",
+   "new_value": "2026-11-03",
+   "old_value": null,
+   "page": "page-eng-tfseng215",
+   "post_close": false,
+   "trigger": "b"
+  },
+  {
+   "field": "LoggedWaitMinutes",
+   "fires_on": "create_page create number 20 in db-crn-response-findings",
+   "new_value": 60,
+   "old_value": 35,
+   "page": "page-parts-crn2710110",
+   "post_close": false,
+   "trigger": "c"
+  },
+  {
+   "field": "WaitSource",
+   "fires_on": "create_page create number 20 in db-crn-response-findings",
+   "new_value": "stores despatch log, amended after period end",
+   "old_value": "stores despatch log",
+   "page": "page-parts-crn2710110",
+   "post_close": false,
+   "trigger": "c"
+  },
+  {
+   "field": "AttemptSource",
+   "fires_on": "create_page create number 2 in db-crn-period-close-ledger",
+   "new_value": "remote access gateway, corrected log",
+   "old_value": "remote access gateway",
+   "page": "page-remote-crn1910117",
+   "post_close": true,
+   "trigger": "d"
+  },
+  {
+   "field": "FirstAttemptDepotLocal",
+   "fires_on": "create_page create number 2 in db-crn-period-close-ledger",
+   "new_value": "2026-10-19T09:44:00+01:00",
+   "old_value": "2026-10-19T10:00:00+01:00",
+   "page": "page-remote-crn1910117",
+   "post_close": true,
+   "trigger": "d"
+  },
+  {
+   "field": "FirstAttemptMinutesAfterDispatch",
+   "fires_on": "create_page create number 2 in db-crn-period-close-ledger",
+   "new_value": 11,
+   "old_value": 27,
+   "page": "page-remote-crn1910117",
+   "post_close": true,
+   "trigger": "d"
+  },
+  {
+   "field": "DisputeFlag",
+   "fires_on": "create_page create number 1 in db-crn-period-close-ledger",
+   "new_value": "withdrawn",
+   "old_value": "engineer disputes the logged clear instant",
+   "page": "page-report-05",
+   "post_close": true,
+   "trigger": "e"
+  },
+  {
+   "field": "Signature",
+   "fires_on": "create_page create number 1 in db-crn-period-close-ledger",
+   "new_value": "signed: Perrin Oakhollow, response manager",
+   "old_value": "",
+   "page": "page-report-05",
+   "post_close": true,
+   "trigger": "e"
+  },
+  {
+   "field": "SignatureStatus",
+   "fires_on": "create_page create number 1 in db-crn-period-close-ledger",
+   "new_value": "signed",
+   "old_value": "unsigned dispute flag",
+   "page": "page-report-05",
+   "post_close": true,
+   "trigger": "e"
+  },
+  {
+   "field": "RetractionNote",
+   "fires_on": "create_page create number 2 in db-crn-period-close-ledger",
+   "new_value": "supplier withdrew the sheet covering CRN-1210-117",
+   "old_value": null,
+   "page": "page-tsindex-09",
+   "post_close": true,
+   "trigger": "f"
+  },
+  {
+   "field": "Status",
+   "fires_on": "create_page create number 2 in db-crn-period-close-ledger",
+   "new_value": "retracted",
+   "old_value": "current",
+   "page": "page-tsindex-09",
+   "post_close": true,
+   "trigger": "f"
+  }
+ ],
+ "by_partition": {
+  "certificate-override": 3,
+  "core-response": 10,
+  "corrupted-telemetry": 2,
+  "cross-modal": 1,
+  "remote-attempt": 4,
+  "revision-split": 6,
+  "suspended-clock": 4,
+  "travel-allowance": 5,
+  "utc-export": 2
+ },
+ "by_revision": {
+  "FSR-9 Rev B": 15,
+  "FSR-9 Rev C": 22
+ },
+ "by_type": {
+  "ACKNOWLEDGEMENT_DELAY": 3,
+  "BADGE_OFFSET_MISMATCH": 2,
+  "CERTIFICATE_OVERRIDE": 3,
+  "HANDBACK_DOCUMENT_CONFLICT": 1,
+  "PARTS_WAIT_UNSUSPENDED": 4,
+  "REMOTE_ATTEMPT_LATE": 4,
+  "RESPONSE_TARGET": 13,
+  "TELEMETRY_TOTAL_MISMATCH": 2,
+  "TRAVEL_CAP_BREACH": 5
+ },
+ "close_record": {
+  "CloseState": "CLOSED",
+  "EngineersAffected": 12,
+  "FindingCount": 37,
+  "PeriodEnd": "2026-11-01",
+  "PeriodStart": "2026-10-05",
+  "TotalExcessMinutes": 1105
+ },
+ "corrections": [
+  {
+   "disposition": "refigured",
+   "engineer_id": "TFS-ENG-243",
+   "field_changed": "DeclaredHandbackDepotLocal",
+   "finding_type": "HANDBACK_DOCUMENT_CONFLICT",
+   "incident_ref": "CRN-1210-117",
+   "new_excess_minutes": 34,
+   "new_value": "2026-10-12T12:52:00+01:00",
+   "old_excess_minutes": 8,
+   "old_value": "2026-10-12T12:26:00+01:00",
+   "reason": "the record the finding rested on moved after the audit relied on it",
+   "record_ref": "CRN-HBC-2410",
+   "settled_finding_type": "CERTIFICATE_OVERRIDE",
+   "trigger": "a"
+  },
+  {
+   "disposition": "withdrawn",
+   "engineer_id": "TFS-ENG-231",
+   "field_changed": "FirstAttemptMinutesAfterDispatch",
+   "finding_type": "REMOTE_ATTEMPT_LATE",
+   "incident_ref": "CRN-1910-117",
+   "new_excess_minutes": null,
+   "new_value": 11,
+   "old_excess_minutes": 27,
+   "old_value": 27,
+   "reason": "the record the finding rested on moved after the audit relied on it",
+   "record_ref": "CRN-RA-52047",
+   "settled_finding_type": null,
+   "trigger": "d"
+  },
+  {
+   "disposition": "refigured",
+   "engineer_id": "TFS-ENG-227",
+   "field_changed": "LoggedWaitMinutes",
+   "finding_type": "TRAVEL_CAP_BREACH",
+   "incident_ref": "CRN-2710-110",
+   "new_excess_minutes": 5,
+   "new_value": 60,
+   "old_excess_minutes": 30,
+   "old_value": 35,
+   "reason": "the record the finding rested on moved after the audit relied on it",
+   "record_ref": "CRN-PW-63072",
+   "settled_finding_type": "TRAVEL_CAP_BREACH",
+   "trigger": "c"
+  }
+ ],
+ "findings": [
+  {
+   "actual_minutes": 204,
+   "allowance_minutes": 180,
+   "engineer_id": "TFS-ENG-243",
+   "engineer_name": "Cosmo Oxenhope",
+   "evidence_refs": "CRN-PG-30089;CRN-LG-41089-1",
+   "excess_minutes": 24,
+   "finding_type": "TRAVEL_CAP_BREACH",
+   "incident_ref": "CRN-0111-117",
+   "partition": "travel-allowance",
+   "revision": "FSR-9 Rev C"
+  },
+  {
+   "actual_minutes": 187,
+   "allowance_minutes": 165,
+   "engineer_id": "TFS-ENG-203",
+   "engineer_name": "Marek Wraysbury",
+   "evidence_refs": "CRN-PG-30001;CRN-LG-41001-1",
+   "excess_minutes": 22,
+   "finding_type": "RESPONSE_TARGET",
+   "incident_ref": "CRN-0510-110",
+   "partition": "core-response",
+   "revision": "FSR-9 Rev B"
+  },
+  {
+   "actual_minutes": 200,
+   "allowance_minutes": 165,
+   "engineer_id": "TFS-ENG-223",
+   "engineer_name": "Samira Garmondsway",
+   "evidence_refs": "CRN-PG-30005;CRN-LG-41005-1",
+   "excess_minutes": 35,
+   "finding_type": "RESPONSE_TARGET",
+   "incident_ref": "CRN-0610-117",
+   "partition": "core-response",
+   "revision": "FSR-9 Rev B"
+  },
+  {
+   "actual_minutes": 34,
+   "allowance_minutes": 20,
+   "engineer_id": "TFS-ENG-231",
+   "engineer_name": "Ffyona Quennell",
+   "evidence_refs": "CRN-PG-30008;CRN-LG-41008-1",
+   "excess_minutes": 14,
+   "finding_type": "ACKNOWLEDGEMENT_DELAY",
+   "incident_ref": "CRN-0710-117",
+   "partition": "core-response",
+   "revision": "FSR-9 Rev B"
+  },
+  {
+   "actual_minutes": 183,
+   "allowance_minutes": 165,
+   "engineer_id": "TFS-ENG-239",
+   "engineer_name": "Niamh Shackwell",
+   "evidence_refs": "CRN-PG-30011;CRN-LG-41011-1",
+   "excess_minutes": 18,
+   "finding_type": "RESPONSE_TARGET",
+   "incident_ref": "CRN-0810-110",
+   "partition": "core-response",
+   "revision": "FSR-9 Rev B"
+  },
+  {
+   "actual_minutes": 198,
+   "allowance_minutes": 165,
+   "engineer_id": "TFS-ENG-211",
+   "engineer_name": "Teagan Tredinnick",
+   "evidence_refs": "CRN-PG-30016;CRN-PW-63016",
+   "excess_minutes": 33,
+   "finding_type": "PARTS_WAIT_UNSUSPENDED",
+   "incident_ref": "CRN-0910-124",
+   "partition": "suspended-clock",
+   "revision": "FSR-9 Rev B"
+  },
+  {
+   "actual_minutes": 212,
+   "allowance_minutes": 165,
+   "engineer_id": "TFS-ENG-223",
+   "engineer_name": "Samira Garmondsway",
+   "evidence_refs": "CRN-PG-30019;CRN-LG-41019-1",
+   "excess_minutes": 47,
+   "finding_type": "RESPONSE_TARGET",
+   "incident_ref": "CRN-1010-124",
+   "partition": "core-response",
+   "revision": "FSR-9 Rev B"
+  },
+  {
+   "actual_minutes": 216,
+   "allowance_minutes": 165,
+   "engineer_id": "TFS-ENG-227",
+   "engineer_name": "Lucan Linnersgill",
+   "evidence_refs": "CRN-PG-30020;CRN-PW-63020",
+   "excess_minutes": 51,
+   "finding_type": "PARTS_WAIT_UNSUSPENDED",
+   "incident_ref": "CRN-1110-110",
+   "partition": "suspended-clock",
+   "revision": "FSR-9 Rev B"
+  },
+  {
+   "actual_minutes": 190,
+   "allowance_minutes": 165,
+   "engineer_id": "TFS-ENG-235",
+   "engineer_name": "Beren Arrowsmith-Vale",
+   "evidence_refs": "CRN-PG-30022;CRN-LG-41022-1",
+   "excess_minutes": 25,
+   "finding_type": "BADGE_OFFSET_MISMATCH",
+   "incident_ref": "CRN-1110-124",
+   "partition": "utc-export",
+   "revision": "FSR-9 Rev B"
+  },
+  {
+   "actual_minutes": 199,
+   "allowance_minutes": 165,
+   "engineer_id": "TFS-ENG-243",
+   "engineer_name": "Cosmo Oxenhope",
+   "evidence_refs": "CRN-PG-30024;CRN-HBC-2410",
+   "excess_minutes": 34,
+   "finding_type": "CERTIFICATE_OVERRIDE",
+   "incident_ref": "CRN-1210-117",
+   "partition": "certificate-override",
+   "revision": "FSR-9 Rev B"
+  },
+  {
+   "actual_minutes": 194,
+   "allowance_minutes": 165,
+   "engineer_id": "TFS-ENG-207",
+   "engineer_name": "Oriel Molyneaux",
+   "evidence_refs": "CRN-PG-30028;CRN-LG-41028-1",
+   "excess_minutes": 29,
+   "finding_type": "RESPONSE_TARGET",
+   "incident_ref": "CRN-1310-117",
+   "partition": "core-response",
+   "revision": "FSR-9 Rev B"
+  },
+  {
+   "actual_minutes": 184,
+   "allowance_minutes": 165,
+   "engineer_id": "TFS-ENG-219",
+   "engineer_name": "Ingrid Pentreath",
+   "evidence_refs": "CRN-PG-30031;CRN-PW-63031",
+   "excess_minutes": 19,
+   "finding_type": "PARTS_WAIT_UNSUSPENDED",
+   "incident_ref": "CRN-1410-117",
+   "partition": "suspended-clock",
+   "revision": "FSR-9 Rev B"
+  },
+  {
+   "actual_minutes": 185,
+   "allowance_minutes": 165,
+   "engineer_id": "TFS-ENG-227",
+   "engineer_name": "Lucan Linnersgill",
+   "evidence_refs": "CRN-PG-30033;CRN-HBC-2415",
+   "excess_minutes": 20,
+   "finding_type": "CERTIFICATE_OVERRIDE",
+   "incident_ref": "CRN-1510-110",
+   "partition": "certificate-override",
+   "revision": "FSR-9 Rev B"
+  },
+  {
+   "actual_minutes": 203,
+   "allowance_minutes": 165,
+   "engineer_id": "TFS-ENG-247",
+   "engineer_name": "Elspeth Dunnamore",
+   "evidence_refs": "CRN-PG-30038;CRN-PW-63038",
+   "excess_minutes": 38,
+   "finding_type": "PARTS_WAIT_UNSUSPENDED",
+   "incident_ref": "CRN-1610-124",
+   "partition": "suspended-clock",
+   "revision": "FSR-9 Rev B"
+  },
+  {
+   "actual_minutes": 41,
+   "allowance_minutes": 20,
+   "engineer_id": "TFS-ENG-203",
+   "engineer_name": "Marek Wraysbury",
+   "evidence_refs": "CRN-PG-30040;CRN-LG-41040-1",
+   "excess_minutes": 21,
+   "finding_type": "ACKNOWLEDGEMENT_DELAY",
+   "incident_ref": "CRN-1710-110",
+   "partition": "core-response",
+   "revision": "FSR-9 Rev B"
+  },
+  {
+   "actual_minutes": 188,
+   "allowance_minutes": 165,
+   "engineer_id": "TFS-ENG-223",
+   "engineer_name": "Samira Garmondsway",
+   "evidence_refs": "CRN-PG-30045;CRN-LG-41045-1",
+   "excess_minutes": 23,
+   "finding_type": "RESPONSE_TARGET",
+   "incident_ref": "CRN-1810-124",
+   "partition": "revision-split",
+   "revision": "FSR-9 Rev B"
+  },
+  {
+   "actual_minutes": 195,
+   "allowance_minutes": 164,
+   "engineer_id": "TFS-ENG-227",
+   "engineer_name": "Lucan Linnersgill",
+   "evidence_refs": "CRN-PG-30046;CRN-LG-41046-1",
+   "excess_minutes": 31,
+   "finding_type": "RESPONSE_TARGET",
+   "incident_ref": "CRN-1910-110",
+   "partition": "revision-split",
+   "revision": "FSR-9 Rev C"
+  },
+  {
+   "actual_minutes": 185,
+   "allowance_minutes": 158,
+   "engineer_id": "TFS-ENG-231",
+   "engineer_name": "Ffyona Quennell",
+   "evidence_refs": "CRN-PG-30047;CRN-RA-52047",
+   "excess_minutes": 27,
+   "finding_type": "REMOTE_ATTEMPT_LATE",
+   "incident_ref": "CRN-1910-117",
+   "partition": "remote-attempt",
+   "revision": "FSR-9 Rev C"
+  },
+  {
+   "actual_minutes": 175,
+   "allowance_minutes": 158,
+   "engineer_id": "TFS-ENG-235",
+   "engineer_name": "Beren Arrowsmith-Vale",
+   "evidence_refs": "CRN-PG-30048;CRN-LG-41048-1",
+   "excess_minutes": 17,
+   "finding_type": "RESPONSE_TARGET",
+   "incident_ref": "CRN-1910-124",
+   "partition": "revision-split",
+   "revision": "FSR-9 Rev C"
+  },
+  {
+   "actual_minutes": 209,
+   "allowance_minutes": 180,
+   "engineer_id": "TFS-ENG-239",
+   "engineer_name": "Niamh Shackwell",
+   "evidence_refs": "CRN-PG-30049;CRN-LG-41049-1",
+   "excess_minutes": 29,
+   "finding_type": "TRAVEL_CAP_BREACH",
+   "incident_ref": "CRN-2010-110",
+   "partition": "travel-allowance",
+   "revision": "FSR-9 Rev C"
+  },
+  {
+   "actual_minutes": 203,
+   "allowance_minutes": 158,
+   "engineer_id": "TFS-ENG-243",
+   "engineer_name": "Cosmo Oxenhope",
+   "evidence_refs": "CRN-PG-30050;CRN-LG-41050-1",
+   "excess_minutes": 45,
+   "finding_type": "RESPONSE_TARGET",
+   "incident_ref": "CRN-2010-117",
+   "partition": "revision-split",
+   "revision": "FSR-9 Rev C"
+  },
+  {
+   "actual_minutes": 186,
+   "allowance_minutes": 158,
+   "engineer_id": "TFS-ENG-219",
+   "engineer_name": "Ingrid Pentreath",
+   "evidence_refs": "CRN-PG-30052;CRN-LG-41052-1",
+   "excess_minutes": 28,
+   "finding_type": "RESPONSE_TARGET",
+   "incident_ref": "CRN-2110-110",
+   "partition": "revision-split",
+   "revision": "FSR-9 Rev C"
+  },
+  {
+   "actual_minutes": 188,
+   "allowance_minutes": 164,
+   "engineer_id": "TFS-ENG-211",
+   "engineer_name": "Teagan Tredinnick",
+   "evidence_refs": "CRN-PG-30054;CRN-HBC-2430",
+   "excess_minutes": 24,
+   "finding_type": "HANDBACK_DOCUMENT_CONFLICT",
+   "incident_ref": "CRN-2110-124",
+   "partition": "cross-modal",
+   "revision": "FSR-9 Rev C"
+  },
+  {
+   "actual_minutes": 222,
+   "allowance_minutes": 180,
+   "engineer_id": "TFS-ENG-223",
+   "engineer_name": "Samira Garmondsway",
+   "evidence_refs": "CRN-PG-30058;CRN-LG-41058-1",
+   "excess_minutes": 42,
+   "finding_type": "TRAVEL_CAP_BREACH",
+   "incident_ref": "CRN-2210-124",
+   "partition": "travel-allowance",
+   "revision": "FSR-9 Rev C"
+  },
+  {
+   "actual_minutes": 208,
+   "allowance_minutes": 164,
+   "engineer_id": "TFS-ENG-227",
+   "engineer_name": "Lucan Linnersgill",
+   "evidence_refs": "CRN-PG-30059;CRN-RA-52059",
+   "excess_minutes": 44,
+   "finding_type": "REMOTE_ATTEMPT_LATE",
+   "incident_ref": "CRN-2310-110",
+   "partition": "remote-attempt",
+   "revision": "FSR-9 Rev C"
+  },
+  {
+   "actual_minutes": 221,
+   "allowance_minutes": 180,
+   "engineer_id": "TFS-ENG-243",
+   "engineer_name": "Cosmo Oxenhope",
+   "evidence_refs": "CRN-PG-30063;CRN-LG-41063-1",
+   "excess_minutes": 41,
+   "finding_type": "TRAVEL_CAP_BREACH",
+   "incident_ref": "CRN-2410-117",
+   "partition": "travel-allowance",
+   "revision": "FSR-9 Rev C"
+  },
+  {
+   "actual_minutes": 204,
+   "allowance_minutes": 161,
+   "engineer_id": "TFS-ENG-219",
+   "engineer_name": "Ingrid Pentreath",
+   "evidence_refs": "CRN-PG-30064;CRN-HBC-2420",
+   "excess_minutes": 43,
+   "finding_type": "CERTIFICATE_OVERRIDE",
+   "incident_ref": "CRN-2410-124",
+   "partition": "certificate-override",
+   "revision": "FSR-9 Rev C"
+  },
+  {
+   "actual_minutes": 203,
+   "allowance_minutes": 164,
+   "engineer_id": "TFS-ENG-211",
+   "engineer_name": "Teagan Tredinnick",
+   "evidence_refs": "CRN-PG-30067;CRN-LG-41067-1",
+   "excess_minutes": 39,
+   "finding_type": "RESPONSE_TARGET",
+   "incident_ref": "CRN-2510-124",
+   "partition": "revision-split",
+   "revision": "FSR-9 Rev C"
+  },
+  {
+   "actual_minutes": 208,
+   "allowance_minutes": 171,
+   "engineer_id": "TFS-ENG-215",
+   "engineer_name": "Dov Hasselgrove",
+   "evidence_refs": "CRN-PG-30069;CRN-LG-41069-1",
+   "excess_minutes": 37,
+   "finding_type": "BADGE_OFFSET_MISMATCH",
+   "incident_ref": "CRN-2610-110",
+   "partition": "utc-export",
+   "revision": "FSR-9 Rev C"
+  },
+  {
+   "actual_minutes": 174,
+   "allowance_minutes": 158,
+   "engineer_id": "TFS-ENG-223",
+   "engineer_name": "Samira Garmondsway",
+   "evidence_refs": "CRN-PG-30071;CRN-RA-52071",
+   "excess_minutes": 16,
+   "finding_type": "REMOTE_ATTEMPT_LATE",
+   "incident_ref": "CRN-2610-124",
+   "partition": "remote-attempt",
+   "revision": "FSR-9 Rev C"
+  },
+  {
+   "actual_minutes": 210,
+   "allowance_minutes": 180,
+   "engineer_id": "TFS-ENG-227",
+   "engineer_name": "Lucan Linnersgill",
+   "evidence_refs": "CRN-PG-30072;CRN-LG-41072-1",
+   "excess_minutes": 30,
+   "finding_type": "TRAVEL_CAP_BREACH",
+   "incident_ref": "CRN-2710-110",
+   "partition": "travel-allowance",
+   "revision": "FSR-9 Rev C"
+  },
+  {
+   "actual_minutes": 198,
+   "allowance_minutes": 172,
+   "engineer_id": "TFS-ENG-239",
+   "engineer_name": "Niamh Shackwell",
+   "evidence_refs": "CRN-PG-30075;CRN-LG-41075-1",
+   "excess_minutes": 26,
+   "finding_type": "RESPONSE_TARGET",
+   "incident_ref": "CRN-2810-110",
+   "partition": "core-response",
+   "revision": "FSR-9 Rev C"
+  },
+  {
+   "actual_minutes": 212,
+   "allowance_minutes": 180,
+   "engineer_id": "TFS-ENG-203",
+   "engineer_name": "Marek Wraysbury",
+   "evidence_refs": "CRN-PG-30078;CRN-TS-08203",
+   "excess_minutes": 32,
+   "finding_type": "TELEMETRY_TOTAL_MISMATCH",
+   "incident_ref": "CRN-2910-110",
+   "partition": "corrupted-telemetry",
+   "revision": "FSR-9 Rev C"
+  },
+  {
+   "actual_minutes": 195,
+   "allowance_minutes": 180,
+   "engineer_id": "TFS-ENG-207",
+   "engineer_name": "Oriel Molyneaux",
+   "evidence_refs": "CRN-PG-30079;CRN-TS-08203",
+   "excess_minutes": 15,
+   "finding_type": "TELEMETRY_TOTAL_MISMATCH",
+   "incident_ref": "CRN-2910-117",
+   "partition": "corrupted-telemetry",
+   "revision": "FSR-9 Rev C"
+  },
+  {
+   "actual_minutes": 29,
+   "allowance_minutes": 20,
+   "engineer_id": "TFS-ENG-211",
+   "engineer_name": "Teagan Tredinnick",
+   "evidence_refs": "CRN-PG-30080;CRN-LG-41080-1",
+   "excess_minutes": 9,
+   "finding_type": "ACKNOWLEDGEMENT_DELAY",
+   "incident_ref": "CRN-2910-124",
+   "partition": "core-response",
+   "revision": "FSR-9 Rev C"
+  },
+  {
+   "actual_minutes": 200,
+   "allowance_minutes": 164,
+   "engineer_id": "TFS-ENG-219",
+   "engineer_name": "Ingrid Pentreath",
+   "evidence_refs": "CRN-PG-30082;CRN-RA-52082",
+   "excess_minutes": 36,
+   "finding_type": "REMOTE_ATTEMPT_LATE",
+   "incident_ref": "CRN-3010-117",
+   "partition": "remote-attempt",
+   "revision": "FSR-9 Rev C"
+  },
+  {
+   "actual_minutes": 210,
+   "allowance_minutes": 169,
+   "engineer_id": "TFS-ENG-235",
+   "engineer_name": "Beren Arrowsmith-Vale",
+   "evidence_refs": "CRN-PG-30087;CRN-LG-41087-1",
+   "excess_minutes": 41,
+   "finding_type": "RESPONSE_TARGET",
+   "incident_ref": "CRN-3110-124",
+   "partition": "core-response",
+   "revision": "FSR-9 Rev C"
+  }
+ ],
+ "notices": [
+  {
+   "body_lines": [
+    "CRN-0510-110 RESPONSE_TARGET allowance 165 actual 187 excess 22",
+    "CRN-1710-110 ACKNOWLEDGEMENT_DELAY allowance 20 actual 41 excess 21",
+    "CRN-2910-110 TELEMETRY_TOTAL_MISMATCH allowance 180 actual 212 excess 32"
+   ],
+   "engineer_id": "TFS-ENG-203",
+   "engineer_name": "Marek Wraysbury",
+   "finding_count": 3,
+   "subject": "Thornby Field Services Ltd - FSR-9 response findings 2026-10-05 to 2026-11-01 - TFS-ENG-203",
+   "to_address": "marek.wraysbury@thornby-field.co.uk"
+  },
+  {
+   "body_lines": [
+    "CRN-1310-117 RESPONSE_TARGET allowance 165 actual 194 excess 29",
+    "CRN-2910-117 TELEMETRY_TOTAL_MISMATCH allowance 180 actual 195 excess 15"
+   ],
+   "engineer_id": "TFS-ENG-207",
+   "engineer_name": "Oriel Molyneaux",
+   "finding_count": 2,
+   "subject": "Thornby Field Services Ltd - FSR-9 response findings 2026-10-05 to 2026-11-01 - TFS-ENG-207",
+   "to_address": "oriel.molyneaux@thornby-field.co.uk"
+  },
+  {
+   "body_lines": [
+    "CRN-0910-124 PARTS_WAIT_UNSUSPENDED allowance 165 actual 198 excess 33",
+    "CRN-2110-124 HANDBACK_DOCUMENT_CONFLICT allowance 164 actual 188 excess 24",
+    "CRN-2510-124 RESPONSE_TARGET allowance 164 actual 203 excess 39",
+    "CRN-2910-124 ACKNOWLEDGEMENT_DELAY allowance 20 actual 29 excess 9"
+   ],
+   "engineer_id": "TFS-ENG-211",
+   "engineer_name": "Teagan Tredinnick",
+   "finding_count": 4,
+   "subject": "Thornby Field Services Ltd - FSR-9 response findings 2026-10-05 to 2026-11-01 - TFS-ENG-211",
+   "to_address": "teagan.tredinnick@thornby-field.co.uk"
+  },
+  {
+   "body_lines": [
+    "CRN-2610-110 BADGE_OFFSET_MISMATCH allowance 171 actual 208 excess 37"
+   ],
+   "engineer_id": "TFS-ENG-215",
+   "engineer_name": "Dov Hasselgrove",
+   "finding_count": 1,
+   "subject": "Thornby Field Services Ltd - FSR-9 response findings 2026-10-05 to 2026-11-01 - TFS-ENG-215",
+   "to_address": "dhasselgrove@thornby-field.co.uk"
+  },
+  {
+   "body_lines": [
+    "CRN-1410-117 PARTS_WAIT_UNSUSPENDED allowance 165 actual 184 excess 19",
+    "CRN-2110-110 RESPONSE_TARGET allowance 158 actual 186 excess 28",
+    "CRN-2410-124 CERTIFICATE_OVERRIDE allowance 161 actual 204 excess 43",
+    "CRN-3010-117 REMOTE_ATTEMPT_LATE allowance 164 actual 200 excess 36"
+   ],
+   "engineer_id": "TFS-ENG-219",
+   "engineer_name": "Ingrid Pentreath",
+   "finding_count": 4,
+   "subject": "Thornby Field Services Ltd - FSR-9 response findings 2026-10-05 to 2026-11-01 - TFS-ENG-219",
+   "to_address": "ingrid.pentreath@thornby-field.co.uk"
+  },
+  {
+   "body_lines": [
+    "CRN-0610-117 RESPONSE_TARGET allowance 165 actual 200 excess 35",
+    "CRN-1010-124 RESPONSE_TARGET allowance 165 actual 212 excess 47",
+    "CRN-1810-124 RESPONSE_TARGET allowance 165 actual 188 excess 23",
+    "CRN-2210-124 TRAVEL_CAP_BREACH allowance 180 actual 222 excess 42",
+    "CRN-2610-124 REMOTE_ATTEMPT_LATE allowance 158 actual 174 excess 16"
+   ],
+   "engineer_id": "TFS-ENG-223",
+   "engineer_name": "Samira Garmondsway",
+   "finding_count": 5,
+   "subject": "Thornby Field Services Ltd - FSR-9 response findings 2026-10-05 to 2026-11-01 - TFS-ENG-223",
+   "to_address": "samira.garmondsway@thornby-field.co.uk"
+  },
+  {
+   "body_lines": [
+    "CRN-1110-110 PARTS_WAIT_UNSUSPENDED allowance 165 actual 216 excess 51",
+    "CRN-1510-110 CERTIFICATE_OVERRIDE allowance 165 actual 185 excess 20",
+    "CRN-1910-110 RESPONSE_TARGET allowance 164 actual 195 excess 31",
+    "CRN-2310-110 REMOTE_ATTEMPT_LATE allowance 164 actual 208 excess 44",
+    "CRN-2710-110 TRAVEL_CAP_BREACH allowance 180 actual 210 excess 30"
+   ],
+   "engineer_id": "TFS-ENG-227",
+   "engineer_name": "Lucan Linnersgill",
+   "finding_count": 5,
+   "subject": "Thornby Field Services Ltd - FSR-9 response findings 2026-10-05 to 2026-11-01 - TFS-ENG-227",
+   "to_address": "lucan.linnersgill@thornby-field.co.uk"
+  },
+  {
+   "body_lines": [
+    "CRN-0710-117 ACKNOWLEDGEMENT_DELAY allowance 20 actual 34 excess 14",
+    "CRN-1910-117 REMOTE_ATTEMPT_LATE allowance 158 actual 185 excess 27"
+   ],
+   "engineer_id": "TFS-ENG-231",
+   "engineer_name": "Ffyona Quennell",
+   "finding_count": 2,
+   "subject": "Thornby Field Services Ltd - FSR-9 response findings 2026-10-05 to 2026-11-01 - TFS-ENG-231",
+   "to_address": "ffyona.quennell@thornby-field.co.uk"
+  },
+  {
+   "body_lines": [
+    "CRN-1110-124 BADGE_OFFSET_MISMATCH allowance 165 actual 190 excess 25",
+    "CRN-1910-124 RESPONSE_TARGET allowance 158 actual 175 excess 17",
+    "CRN-3110-124 RESPONSE_TARGET allowance 169 actual 210 excess 41"
+   ],
+   "engineer_id": "TFS-ENG-235",
+   "engineer_name": "Beren Arrowsmith-Vale",
+   "finding_count": 3,
+   "subject": "Thornby Field Services Ltd - FSR-9 response findings 2026-10-05 to 2026-11-01 - TFS-ENG-235",
+   "to_address": "beren.arrowsmithvale@thornby-field.co.uk"
+  },
+  {
+   "body_lines": [
+    "CRN-0810-110 RESPONSE_TARGET allowance 165 actual 183 excess 18",
+    "CRN-2010-110 TRAVEL_CAP_BREACH allowance 180 actual 209 excess 29",
+    "CRN-2810-110 RESPONSE_TARGET allowance 172 actual 198 excess 26"
+   ],
+   "engineer_id": "TFS-ENG-239",
+   "engineer_name": "Niamh Shackwell",
+   "finding_count": 3,
+   "subject": "Thornby Field Services Ltd - FSR-9 response findings 2026-10-05 to 2026-11-01 - TFS-ENG-239",
+   "to_address": "niamh.shackwell@thornby-field.co.uk"
+  },
+  {
+   "body_lines": [
+    "CRN-0111-117 TRAVEL_CAP_BREACH allowance 180 actual 204 excess 24",
+    "CRN-1210-117 CERTIFICATE_OVERRIDE allowance 165 actual 199 excess 34",
+    "CRN-2010-117 RESPONSE_TARGET allowance 158 actual 203 excess 45",
+    "CRN-2410-117 TRAVEL_CAP_BREACH allowance 180 actual 221 excess 41"
+   ],
+   "engineer_id": "TFS-ENG-243",
+   "engineer_name": "Cosmo Oxenhope",
+   "finding_count": 4,
+   "subject": "Thornby Field Services Ltd - FSR-9 response findings 2026-10-05 to 2026-11-01 - TFS-ENG-243",
+   "to_address": "cosmo.oxenhope@thornby-field.co.uk"
+  },
+  {
+   "body_lines": [
+    "CRN-1610-124 PARTS_WAIT_UNSUSPENDED allowance 165 actual 203 excess 38"
+   ],
+   "engineer_id": "TFS-ENG-247",
+   "engineer_name": "Elspeth Dunnamore",
+   "finding_count": 1,
+   "subject": "Thornby Field Services Ltd - FSR-9 response findings 2026-10-05 to 2026-11-01 - TFS-ENG-247",
+   "to_address": "elspeth.dunnamore@thornby-field.co.uk"
+  }
+ ],
+ "period": {
+  "clock_change": "2026-10-25T02:00+01:00 to 01:00+00:00",
+  "end": "2026-11-01",
+  "revision_c_effective": "2026-10-19T00:00 depot local",
+  "start": "2026-10-05"
+ },
+ "ticket_lines": [
+  "RESPONSE-SUMMARY findings=37",
+  "RESPONSE-SUMMARY excess-minutes=1105",
+  "RESPONSE-SUMMARY engineers-notified=12"
+ ],
+ "totals": {
+  "EngineersAffected": 12,
+  "FindingCount": 37,
+  "TotalExcessMinutes": 1105
+ },
+ "weighted_positive": 119
+}

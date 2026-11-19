@@ -1,0 +1,478 @@
+{
+ "results": {
+  "tool": {
+   "name": "pytest"
+  },
+  "summary": {
+   "tests": 77,
+   "passed": 57,
+   "failed": 20,
+   "start": 1795068020167,
+   "stop": 1795068022025
+  },
+  "tests": [
+   {
+    "name": "test_F01",
+    "status": "passed",
+    "duration": 1019,
+    "message": ""
+   },
+   {
+    "name": "test_F02",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_F03",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_F04",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_F05",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_F06",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_F07",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_F08",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_F09",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_F10",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_F11",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_F12",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_F13",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_F14",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_F15",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_F16",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_F17",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_F18",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_F19",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_F20",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_F21",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_F22",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_F23",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_F24",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_F25",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_F26",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: F26 not met\nE       assert False\nE        +  where False = <function <lambda>.<locals>.<lambda> at 0xffff7e0293a0>()\n\ntest_outputs.py:828: AssertionError"
+   },
+   {
+    "name": "test_F27",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: F27 not met\nE       assert False\nE        +  where False = <function <lambda>.<locals>.<lambda> at 0xffff7e029440>()\n\ntest_outputs.py:828: AssertionError"
+   },
+   {
+    "name": "test_F28",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_F29",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_F30",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_F31",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: F31 not met\nE       assert False\nE        +  where False = <function <lambda>.<locals>.<lambda> at 0xffff7e0296c0>()\n\ntest_outputs.py:828: AssertionError"
+   },
+   {
+    "name": "test_F32",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_F33",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: F33 not met\nE       assert False\nE        +  where False = <function <lambda>.<locals>.<lambda> at 0xffff7e029800>()\n\ntest_outputs.py:828: AssertionError"
+   },
+   {
+    "name": "test_F34",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_R09",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: R09 not met\nE       assert False\nE        +  where False = <function r09 at 0xffff7df41b20>()\n\ntest_outputs.py:828: AssertionError"
+   },
+   {
+    "name": "test_R10",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_R11",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_R12",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_R13",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: R13 not met\nE       assert False\nE        +  where False = <function r13 at 0xffff7df41ee0>()\n\ntest_outputs.py:828: AssertionError"
+   },
+   {
+    "name": "test_R14",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_R15",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_R16",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_R17",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_R24",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_R25",
+    "status": "passed",
+    "duration": 1,
+    "message": ""
+   },
+   {
+    "name": "test_R26",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_R27",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: R27 not met\nE       assert False\nE        +  where False = <function r27 at 0xffff7df42f20>()\n\ntest_outputs.py:828: AssertionError"
+   },
+   {
+    "name": "test_R28",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: R28 not met\nE       assert False\nE        +  where False = <function r28 at 0xffff7df41a80>()\n\ntest_outputs.py:828: AssertionError"
+   },
+   {
+    "name": "test_R29",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: R29 not met\nE       assert False\nE        +  where False = <function r29 at 0xffff7df422a0>()\n\ntest_outputs.py:828: AssertionError"
+   },
+   {
+    "name": "test_R30",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_R31",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_R32",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: R32 not met\nE       assert False\nE        +  where False = <function r32 at 0xffff7df42fc0>()\n\ntest_outputs.py:828: AssertionError"
+   },
+   {
+    "name": "test_R33",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: R33 not met\nE       assert False\nE        +  where False = <function r33 at 0xffff7df43060>()\n\ntest_outputs.py:828: AssertionError"
+   },
+   {
+    "name": "test_R35",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: R35 not met\nE       assert False\nE        +  where False = <function r35 at 0xffff7df43100>()\n\ntest_outputs.py:828: AssertionError"
+   },
+   {
+    "name": "test_R36",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: R36 not met\nE       assert False\nE        +  where False = <function r36 at 0xffff7df431a0>()\n\ntest_outputs.py:828: AssertionError"
+   },
+   {
+    "name": "test_R37",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: R37 not met\nE       assert False\nE        +  where False = <function r37 at 0xffff7df43240>()\n\ntest_outputs.py:828: AssertionError"
+   },
+   {
+    "name": "test_R43",
+    "status": "failed",
+    "duration": 1,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: R43 not met\nE       assert False\nE        +  where False = <function r43 at 0xffff7df436a0>()\n\ntest_outputs.py:828: AssertionError"
+   },
+   {
+    "name": "test_R44",
+    "status": "failed",
+    "duration": 1,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: R44 not met\nE       assert False\nE        +  where False = <function r44 at 0xffff7df43740>()\n\ntest_outputs.py:828: AssertionError"
+   },
+   {
+    "name": "test_R45",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_R46",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: R46 not met\nE       assert False\nE        +  where False = <function r46 at 0xffff7df439c0>()\n\ntest_outputs.py:828: AssertionError"
+   },
+   {
+    "name": "test_R48",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: R48 not met\nE       assert False\nE        +  where False = <function r48 at 0xffff7df43b00>()\n\ntest_outputs.py:828: AssertionError"
+   },
+   {
+    "name": "test_T01",
+    "status": "passed",
+    "duration": 59,
+    "message": ""
+   },
+   {
+    "name": "test_T02",
+    "status": "passed",
+    "duration": 67,
+    "message": ""
+   },
+   {
+    "name": "test_T03",
+    "status": "passed",
+    "duration": 84,
+    "message": ""
+   },
+   {
+    "name": "test_T04",
+    "status": "passed",
+    "duration": 70,
+    "message": ""
+   },
+   {
+    "name": "test_T05",
+    "status": "passed",
+    "duration": 80,
+    "message": ""
+   },
+   {
+    "name": "test_T06",
+    "status": "passed",
+    "duration": 47,
+    "message": ""
+   },
+   {
+    "name": "test_R18",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_R19",
+    "status": "passed",
+    "duration": 4,
+    "message": ""
+   },
+   {
+    "name": "test_R20",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_R21",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_R22",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_R34",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_R38",
+    "status": "passed",
+    "duration": 2,
+    "message": ""
+   },
+   {
+    "name": "test_R39",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: R39 not met\nE       assert False\nE        +  where False = <function <lambda>.<locals>.<lambda> at 0xffff7e02a160>()\n\ntest_outputs.py:828: AssertionError"
+   },
+   {
+    "name": "test_R40",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: R40 not met\nE       assert False\nE        +  where False = <function <lambda>.<locals>.<lambda> at 0xffff7e02a200>()\n\ntest_outputs.py:828: AssertionError"
+   },
+   {
+    "name": "test_R47",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   }
+  ]
+ }
+}

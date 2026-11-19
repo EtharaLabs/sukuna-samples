@@ -1,0 +1,1125 @@
+{
+  "reward": {
+    "kind": "group",
+    "score": 0.173,
+    "aggregation": "weighted-mean",
+    "components": [
+      {
+        "name": "judge",
+        "weight": 0.5,
+        "detail": {
+          "score": 0.3459,
+          "criteria": [
+            {
+              "id": "J01",
+              "name": "j01_judge_from_final_message_md_the_ru",
+              "value": 1.0,
+              "raw": "yes",
+              "weight": 5.0,
+              "description": "J01: judge from final_message.md (the run's closing note). The note says the edition that governs a duty is fixed by that duty's start time in depot local time, so a duty is never split part-way through however long it runs.",
+              "reasoning": "The closing note states that each duty's governing edition was determined by its start time in depot local time, not by roster week or GMT instant. It also explains that overnight duties retain Edition 3 despite ending the following day. This establishes a single edition for the whole duty rather than splitting it part-way through."
+            },
+            {
+              "id": "J02",
+              "name": "j02_judge_from_final_message_md_the_ru",
+              "value": 1.0,
+              "raw": "yes",
+              "weight": 5.0,
+              "description": "J02: judge from final_message.md (the run's closing note). The note says the break requirement is forty-five minutes under both editions but the blocks that count toward it differ, fifteen minutes or longer under the earlier edition and thirty minutes or longer under the reissue, so a fifteen-and-thirty split qualifies only thirty under the reissue.",
+              "reasoning": "The closing note states that Edition 3 counts blocks of at least 15 minutes toward 45 minutes, while Edition 4 counts only blocks of at least 30 minutes. It explicitly says that 15 + 30 splits under Edition 4 leave 30 qualifying minutes and a 15-minute shortfall, establishing that the 45-minute requirement remains unchanged."
+            },
+            {
+              "id": "J03",
+              "name": "j03_judge_from_final_message_md_the_ru",
+              "value": 1.0,
+              "raw": "yes",
+              "weight": 5.0,
+              "description": "J03: judge from final_message.md (the run's closing note). The note says the night-work limit and its window both move at the reissue, from four hundred and eighty minutes against a midnight-to-four window to four hundred and twenty minutes against an eleven-at-night-to-five window.",
+              "reasoning": "The closing note identifies Edition 3 night work as having a 480-minute limit and a 00:00\u201304:00 window, and Edition 4 night work as having a 420-minute limit and a 23:00\u201305:00 window. It also states that Edition 4 applies to duties starting on or after 26 October 2026, establishing that both the limit and window change at the reissue."
+            },
+            {
+              "id": "J04",
+              "name": "j04_judge_from_final_message_md_the_ru",
+              "value": 0.0,
+              "raw": "no",
+              "weight": 5.0,
+              "description": "J04: judge from final_message.md (the run's closing note). The note says periods of availability are excluded from working time under the earlier edition and counted in full under the reissue, and that this is why the availability findings exist at all.",
+              "reasoning": "The closing note states that Edition 4 counts availability in full and lists the resulting availability findings. However, it does not state that periods of availability were excluded from working time under Edition 3 or explain that this change is why the availability findings arise."
+            },
+            {
+              "id": "J05",
+              "name": "j05_judge_from_final_message_md_the_ru",
+              "value": 0.0,
+              "raw": "no",
+              "weight": 5.0,
+              "description": "J05: judge from final_message.md (the run's closing note). The note says the rolling working time limit is tested over a fixed Monday-to-Sunday week at three thousand six hundred minutes under the earlier edition and over a rolling seven-day reference period at three thousand three hundred and sixty minutes under the reissue.",
+              "reasoning": "The closing note states that Edition 4 tests any seven consecutive days against a 3,360-minute limit, but it does not state that Edition 3 tests a fixed Monday-to-Sunday week against a 3,600-minute limit. Thus, the required comparison is incomplete."
+            },
+            {
+              "id": "J06",
+              "name": "j06_judge_from_final_message_md_the_ru",
+              "value": 1.0,
+              "raw": "yes",
+              "weight": 5.0,
+              "description": "J06: judge from final_message.md (the run's closing note). The note states the order of authority it applied: the driver card download governs driving, break and rest minutes; a signed manual-entry certificate governs a day the download leaves a gap; a signed infringement report outranks an unsigned dispute flag; and the roster and the traffic office's keyed actuals are overridable and never outrank the card.",
+              "reasoning": "The closing note conveys the required evidence hierarchy: it uses card-download totals and rest records over conflicting sources; uses signed manual-entry certificates for download gaps while rejecting unsigned drafts; treats the unsigned dispute flag as having no authority while acting on signed infringement reports; and explicitly sets aside keyed actuals and roster times in favor of card downloads. These statements establish the requested order of authority."
+            },
+            {
+              "id": "J07",
+              "name": "j07_judge_from_final_message_md_the_ru",
+              "value": 0.0,
+              "raw": "no",
+              "weight": 5.0,
+              "description": "J07: judge from final_message.md (the run's closing note). The note says that for the shortfall rules, break composition and daily and weekly rest, the figure it reports is the limit less the actual, while for every other rule it is the actual less the limit, and that it is positive whole minutes either way.",
+              "reasoning": "The closing note lists positive integer shortfalls for break composition and daily and weekly rest, and positive integer excesses for other rules. However, it does not state the required calculation convention: limit minus actual for shortfall rules, actual minus limit for all other rules, with the result reported as positive whole minutes."
+            },
+            {
+              "id": "J08",
+              "name": "j08_judge_from_final_message_md_the_ru",
+              "value": 0.0,
+              "raw": "no",
+              "weight": 5.0,
+              "description": "J08: judge from final_message.md (the run's closing note). The note explicitly rejects the UTC instant as the test of which edition applies, and says a duty starting late on 2026-10-25 in depot local time is still governed by the earlier edition even though its UTC label reads otherwise.",
+              "reasoning": "The closing note explicitly rejects the GMT instant in favor of depot-local duty start time. However, it does not explicitly say that a duty starting late on 2026-10-25 remains under Edition 3 despite its UTC label. Instead, its example concerns duties starting on 24 October and ending on 25 October, and it says no duty crossed the reissue. Thus the specific required explanation is missing."
+            },
+            {
+              "id": "J09",
+              "name": "j09_judge_from_final_message_md_the_ru",
+              "value": 1.0,
+              "raw": "yes",
+              "weight": 5.0,
+              "description": "J09: judge from final_message.md (the run's closing note). The note explicitly rejects the roster day or roster week as the test of which edition applies, so neither the whole week commencing 2026-10-26 nor the day a duty ends on decides it, and it says the traffic office's draft memo urging the roster-week reading carries no weight.",
+              "reasoning": "The closing note explicitly applies editions by each duty's start time in depot local time, 'not by the roster week,' with Edition 4 applying to starts on or after 26 October 2026. It also states that duties starting on 24 October remain under Edition 3 even though they ended on the 25th, rejecting the end-day test. Finally, it expressly sets aside the traffic office's draft memo advocating whole-roster-week treatment because it contradicts the code."
+            },
+            {
+              "id": "J10",
+              "name": "j10_judge_from_final_message_md_the_ru",
+              "value": 1.0,
+              "raw": "yes",
+              "weight": 5.0,
+              "description": "J10: judge from final_message.md (the run's closing note). The note explicitly rejects holding one fixed summer-time offset for duties after the 2026-10-25 clock change, and says the carriers that keep the pre-change offset in their labels after that date were read as such rather than re-timed.",
+              "reasoning": "The closing note rejects using summer-time labels throughout the period, stating that it used the cards\u2019 true instants instead. It explicitly identifies roster labels and vehicle-unit blocks as staying on summer time all period, treating that as a source-label convention rather than re-timing the duties. Its example of 21:00 BST to 07:30 GMT also demonstrates recognition of the 25 October clock change rather than applying one fixed offset."
+            },
+            {
+              "id": "J11",
+              "name": "j11_judge_from_final_message_md_the_ru",
+              "value": 0.0,
+              "raw": "no",
+              "weight": 5.0,
+              "description": "J11: judge from final_message.md (the run's closing note). The note says that on duty KD-1410-040 the download had a gap and the signed manual-entry certificate for that day governed the daily driving figure instead of the partial card record or any keyed figure, giving the earlier edition's limit of 540 against an actual of 585 and an excess of 45 for BD-DRV-1300.",
+              "reasoning": "The note gives KD-1410-040's Edition 3 daily-driving limit of 540, actual of 585 and excess of 45, and attributes the correction to signed certificate KD-MEC-5100. However, it does not state that this duty's download had a gap or explain that the certificate governed instead of the partial card record or any keyed figure. It also does not identify BD-DRV-1300 as the driver for this duty."
+            },
+            {
+              "id": "J12",
+              "name": "j12_judge_from_final_message_md_the_ru",
+              "value": 1.0,
+              "raw": "yes",
+              "weight": 5.0,
+              "description": "J12: judge from final_message.md (the run's closing note). The note says that on duty KD-1410-103 the signed manual-entry certificate governed the preceding daily rest rather than the roster or keyed record, giving the earlier edition's limit of 660 against an actual of 540 and a shortfall of 120 for BD-DRV-1349.",
+              "reasoning": "The closing note lists KD-1410-103 under Edition 3 daily rest, with a minimum of 660 minutes, actual rest of 540 and a shortfall of 120, explicitly taken from signed certificate KD-MEC-5103. It also states that roster and keyed records were not used for the figures, supporting the signed certificate as the governing evidence."
+            },
+            {
+              "id": "J13",
+              "name": "j13_judge_from_final_message_md_the_ru",
+              "value": 0.0,
+              "raw": "no",
+              "weight": 5.0,
+              "description": "J13: judge from final_message.md (the run's closing note). The note says that on duty KD-2610-265 the signed manual-entry certificate governed the daily driving figure under the reissue, giving a limit of 540 against an actual of 568 and an excess of 28 for BD-DRV-1475, and that no continuous-driving finding was raised on that day because a certificate declares totals and not the run profile.",
+              "reasoning": "The closing note lists KD-2610-265 under Edition 4 daily driving with limit 540, actual 568 and excess 28, sourced from signed certificate KD-MEC-5106. However, it does not identify BD-DRV-1475 for that finding or explain that no continuous-driving finding was raised because a certificate declares totals rather than the run profile. Thus the full criterion is not satisfied."
+            },
+            {
+              "id": "J14",
+              "name": "j14_judge_from_final_message_md_the_ru",
+              "value": 0.0,
+              "raw": "no",
+              "weight": 5.0,
+              "description": "J14: judge from final_message.md (the run's closing note). The note says duty KD-2410-067 began on 2026-10-24 and ran through the clock change, that the earlier edition still governed it because its depot-local start fell before the reissue took effect, and that its daily driving finding is a limit of 540 against an actual of 561 and an excess of 21 for BD-DRV-1321, taken from the card's recorded driving minutes rather than from any subtraction of clock faces.",
+              "reasoning": "The note correctly explains that KD-2410-067 started on 24 October 2026, crossed the clock change, remained under Edition 3 based on its depot-local start, and had daily driving of 561 against a 540-minute limit, an excess of 21, using card-recorded totals rather than clock-face subtraction. However, it never identifies this duty or finding as belonging to BD-DRV-1321, as the criterion requires."
+            },
+            {
+              "id": "J15",
+              "name": "j15_judge_from_final_message_md_the_ru",
+              "value": 0.0,
+              "raw": "no",
+              "weight": 5.0,
+              "description": "J15: judge from final_message.md (the run's closing note). The note says the same duty KD-2410-067 also breached night work at the earlier edition's limit of 480 against an actual of 616 and an excess of 136, that the repeated hour makes the duty run an hour longer than a subtraction of its own recorded local labels suggests so it does touch the night window, and that the vehicle unit's clock-out keyed an hour early was set aside in favour of the driver card, with the gatehouse log corroborating the card.",
+              "reasoning": "The note correctly lists KD-2410-067's Edition 3 night-work breach at limit 480, actual 616 and excess 136, and explains that the clock change makes its elapsed duration 690 rather than 630 minutes. However, it does not identify that duty's vehicle-unit clock-out as keyed an hour early or state that the gatehouse log corroborated the driver card. Instead, it broadly rejects vehicle-unit blocks as remaining on summer time and says the gatehouse papers were not used for any figure. Thus the full criterion is not satisfied."
+            },
+            {
+              "id": "J16",
+              "name": "j16_judge_from_final_message_md_the_ru",
+              "value": 0.0,
+              "raw": "no",
+              "weight": 5.0,
+              "description": "J16: judge from final_message.md (the run's closing note). The note says duty KD-2410-076 likewise ran through the clock change under the earlier edition and breached continuous driving at a limit of 270 against an actual of 301 and an excess of 31 for BD-DRV-1328.",
+              "reasoning": "The closing note identifies KD-2410-076 as a clock-change-night duty under Edition 3 and lists its continuous-driving limit as 270 minutes, actual as 301, and excess as 31. However, it does not identify BD-DRV-1328 as the driver for that duty, so the full criterion is not met."
+            },
+            {
+              "id": "J17",
+              "name": "j17_judge_from_final_message_md_the_ru",
+              "value": 0.0,
+              "raw": "no",
+              "weight": 5.0,
+              "description": "J17: judge from final_message.md (the run's closing note). The note says duty KD-2410-085 likewise ran through the clock change under the earlier edition and fell short on break composition, a requirement of 45 against 35 qualifying minutes and a shortfall of 10 for BD-DRV-1335, with the earlier edition's fifteen-minute block threshold applied rather than the reissue's.",
+              "reasoning": "The closing note identifies KD-2410-085 as a clock-change-night duty under Edition 3 and records the correct break-composition calculation: a 45-minute requirement, 35 qualifying minutes from a 10 + 35 split, and a 10-minute shortfall using the earlier edition\u2019s 15-minute block threshold. However, it never identifies BD-DRV-1335 as the driver for this finding, so the full criterion is not satisfied."
+            },
+            {
+              "id": "J18",
+              "name": "j18_judge_from_final_message_md_the_ru",
+              "value": 1.0,
+              "raw": "yes",
+              "weight": 5.0,
+              "description": "J18: judge from final_message.md (the run's closing note). The note says a manual-entry certificate's declared driving minutes moved from 560 to 585 after the first close, that the finding on KD-1410-040 was restated from an excess of 20 to 45, and that the change was logged in the corrections register against that certificate record.",
+              "reasoning": "The closing note states that after the first close, signed certificate KD-MEC-5100 for KD-1410-040 changed from 560 to 585 driving minutes. It reports correcting finding WTH-00004 to actual 585 and excess 45, and filing corrections-register entry KDX-00040 for that certificate change. The original excess of 20 is implicit in the stated 540-minute limit and original actual of 560."
+            },
+            {
+              "id": "J19",
+              "name": "j19_judge_from_final_message_md_the_ru",
+              "value": 0.0,
+              "raw": "no",
+              "weight": 5.0,
+              "description": "J19: judge from final_message.md (the run's closing note). The note says a re-download of a driver card moved its driving minutes from 571 to 608 after the close, that the finding on KD-1210-139 for BD-DRV-1377 was restated from an excess of 31 to 68, and that the change was logged in the corrections register against that download record.",
+              "reasoning": "The closing note still lists KD-1210-139 as 571 driving minutes with an excess of 31. It does not report the post-close re-download changing driving minutes to 608, restating BD-DRV-1377\u2019s excess to 68, or logging that change against download record KD-DL-10012R. Its only reported correction concerns the signed certificate for KD-1410-040, and it explicitly says nothing else changed."
+            },
+            {
+              "id": "J20",
+              "name": "j20_judge_from_final_message_md_the_ru",
+              "value": 0.0,
+              "raw": "no",
+              "weight": 5.0,
+              "description": "J20: judge from final_message.md (the run's closing note). The note says one infringement report moved from an unsigned dispute flag to signed after the first close, that this brought BD-DRV-1559's report into the set owing an annotation, and that the change was logged in the corrections register.",
+              "reasoning": "The closing note does not acknowledge that BDR-3377 for BD-DRV-1559 changed from an unsigned dispute flag to signed after the first close, became eligible for annotation, or had that change logged in the corrections register. Instead, it explicitly calls the dispute unsigned and says BDR-3377 was left unannotated. Its only reported corrections-register entry concerns KD-MEC-5100."
+            },
+            {
+              "id": "J21",
+              "name": "j21_judge_from_final_message_md_the_ru",
+              "value": 0.0,
+              "raw": "no",
+              "weight": 5.0,
+              "description": "J21: judge from final_message.md (the run's closing note). The note says an agency timesheet record was retracted after the close, that because a timesheet only corroborates the retraction removed corroboration without moving the authoritative figure, and that the finding on KD-2610-202 for BD-DRV-1426 therefore stood at an actual of 556 and an excess of 16, corrected through the register and never deleted.",
+              "reasoning": "The closing note lists KD-2610-202 at actual 556 and excess 16, but does not report the post-close agency timesheet retraction, explain that it removed only corroboration without changing the authoritative card-download figure, or state that the retraction was recorded through the corrections register while retaining the finding. Its only described register correction concerns KD-1410-040."
+            },
+            {
+              "id": "J22",
+              "name": "j22_judge_from_final_message_md_the_ru",
+              "value": 0.0,
+              "raw": "no",
+              "weight": 3.0,
+              "description": "J22: judge from final_message.md (the run's closing note). The note says the driver register returned fewer rows than its own published row count, that it kept paging until the two agreed, and that the recovered rows belong to in-scope drivers who own findings.",
+              "reasoning": "The note identifies the driver-register mismatch (53 published rows versus 50 returned), but says it fetched the three missing rows directly, not that it kept paging until the counts agreed. It also does not clearly state that all three recovered driver rows were in scope and owned findings. The explicit paging-to-published-count statement concerns card downloads, not the driver register."
+            },
+            {
+              "id": "J23",
+              "name": "j23_judge_from_final_message_md_the_ru",
+              "value": 0.0,
+              "raw": "no",
+              "weight": 3.0,
+              "description": "J23: judge from final_message.md (the run's closing note). The note says one collection refused a bulk query outright and was read record by record instead, so no duty was dropped for want of a query.",
+              "reasoning": "The closing note describes truncated queries handled by direct fetches or pagination, and a throttled archive query handled by waiting and retrying. It does not say that a collection refused a bulk query outright and was instead read record by record."
+            },
+            {
+              "id": "J24",
+              "name": "j24_judge_from_final_message_md_the_ru",
+              "value": 1.0,
+              "raw": "yes",
+              "weight": 3.0,
+              "description": "J24: judge from final_message.md (the run's closing note). The note says a query was rate-limited and retried rather than abandoned.",
+              "reasoning": "The closing note explicitly states: \u201cThrottling: the archive refused one query with a \u2018one query a second\u2019 limit. I waited and retried.\u201d This confirms the rate-limited query was retried rather than abandoned."
+            },
+            {
+              "id": "J25",
+              "name": "j25_judge_from_final_message_md_the_ru",
+              "value": 0.0,
+              "raw": "no",
+              "weight": 3.0,
+              "description": "J25: judge from final_message.md (the run's closing note). The note says a vehicle unit's weekly driving total was internally inconsistent with its own per-duty downloads, that the block was recomputed from those downloads, and that no finding rests on a unit summary total.",
+              "reasoning": "The closing note says vehicle unit summary totals were not used and that per-duty card downloads were used instead. However, it does not state that a vehicle unit's weekly driving total was internally inconsistent with its own per-duty downloads or that the affected block was recomputed from those downloads. Thus, it does not satisfy all elements of J25."
+            },
+            {
+              "id": "J26",
+              "name": "j26_judge_from_final_message_md_the_ru",
+              "value": 0.0,
+              "raw": "no",
+              "weight": 3.0,
+              "description": "J26: judge from final_message.md (the run's closing note). The note says four corrections were filed, one for each record that was overtaken after a close, and that every one of them was filed before the final close.",
+              "reasoning": "The closing note reports only one corrections-register entry, KDX-00040 for KD-MEC-5100, filed before close 3, and explicitly states that nothing else changed. It does not say that four corrections were filed, one for each record overtaken after a close, before the final close."
+            },
+            {
+              "id": "J27",
+              "name": "j27_judge_from_final_message_md_the_ru",
+              "value": 0.0,
+              "raw": "no",
+              "weight": 3.0,
+              "description": "J27: judge from final_message.md (the run's closing note). The note says the traffic office's keyed actuals were backfilled while the run was working, that because the keyed feed never outranks the card download the affected records stood unchanged, and that no correction entry was filed for them.",
+              "reasoning": "The closing note says the keyed actuals showed early finishes for three duties and that card downloads were used instead. However, it does not say the traffic office backfilled those actuals while the run was in progress, nor explicitly explain that the affected records remained unchanged and no correction entry was filed because the keyed feed never outranks the card download."
+            },
+            {
+              "id": "J28",
+              "name": "j28_judge_from_final_message_md_the_ru",
+              "value": 0.0,
+              "raw": "no",
+              "weight": 3.0,
+              "description": "J28: judge from final_message.md (the run's closing note). The note says a driver's contact address changed in the register before any close, that the notice therefore went to the address the register held at send time rather than to the stale value the roster export carries, and that the address change owed no corrections entry.",
+              "reasoning": "The closing note says addresses came from the live register at send time and identifies BD-DRV-1342\u2019s new address. However, it does not state that the address changed before any close, explicitly contrast it with the stale address in the roster export, or explain that the address change required no corrections-register entry."
+            },
+            {
+              "id": "J29",
+              "name": "j29_judge_from_final_message_md_the_ru",
+              "value": 1.0,
+              "raw": "yes",
+              "weight": 3.0,
+              "description": "J29: judge from final_message.md (the run's closing note). The note says the period was closed, then reopened before any finding was changed, and then closed again, so no finding was amended while the period stood closed.",
+              "reasoning": "The closing note explicitly describes the required sequence: after the first close, it wrote close 2 as REOPENED, then corrected finding WTH-00004, and finally closed again as close 3. Thus, according to the note, no finding was amended while the period remained closed."
+            },
+            {
+              "id": "J30",
+              "name": "j30_judge_from_final_message_md_the_ru",
+              "value": 0.0,
+              "raw": "no",
+              "weight": 3.0,
+              "description": "J30: judge from final_message.md (the run's closing note). The note says the close figures are sums over the findings the run itself recorded, that the notices went out only after the final close, and that the compliance follow-up was finished after the last notice.",
+              "reasoning": "No. The closing note reports final totals and describes reopening and closing again, but it does not state that the close figures are sums over the findings the run recorded. More importantly, it does not confirm that notices were sent only after the final close or that the compliance follow-up was completed after the last notice. Reporting 33 notified drivers, a re[REDACTED]ved ticket, and report annotations does not establish the required sequence."
+            },
+            {
+              "id": "J31",
+              "name": "j31_judge_from_final_message_md_the_ru",
+              "value": 0.0,
+              "raw": "no",
+              "weight": 3.0,
+              "description": "J31: judge from final_message.md (the run's closing note). The note says every figure it reports for the close, the notices and the follow-up was recomputed after the records changed, so none of them was carried over from figures read before the change.",
+              "reasoning": "The closing note describes correcting one finding and reopening and reclosing the period, but does not state that every figure for the close, notices and follow-up was recomputed after the records changed. Re-reading downloads and certificates is not the same assurance. It also retains the superseded 571-minute figure for KD-1210-139 and describes BDR-3377 as unsigned, indicating that changed records were not fully reflected."
+            },
+            {
+              "id": "J32",
+              "name": "j32_judge_from_final_message_md_the_ru",
+              "value": 0.0,
+              "raw": "no",
+              "weight": 3.0,
+              "description": "J32: judge from final_message.md (the run's closing note). The note says the sister-depot drivers the register carries are marked out of scope for this audit, that it raised no finding against any of them, and that none of them was notified.",
+              "reasoning": "The note identifies the three Marlbrook sister-depot drivers in the register and says they were left out as out of scope. However, it does not state that no findings were raised against them or that none of them was notified, so it does not fully satisfy the criterion."
+            },
+            {
+              "id": "J33",
+              "name": "j33_judge_from_final_message_md_the_ru",
+              "value": 0.0,
+              "raw": "no",
+              "weight": 3.0,
+              "description": "J33: judge from final_message.md (the run's closing note). The note says the agency drivers fall outside the employed in-scope population, that their timesheets were used only to corroborate, and that no finding or notice was raised for any of them.",
+              "reasoning": "The closing note says the eight agency drivers were out of scope and left out, but it does not state that their timesheets were used only for corroboration or explicitly confirm that none received a finding or notice. Instead, it says the agency papers were not used for any figure. Thus, the note does not satisfy all parts of J33."
+            },
+            {
+              "id": "J34",
+              "name": "j34_judge_from_final_message_md_the_ru",
+              "value": 1.0,
+              "raw": "yes",
+              "weight": 3.0,
+              "description": "J34: judge from final_message.md (the run's closing note). The note says two manual-entry certificates were unsigned drafts, that an unsigned draft governs nothing, and that it therefore abstained on those days rather than raising a finding or estimating a figure.",
+              "reasoning": "The closing note explicitly identifies KD-1210-409 and KD-1310-058 as two unsigned draft certificates and states: \"unsigned drafts don't govern, so I couldn't assess those two days.\" This communicates abstention rather than raising findings or estimating figures for those days."
+            },
+            {
+              "id": "J35",
+              "name": "j35_judge_from_final_message_md_the_ru",
+              "value": 0.0,
+              "raw": "no",
+              "weight": 1.0,
+              "description": "J35: judge from final_message.md (the run's closing note). The note accounts for its findings one by one and gives each finding it accounts for a rule-and-table line naming the clause and the table row that set that finding's limit. Judge the presence of such a line for each finding the note accounts for, not whether the line is the right one. A note that accounts for no finding individually, or that carries no rule-and-table line at all, answers this criterion no.",
+              "reasoning": "The note accounts for findings individually and supplies clause-and-table-row citations for many groups. However, its Edition 4 daily driving, continuous driving, daily rest, and weekly rest groups name only table rows, without naming the governing clauses. Thus not every finding accounted for has a rule-and-table line naming both the clause and table row."
+            },
+            {
+              "id": "J36",
+              "name": "j36_judge_from_final_message_md_the_ru",
+              "value": 1.0,
+              "raw": "yes",
+              "weight": 1.0,
+              "description": "J36: judge from final_message.md (the run's closing note). The note states a headline count of findings, and states it as 39.",
+              "reasoning": "Yes. The closing note in final_message.md explicitly states the headline count as \u201c39 findings\u201d in its opening paragraph."
+            },
+            {
+              "id": "J37",
+              "name": "j37_judge_from_final_message_md_the_ru",
+              "value": 0.0,
+              "raw": "no",
+              "weight": 1.0,
+              "description": "J37: judge from final_message.md (the run's closing note). The note states a headline total of excess minutes, and states it as 2262.",
+              "reasoning": "The headline in final_message.md states \u201c2,310 minutes of excess,\u201d not the required 2,262 minutes."
+            },
+            {
+              "id": "J38",
+              "name": "j38_judge_from_final_message_md_the_ru",
+              "value": 1.0,
+              "raw": "yes",
+              "weight": 1.0,
+              "description": "J38: judge from final_message.md (the run's closing note). The note states a headline count of drivers notified, and states it as 33.",
+              "reasoning": "The opening headline in final_message.md explicitly states \u201c33 drivers notified,\u201d satisfying the criterion."
+            },
+            {
+              "id": "J39",
+              "name": "j39_judge_from_final_message_md_the_ru",
+              "value": 1.0,
+              "raw": "yes",
+              "weight": 1.0,
+              "description": "J39: judge from final_message.md (the run's closing note). The note carries substantive connected prose addressed to the depot compliance manager, in sentences and paragraphs that explain the audit in words, rather than pasted tool output, raw JSON, a dump of record identifiers or a bare machine table. An empty note, or one that carries no such connected prose, answers this criterion no.",
+              "reasoning": "The closing note directly addresses Dilraj and contains substantial connected prose explaining the audit, including edition selection, evidence handling, clock-change calculations, corrections, judgment calls, and data anomalies. Although it also includes detailed findings lists, it is clearly a narrative account for the depot compliance manager rather than raw tool output, JSON, or a bare table."
+            },
+            {
+              "id": "J40",
+              "name": "j40_judge_from_final_message_md_the_ru",
+              "value": 1.0,
+              "raw": "yes",
+              "weight": 1.0,
+              "description": "J40: judge from final_message.md (the run's closing note). The note names which edition it applied either side of the reissue and says how it decided that for a duty that straddled the change.",
+              "reasoning": "The closing note explicitly applies WT-7 Edition 3 to duties starting before 26 October 2026 and Edition 4 to duties starting on or after that date. It explains that edition selection follows the duty's start time in depot local time under section 1.2, rather than the roster week or GMT instant. This states how a straddling duty would be treated, while clarifying that no duty actually crossed the reissue boundary."
+            },
+            {
+              "id": "J41",
+              "name": "j41_judge_from_final_message_md_the_ru",
+              "value": 1.0,
+              "raw": "yes",
+              "weight": 1.0,
+              "description": "J41: judge from final_message.md (the run's closing note). The note says how it handled the night the clocks went back where a duty ran through it.",
+              "reasoning": "The closing note explicitly explains its clock-change handling: it used the card downloads\u2019 true elapsed minutes and activity totals rather than subtracting local clock times. It illustrates this with KD-2410-067, which ran from 21:00 BST to 07:30 GMT and lasted 690 minutes rather than the apparent 630. It also states that duties starting on 24 October remained under Edition 3 and that summer-time roster labels and vehicle-unit blocks were not used."
+            },
+            {
+              "id": "J42",
+              "name": "j42_judge_from_final_message_md_the_ru",
+              "value": 0.0,
+              "raw": "no",
+              "weight": 1.0,
+              "description": "J42: judge from final_message.md (the run's closing note). The note names at least one record it set aside, drawn from the roster, the keyed actuals, the export, the chat channels or the draft memo, and for every record it names as set aside it also names the record it relied on in that record's place. A note that names no set-aside record, or that names one without naming what it relied on instead, answers this criterion no.",
+              "reasoning": "The note names several set-aside records and replacements, including keyed actuals replaced by card downloads, roster times replaced by cards\u2019 true instants, and the draft memo replaced by the two code editions. However, it does not name a replacement record for every record it sets aside. In particular, it rejects the unsigned draft certificates KD-1210-409 and KD-1310-058 without identifying records relied on instead, saying those days could not be assessed. It also dismisses BD-DRV-1559\u2019s dispute without naming a replacement record. Therefore, the criterion\u2019s universal replacement requirement is not met."
+            },
+            {
+              "id": "J43",
+              "name": "j43_judge_from_final_message_md_the_ru",
+              "value": 1.0,
+              "raw": "yes",
+              "weight": 1.0,
+              "description": "J43: judge from final_message.md (the run's closing note). The note states a limit, an actual and an excess for the findings it accounts for, and expresses every one of those figures in whole minutes, never in hours, decimal hours or an hours-and-minutes form. A note that states no limit, actual or excess figure at all answers this criterion no.",
+              "reasoning": "The closing note states limits, actuals and excesses or shortfalls for its findings using whole-minute figures, with the findings section explicitly identifying minutes as the unit. No finding's limit, actual or excess is expressed in hours, decimal hours or hours-and-minutes form. The separate reference to 'about 34 hours earlier' concerns a data oddity, not a reported finding figure."
+            },
+            {
+              "id": "J44",
+              "name": "j44_judge_from_final_message_md_the_ru",
+              "value": 0.0,
+              "raw": "no",
+              "weight": 1.0,
+              "description": "J44: judge from final_message.md (the run's closing note). The note identifies each finding it accounts for on its own, naming that finding's driver, its duty reference and the kind of limit breached, and it accounts for at least one finding identified that way. A note that identifies no finding by driver, duty reference and kind of limit answers this criterion no.",
+              "reasoning": "The closing note lists 39 findings, but most are identified only by duty reference and limit type, without naming the driver. Although the rolling-working-time entries explicitly name drivers, duty references and the kind of limit breached, the note does not do so for each finding it accounts for, as required."
+            },
+            {
+              "id": "J45",
+              "name": "j45_judge_from_final_message_md_the_ru",
+              "value": 0.0,
+              "raw": "no",
+              "weight": 5.0,
+              "description": "J45: judge from final_message.md (the run's closing note) against the reference. For every one of the reference findings without exception, the note names the rule and the table line that set that finding's limit and states its limit, its actual and its excess exactly as the reference gives them (the rule and table line are listed under the reference's \"Rule and table line per finding\"). A single reference finding the note omits, or names no rule for, or cites a rule or table line, or gives a limit, actual or excess, that differs from the reference, answers this criterion no; nothing less than complete coverage of the reference set satisfies it.",
+              "reasoning": "The closing note does not exactly cover every reference finding. KD-1210-139 is reported as actual 571 and excess 31, whereas the reference requires actual 608 and excess 68 (limit 540). The reference finding KD-0511-373 for BD-DRV-1559, limit 3360, actual 3395, excess 35, is omitted and replaced with KD-0611-373, actual 3480, excess 120. Additionally, the Edition 4 daily-driving, continuous-driving, daily-rest and weekly-rest groups cite table rows but omit their required rule numbers (2.1, 3.1, 8.1 and 8.2 respectively). These discrepancies independently fail the criterion's requirement for complete, exact coverage."
+            }
+          ],
+          "kind": "llm",
+          "judge": {
+            "model": "openai/gpt-6.1-[REDACTED]",
+            "reasoning_effort": "medium",
+            "timeout": 300,
+            "files": [
+              "/logs/verifier/judge_ws/final_message.md",
+              "/logs/verifier/judge_ws/instruction.md",
+              "/logs/verifier/judge_ws/end_state.md",
+              "/logs/verifier/judge_ws/trajectory.md"
+            ],
+            "atif_trajectory": null,
+            "reference": "/opt/truth/audit_reference.md",
+            "mode": "individual",
+            "samples": 1,
+            "guard": "penalize"
+          },
+          "judge_output": "--- j01_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The closing note states that each duty's governing edition was determined by its start time in depot local time, not by roster week or GMT instant. It also explains that overnight duties retain Edition 3 despite ending the following day. This establishes a single edition for the whole duty rather than splitting it part-way through.\"\n}\n\n--- j02_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The closing note states that Edition 3 counts blocks of at least 15 minutes toward 45 minutes, while Edition 4 counts only blocks of at least 30 minutes. It explicitly says that 15 + 30 splits under Edition 4 leave 30 qualifying minutes and a 15-minute shortfall, establishing that the 45-minute requirement remains unchanged.\"\n}\n\n--- j03_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The closing note identifies Edition 3 night work as having a 480-minute limit and a 00:00\u201304:00 window, and Edition 4 night work as having a 420-minute limit and a 23:00\u201305:00 window. It also states that Edition 4 applies to duties starting on or after 26 October 2026, establishing that both the limit and window change at the reissue.\"\n}\n\n--- j04_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note states that Edition 4 counts availability in full and lists the resulting availability findings. However, it does not state that periods of availability were excluded from working time under Edition 3 or explain that this change is why the availability findings arise.\"\n}\n\n--- j05_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note states that Edition 4 tests any seven consecutive days against a 3,360-minute limit, but it does not state that Edition 3 tests a fixed Monday-to-Sunday week against a 3,600-minute limit. Thus, the required comparison is incomplete.\"\n}\n\n--- j06_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The closing note conveys the required evidence hierarchy: it uses card-download totals and rest records over conflicting sources; uses signed manual-entry certificates for download gaps while rejecting unsigned drafts; treats the unsigned dispute flag as having no authority while acting on signed infringement reports; and explicitly sets aside keyed actuals and roster times in favor of card downloads. These statements establish the requested order of authority.\"\n}\n\n--- j07_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note lists positive integer shortfalls for break composition and daily and weekly rest, and positive integer excesses for other rules. However, it does not state the required calculation convention: limit minus actual for shortfall rules, actual minus limit for all other rules, with the result reported as positive whole minutes.\"\n}\n\n--- j08_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note explicitly rejects the GMT instant in favor of depot-local duty start time. However, it does not explicitly say that a duty starting late on 2026-10-25 remains under Edition 3 despite its UTC label. Instead, its example concerns duties starting on 24 October and ending on 25 October, and it says no duty crossed the reissue. Thus the specific required explanation is missing.\"\n}\n\n--- j09_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The closing note explicitly applies editions by each duty's start time in depot local time, 'not by the roster week,' with Edition 4 applying to starts on or after 26 October 2026. It also states that duties starting on 24 October remain under Edition 3 even though they ended on the 25th, rejecting the end-day test. Finally, it expressly sets aside the traffic office's draft memo advocating whole-roster-week treatment because it contradicts the code.\"\n}\n\n--- j10_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The closing note rejects using summer-time labels throughout the period, stating that it used the cards\u2019 true instants instead. It explicitly identifies roster labels and vehicle-unit blocks as staying on summer time all period, treating that as a source-label convention rather than re-timing the duties. Its example of 21:00 BST to 07:30 GMT also demonstrates recognition of the 25 October clock change rather than applying one fixed offset.\"\n}\n\n--- j11_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The note gives KD-1410-040's Edition 3 daily-driving limit of 540, actual of 585 and excess of 45, and attributes the correction to signed certificate KD-MEC-5100. However, it does not state that this duty's download had a gap or explain that the certificate governed instead of the partial card record or any keyed figure. It also does not identify BD-DRV-1300 as the driver for this duty.\"\n}\n\n--- j12_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The closing note lists KD-1410-103 under Edition 3 daily rest, with a minimum of 660 minutes, actual rest of 540 and a shortfall of 120, explicitly taken from signed certificate KD-MEC-5103. It also states that roster and keyed records were not used for the figures, supporting the signed certificate as the governing evidence.\"\n}\n\n--- j13_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note lists KD-2610-265 under Edition 4 daily driving with limit 540, actual 568 and excess 28, sourced from signed certificate KD-MEC-5106. However, it does not identify BD-DRV-1475 for that finding or explain that no continuous-driving finding was raised because a certificate declares totals rather than the run profile. Thus the full criterion is not satisfied.\"\n}\n\n--- j14_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The note correctly explains that KD-2410-067 started on 24 October 2026, crossed the clock change, remained under Edition 3 based on its depot-local start, and had daily driving of 561 against a 540-minute limit, an excess of 21, using card-recorded totals rather than clock-face subtraction. However, it never identifies this duty or finding as belonging to BD-DRV-1321, as the criterion requires.\"\n}\n\n--- j15_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The note correctly lists KD-2410-067's Edition 3 night-work breach at limit 480, actual 616 and excess 136, and explains that the clock change makes its elapsed duration 690 rather than 630 minutes. However, it does not identify that duty's vehicle-unit clock-out as keyed an hour early or state that the gatehouse log corroborated the driver card. Instead, it broadly rejects vehicle-unit blocks as remaining on summer time and says the gatehouse papers were not used for any figure. Thus the full criterion is not satisfied.\"\n}\n\n--- j16_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note identifies KD-2410-076 as a clock-change-night duty under Edition 3 and lists its continuous-driving limit as 270 minutes, actual as 301, and excess as 31. However, it does not identify BD-DRV-1328 as the driver for that duty, so the full criterion is not met.\"\n}\n\n--- j17_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note identifies KD-2410-085 as a clock-change-night duty under Edition 3 and records the correct break-composition calculation: a 45-minute requirement, 35 qualifying minutes from a 10 + 35 split, and a 10-minute shortfall using the earlier edition\u2019s 15-minute block threshold. However, it never identifies BD-DRV-1335 as the driver for this finding, so the full criterion is not satisfied.\"\n}\n\n--- j18_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The closing note states that after the first close, signed certificate KD-MEC-5100 for KD-1410-040 changed from 560 to 585 driving minutes. It reports correcting finding WTH-00004 to actual 585 and excess 45, and filing corrections-register entry KDX-00040 for that certificate change. The original excess of 20 is implicit in the stated 540-minute limit and original actual of 560.\"\n}\n\n--- j19_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note still lists KD-1210-139 as 571 driving minutes with an excess of 31. It does not report the post-close re-download changing driving minutes to 608, restating BD-DRV-1377\u2019s excess to 68, or logging that change against download record KD-DL-10012R. Its only reported correction concerns the signed certificate for KD-1410-040, and it explicitly says nothing else changed.\"\n}\n\n--- j20_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note does not acknowledge that BDR-3377 for BD-DRV-1559 changed from an unsigned dispute flag to signed after the first close, became eligible for annotation, or had that change logged in the corrections register. Instead, it explicitly calls the dispute unsigned and says BDR-3377 was left unannotated. Its only reported corrections-register entry concerns KD-MEC-5100.\"\n}\n\n--- j21_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note lists KD-2610-202 at actual 556 and excess 16, but does not report the post-close agency timesheet retraction, explain that it removed only corroboration without changing the authoritative card-download figure, or state that the retraction was recorded through the corrections register while retaining the finding. Its only described register correction concerns KD-1410-040.\"\n}\n\n--- j22_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The note identifies the driver-register mismatch (53 published rows versus 50 returned), but says it fetched the three missing rows directly, not that it kept paging until the counts agreed. It also does not clearly state that all three recovered driver rows were in scope and owned findings. The explicit paging-to-published-count statement concerns card downloads, not the driver register.\"\n}\n\n--- j23_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note describes truncated queries handled by direct fetches or pagination, and a throttled archive query handled by waiting and retrying. It does not say that a collection refused a bulk query outright and was instead read record by record.\"\n}\n\n--- j24_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The closing note explicitly states: \u201cThrottling: the archive refused one query with a \u2018one query a second\u2019 limit. I waited and retried.\u201d This confirms the rate-limited query was retried rather than abandoned.\"\n}\n\n--- j25_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note says vehicle unit summary totals were not used and that per-duty card downloads were used instead. However, it does not state that a vehicle unit's weekly driving total was internally inconsistent with its own per-duty downloads or that the affected block was recomputed from those downloads. Thus, it does not satisfy all elements of J25.\"\n}\n\n--- j26_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note reports only one corrections-register entry, KDX-00040 for KD-MEC-5100, filed before close 3, and explicitly states that nothing else changed. It does not say that four corrections were filed, one for each record overtaken after a close, before the final close.\"\n}\n\n--- j27_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note says the keyed actuals showed early finishes for three duties and that card downloads were used instead. However, it does not say the traffic office backfilled those actuals while the run was in progress, nor explicitly explain that the affected records remained unchanged and no correction entry was filed because the keyed feed never outranks the card download.\"\n}\n\n--- j28_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note says addresses came from the live register at send time and identifies BD-DRV-1342\u2019s new address. However, it does not state that the address changed before any close, explicitly contrast it with the stale address in the roster export, or explain that the address change required no corrections-register entry.\"\n}\n\n--- j29_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The closing note explicitly describes the required sequence: after the first close, it wrote close 2 as REOPENED, then corrected finding WTH-00004, and finally closed again as close 3. Thus, according to the note, no finding was amended while the period remained closed.\"\n}\n\n--- j30_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"No. The closing note reports final totals and describes reopening and closing again, but it does not state that the close figures are sums over the findings the run recorded. More importantly, it does not confirm that notices were sent only after the final close or that the compliance follow-up was completed after the last notice. Reporting 33 notified drivers, a re[REDACTED]ved ticket, and report annotations does not establish the required sequence.\"\n}\n\n--- j31_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note describes correcting one finding and reopening and reclosing the period, but does not state that every figure for the close, notices and follow-up was recomputed after the records changed. Re-reading downloads and certificates is not the same assurance. It also retains the superseded 571-minute figure for KD-1210-139 and describes BDR-3377 as unsigned, indicating that changed records were not fully reflected.\"\n}\n\n--- j32_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The note identifies the three Marlbrook sister-depot drivers in the register and says they were left out as out of scope. However, it does not state that no findings were raised against them or that none of them was notified, so it does not fully satisfy the criterion.\"\n}\n\n--- j33_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note says the eight agency drivers were out of scope and left out, but it does not state that their timesheets were used only for corroboration or explicitly confirm that none received a finding or notice. Instead, it says the agency papers were not used for any figure. Thus, the note does not satisfy all parts of J33.\"\n}\n\n--- j34_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The closing note explicitly identifies KD-1210-409 and KD-1310-058 as two unsigned draft certificates and states: \\\"unsigned drafts don't govern, so I couldn't assess those two days.\\\" This communicates abstention rather than raising findings or estimating figures for those days.\"\n}\n\n--- j35_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The note accounts for findings individually and supplies clause-and-table-row citations for many groups. However, its Edition 4 daily driving, continuous driving, daily rest, and weekly rest groups name only table rows, without naming the governing clauses. Thus not every finding accounted for has a rule-and-table line naming both the clause and table row.\"\n}\n\n--- j36_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"Yes. The closing note in final_message.md explicitly states the headline count as \u201c39 findings\u201d in its opening paragraph.\"\n}\n\n--- j37_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The headline in final_message.md states \u201c2,310 minutes of excess,\u201d not the required 2,262 minutes.\"\n}\n\n--- j38_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The opening headline in final_message.md explicitly states \u201c33 drivers notified,\u201d satisfying the criterion.\"\n}\n\n--- j39_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The closing note directly addresses Dilraj and contains substantial connected prose explaining the audit, including edition selection, evidence handling, clock-change calculations, corrections, judgment calls, and data anomalies. Although it also includes detailed findings lists, it is clearly a narrative account for the depot compliance manager rather than raw tool output, JSON, or a bare table.\"\n}\n\n--- j40_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The closing note explicitly applies WT-7 Edition 3 to duties starting before 26 October 2026 and Edition 4 to duties starting on or after that date. It explains that edition selection follows the duty's start time in depot local time under section 1.2, rather than the roster week or GMT instant. This states how a straddling duty would be treated, while clarifying that no duty actually crossed the reissue boundary.\"\n}\n\n--- j41_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The closing note explicitly explains its clock-change handling: it used the card downloads\u2019 true elapsed minutes and activity totals rather than subtracting local clock times. It illustrates this with KD-2410-067, which ran from 21:00 BST to 07:30 GMT and lasted 690 minutes rather than the apparent 630. It also states that duties starting on 24 October remained under Edition 3 and that summer-time roster labels and vehicle-unit blocks were not used.\"\n}\n\n--- j42_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The note names several set-aside records and replacements, including keyed actuals replaced by card downloads, roster times replaced by cards\u2019 true instants, and the draft memo replaced by the two code editions. However, it does not name a replacement record for every record it sets aside. In particular, it rejects the unsigned draft certificates KD-1210-409 and KD-1310-058 without identifying records relied on instead, saying those days could not be assessed. It also dismisses BD-DRV-1559\u2019s dispute without naming a replacement record. Therefore, the criterion\u2019s universal replacement requirement is not met.\"\n}\n\n--- j43_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The closing note states limits, actuals and excesses or shortfalls for its findings using whole-minute figures, with the findings section explicitly identifying minutes as the unit. No finding's limit, actual or excess is expressed in hours, decimal hours or hours-and-minutes form. The separate reference to 'about 34 hours earlier' concerns a data oddity, not a reported finding figure.\"\n}\n\n--- j44_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note lists 39 findings, but most are identified only by duty reference and limit type, without naming the driver. Although the rolling-working-time entries explicitly name drivers, duty references and the kind of limit breached, the note does not do so for each finding it accounts for, as required.\"\n}\n\n--- j45_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note does not exactly cover every reference finding. KD-1210-139 is reported as actual 571 and excess 31, whereas the reference requires actual 608 and excess 68 (limit 540). The reference finding KD-0511-373 for BD-DRV-1559, limit 3360, actual 3395, excess 35, is omitted and replaced with KD-0611-373, actual 3480, excess 120. Additionally, the Edition 4 daily-driving, continuous-driving, daily-rest and weekly-rest groups cite table rows but omit their required rule numbers (2.1, 3.1, 8.1 and 8.2 respectively). These discrepancies independently fail the criterion's requirement for complete, exact coverage.\"\n}\n\n--- guard ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The submission is an audit report addressed to Dilraj. It describes findings, decisions, corrections, and limitations, but contains no text addressed to an evaluator or instructions about how the work should be scored.\"\n}",
+          "usage": {
+            "input_tokens": 609466,
+            "output_tokens": 5102,
+            "total_tokens": 614568,
+            "cost_usd": 1.269952,
+            "models": {
+              "openai/gpt-6.1-[REDACTED]": {
+                "input_tokens": 609466,
+                "output_tokens": 5102,
+                "total_tokens": 614568,
+                "cost_usd": 1.269952
+              }
+            }
+          },
+          "guard": {
+            "flagged": false,
+            "reasoning": "The submission is an audit report addressed to Dilraj. It describes findings, decisions, corrections, and limitations, but contains no text addressed to an evaluator or instructions about how the work should be scored."
+          }
+        }
+      },
+      {
+        "name": "test_output",
+        "weight": 0.5,
+        "detail": {
+          "score": 0.0,
+          "criteria": [
+            {
+              "name": "F01",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "F01",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F02",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "F02",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F03",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "F03",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F04",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "F04",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F05",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 3.0,
+              "description": "F05",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F06",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 1.0,
+              "description": "F06",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F07",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 1.0,
+              "description": "F07",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F08",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 1.0,
+              "description": "F08",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F09",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 1.0,
+              "description": "F09",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F10",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 3.0,
+              "description": "F10",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F11",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "F11",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F12",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "F12",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F13",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "F13",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F14",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 1.0,
+              "description": "F14",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F15",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 3.0,
+              "description": "F15",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F16",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "F16",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F17",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "F17",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F18",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "F18",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F19",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "F19",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F20",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "F20",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F21",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "F21",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F22",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "F22",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F23",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "F23",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F24",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 1.0,
+              "description": "F24",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F25",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 1.0,
+              "description": "F25",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F26",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 3.0,
+              "description": "F26",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F27",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 1.0,
+              "description": "F27",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F28",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "F28",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F29",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "F29",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F30",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 1.0,
+              "description": "F30",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F31",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 1.0,
+              "description": "F31",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F32",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "F32",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F33",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "F33",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F34",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 3.0,
+              "description": "F34",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F35",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "F35",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F36",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "F36",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F37",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "F37",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F38",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "F38",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "F39",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 3.0,
+              "description": "F39",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R09",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 3.0,
+              "description": "R09",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R10",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 1.0,
+              "description": "R10",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R11",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 3.0,
+              "description": "R11",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R12",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 3.0,
+              "description": "R12",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R13",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "R13",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R14",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 1.0,
+              "description": "R14",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R15",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 3.0,
+              "description": "R15",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R16",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 3.0,
+              "description": "R16",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R17",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 3.0,
+              "description": "R17",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R18",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 0.0,
+              "description": "R18",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R19",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 0.0,
+              "description": "R19",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R20",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 0.0,
+              "description": "R20",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R21",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 0.0,
+              "description": "R21",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R22",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 0.0,
+              "description": "R22",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R24",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 3.0,
+              "description": "R24",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R25",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 3.0,
+              "description": "R25",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R26",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 1.0,
+              "description": "R26",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R27",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 1.0,
+              "description": "R27",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R28",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 3.0,
+              "description": "R28",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R29",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 1.0,
+              "description": "R29",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R30",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 1.0,
+              "description": "R30",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R31",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 1.0,
+              "description": "R31",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R32",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 1.0,
+              "description": "R32",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R33",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 1.0,
+              "description": "R33",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R34",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 0.0,
+              "description": "R34",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R35",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "R35",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R36",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "R36",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R37",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "R37",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R38",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 0.0,
+              "description": "R38",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R39",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 0.0,
+              "description": "R39",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R40",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 0.0,
+              "description": "R40",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R43",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "R43",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R44",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 3.0,
+              "description": "R44",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R45",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 3.0,
+              "description": "R45",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R46",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "R46",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R47",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 0.0,
+              "description": "R47",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "R48",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 5.0,
+              "description": "R48",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "T01",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 1.0,
+              "description": "T01",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "T02",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 1.0,
+              "description": "T02",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "T03",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 1.0,
+              "description": "T03",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "T04",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 1.0,
+              "description": "T04",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "T05",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 1.0,
+              "description": "T05",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            },
+            {
+              "name": "T06",
+              "value": 0.0,
+              "raw": 0.0,
+              "weight": 1.0,
+              "description": "T06",
+              "reasoning": "red-line guard R38 fired; compiled channel zeroed"
+            }
+          ],
+          "kind": "programmatic"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{"End": "2026-11-08T15:00Z", "Kind": "Batch", "Line": "L2", "Product": "Smoky bean chilli", "Run": "FB-7508", "Start": "2026-11-08T12:30Z", "_id": "run-FB-7508", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-08T15:00Z", "Kind": "Batch", "Line": "L3", "Product": "Spiced lentil soup", "Run": "FB-1832", "Start": "2026-11-08T12:30Z", "_id": "run-FB-1832", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-08T18:00Z", "Kind": "Batch", "Line": "L1", "Product": "Vegetable korma", "Run": "FB-1772", "Start": "2026-11-08T15:30Z", "_id": "run-FB-1772", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-08T18:00Z", "Kind": "Batch", "Line": "L2", "Product": "Beef ragu", "Run": "FB-4296", "Start": "2026-11-08T15:30Z", "_id": "run-FB-4296", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-08T18:00Z", "Kind": "Batch", "Line": "L3", "Product": "Pulled pork bowls", "Run": "FB-3243", "Start": "2026-11-08T15:30Z", "_id": "run-FB-3243", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-09T08:00Z", "Kind": "Blend", "Line": "BR", "Product": "Tikka base", "Run": "BL-310", "Start": "2026-11-09T06:00Z", "_id": "run-BL-310", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-09T09:00Z", "Kind": "Batch", "Line": "L1", "Product": "Vegetable korma", "Run": "FB-3685", "Start": "2026-11-09T06:30Z", "_id": "run-FB-3685", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-09T09:00Z", "Kind": "Batch", "Line": "L2", "Product": "Beef ragu", "Run": "FB-6614", "Start": "2026-11-09T06:30Z", "_id": "run-FB-6614", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-09T09:00Z", "Kind": "Batch", "Line": "L3", "Product": "Pulled pork bowls", "Run": "FB-4372", "Start": "2026-11-09T06:30Z", "_id": "run-FB-4372", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-09T11:00Z", "Kind": "Blend", "Line": "BR", "Product": "Ragu base", "Run": "BL-324", "Start": "2026-11-09T09:00Z", "_id": "run-BL-324", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-09T12:00Z", "Kind": "Batch", "Line": "L1", "Product": "Chicken tikka pots", "Run": "FB-9852", "Start": "2026-11-09T09:30Z", "_id": "run-FB-9852", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-09T12:00Z", "Kind": "Batch", "Line": "L2", "Product": "Smoky bean chilli", "Run": "FB-6337", "Start": "2026-11-09T09:30Z", "_id": "run-FB-6337", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-09T12:00Z", "Kind": "Batch", "Line": "L3", "Product": "Spiced lentil soup", "Run": "FB-7454", "Start": "2026-11-09T09:30Z", "_id": "run-FB-7454", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-09T14:00Z", "Kind": "Blend", "Line": "BR", "Product": "Soup base", "Run": "BL-167", "Start": "2026-11-09T12:00Z", "_id": "run-BL-167", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-09T15:00Z", "Kind": "Batch", "Line": "L1", "Product": "Vegetable korma", "Run": "FB-5469", "Start": "2026-11-09T12:30Z", "_id": "run-FB-5469", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-09T15:00Z", "Kind": "Batch", "Line": "L2", "Product": "Beef ragu", "Run": "FB-3719", "Start": "2026-11-09T12:30Z", "_id": "run-FB-3719", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-09T15:00Z", "Kind": "Batch", "Line": "L3", "Product": "Pulled pork bowls", "Run": "FB-2938", "Start": "2026-11-09T12:30Z", "_id": "run-FB-2938", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-09T18:00Z", "Kind": "Batch", "Line": "L1", "Product": "Chicken tikka pots", "Run": "FB-3794", "Start": "2026-11-09T15:30Z", "_id": "run-FB-3794", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-09T18:00Z", "Kind": "Batch", "Line": "L2", "Product": "Smoky bean chilli", "Run": "FB-6156", "Start": "2026-11-09T15:30Z", "_id": "run-FB-6156", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-09T18:00Z", "Kind": "Batch", "Line": "L3", "Product": "Spiced lentil soup", "Run": "FB-6758", "Start": "2026-11-09T15:30Z", "_id": "run-FB-6758", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-10T08:00Z", "Kind": "Blend", "Line": "BR", "Product": "Korma base", "Run": "BL-254", "Start": "2026-11-10T06:00Z", "_id": "run-BL-254", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-10T09:00Z", "Kind": "Batch", "Line": "L1", "Product": "Chicken tikka pots", "Run": "FB-9080", "Start": "2026-11-10T06:30Z", "_id": "run-FB-9080", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-10T09:00Z", "Kind": "Batch", "Line": "L2", "Product": "Smoky bean chilli", "Run": "FB-7935", "Start": "2026-11-10T06:30Z", "_id": "run-FB-7935", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-10T09:00Z", "Kind": "Batch", "Line": "L3", "Product": "Spiced lentil soup", "Run": "FB-2311", "Start": "2026-11-10T06:30Z", "_id": "run-FB-2311", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-10T11:00Z", "Kind": "Blend", "Line": "BR", "Product": "Chilli base", "Run": "BL-575", "Start": "2026-11-10T09:00Z", "_id": "run-BL-575", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-10T12:00Z", "Kind": "Batch", "Line": "L1", "Product": "Vegetable korma", "Run": "FB-1265", "Start": "2026-11-10T09:30Z", "_id": "run-FB-1265", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-10T12:00Z", "Kind": "Batch", "Line": "L2", "Product": "Beef ragu", "Run": "FB-5480", "Start": "2026-11-10T09:30Z", "_id": "run-FB-5480", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-10T12:00Z", "Kind": "Batch", "Line": "L3", "Product": "Pulled pork bowls", "Run": "FB-6226", "Start": "2026-11-10T09:30Z", "_id": "run-FB-6226", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-10T14:00Z", "Kind": "Blend", "Line": "BR", "Product": "Tikka base", "Run": "BL-871", "Start": "2026-11-10T12:00Z", "_id": "run-BL-871", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-10T15:00Z", "Kind": "Batch", "Line": "L1", "Product": "Chicken tikka pots", "Run": "FB-8062", "Start": "2026-11-10T12:30Z", "_id": "run-FB-8062", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-10T15:00Z", "Kind": "Batch", "Line": "L2", "Product": "Smoky bean chilli", "Run": "FB-2866", "Start": "2026-11-10T12:30Z", "_id": "run-FB-2866", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-10T15:00Z", "Kind": "Batch", "Line": "L3", "Product": "Spiced lentil soup", "Run": "FB-1824", "Start": "2026-11-10T12:30Z", "_id": "run-FB-1824", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-10T18:00Z", "Kind": "Batch", "Line": "L1", "Product": "Vegetable korma", "Run": "FB-5921", "Start": "2026-11-10T15:30Z", "_id": "run-FB-5921", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-10T18:00Z", "Kind": "Batch", "Line": "L2", "Product": "Beef ragu", "Run": "FB-5106", "Start": "2026-11-10T15:30Z", "_id": "run-FB-5106", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-10T18:00Z", "Kind": "Batch", "Line": "L3", "Product": "Pulled pork bowls", "Run": "FB-1665", "Start": "2026-11-10T15:30Z", "_id": "run-FB-1665", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-11T08:00Z", "Kind": "Blend", "Line": "BR", "Product": "Ragu base", "Run": "BL-772", "Start": "2026-11-11T06:00Z", "_id": "run-BL-772", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-11T09:00Z", "Kind": "Batch", "Line": "L1", "Product": "Vegetable korma", "Run": "FB-6240", "Start": "2026-11-11T06:30Z", "_id": "run-FB-6240", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-11T09:00Z", "Kind": "Batch", "Line": "L2", "Product": "Beef ragu", "Run": "FB-3080", "Start": "2026-11-11T06:30Z", "_id": "run-FB-3080", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-11T09:00Z", "Kind": "Batch", "Line": "L3", "Product": "Pulled pork bowls", "Run": "FB-1763", "Start": "2026-11-11T06:30Z", "_id": "run-FB-1763", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-11T11:00Z", "Kind": "Blend", "Line": "BR", "Product": "Soup base", "Run": "BL-117", "Start": "2026-11-11T09:00Z", "_id": "run-BL-117", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-11T12:00Z", "Kind": "Batch", "Line": "L1", "Product": "Chicken tikka pots", "Run": "FB-6776", "Start": "2026-11-11T09:30Z", "_id": "run-FB-6776", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-11T12:00Z", "Kind": "Batch", "Line": "L2", "Product": "Smoky bean chilli", "Run": "FB-4941", "Start": "2026-11-11T09:30Z", "_id": "run-FB-4941", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-11T12:00Z", "Kind": "Batch", "Line": "L3", "Product": "Spiced lentil soup", "Run": "FB-7760", "Start": "2026-11-11T09:30Z", "_id": "run-FB-7760", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-11T14:00Z", "Kind": "Blend", "Line": "BR", "Product": "Korma base", "Run": "BL-689", "Start": "2026-11-11T12:00Z", "_id": "run-BL-689", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-11T15:00Z", "Kind": "Batch", "Line": "L1", "Product": "Vegetable korma", "Run": "FB-4078", "Start": "2026-11-11T12:30Z", "_id": "run-FB-4078", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-11T15:00Z", "Kind": "Batch", "Line": "L2", "Product": "Beef ragu", "Run": "FB-8372", "Start": "2026-11-11T12:30Z", "_id": "run-FB-8372", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-11T15:00Z", "Kind": "Batch", "Line": "L3", "Product": "Pulled pork bowls", "Run": "FB-3527", "Start": "2026-11-11T12:30Z", "_id": "run-FB-3527", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-11T18:00Z", "Kind": "Batch", "Line": "L1", "Product": "Chicken tikka pots", "Run": "FB-9400", "Start": "2026-11-11T15:30Z", "_id": "run-FB-9400", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-11T18:00Z", "Kind": "Batch", "Line": "L2", "Product": "Smoky bean chilli", "Run": "FB-6869", "Start": "2026-11-11T15:30Z", "_id": "run-FB-6869", "_edited": "2026-03-01T08:00:00.000Z"}
+{"End": "2026-11-11T18:00Z", "Kind": "Batch", "Line": "L3", "Product": "Spiced lentil soup", "Run": "FB-3017", "Start": "2026-11-11T15:30Z", "_id": "run-FB-3017", "_edited": "2026-03-01T08:00:00.000Z"}

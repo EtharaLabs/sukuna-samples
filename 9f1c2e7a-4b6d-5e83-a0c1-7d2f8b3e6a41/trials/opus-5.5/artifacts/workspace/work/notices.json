@@ -1,0 +1,214 @@
+[
+ {
+  "s": "31279",
+  "to": "somhairle.wardlaw@fernhollow-air.example",
+  "refs": [
+   "FTL-00001"
+  ],
+  "body": "FTL-00001 2026-09-18 DUTY_14D excess 28 min"
+ },
+ {
+  "s": "31527",
+  "to": "brodie.christie2@fernhollow-air.example",
+  "refs": [
+   "FTL-00002"
+  ],
+  "body": "FTL-00002 E9-0911-ABZ-625 REST excess 55 min"
+ },
+ {
+  "s": "31564",
+  "to": "zander.fordyce3@fernhollow-air.example",
+  "refs": [
+   "FTL-00003"
+  ],
+  "body": "FTL-00003 E9-0920-ABZ-168 FDP excess 50 min"
+ },
+ {
+  "s": "32200",
+  "to": "padraig.lumsden3@fernhollow-air.example",
+  "refs": [
+   "FTL-00004"
+  ],
+  "body": "FTL-00004 E9-0920-ABZ-920 FDP excess 132 min"
+ },
+ {
+  "s": "32319",
+  "to": "shona.yuill3@fernhollow-air.example",
+  "refs": [
+   "FTL-00005"
+  ],
+  "body": "FTL-00005 E9-0922-ABZ-987 FDP excess 52 min"
+ },
+ {
+  "s": "32894",
+  "to": "shona.leask3@fernhollow-air.example",
+  "refs": [
+   "FTL-00006"
+  ],
+  "body": "FTL-00006 E9-0924-ABZ-733 REST excess 19 min"
+ },
+ {
+  "s": "36107",
+  "to": "ailsa.rintoul6@fernhollow-air.example",
+  "refs": [
+   "FTL-00007"
+  ],
+  "body": "FTL-00007 E9-0918-ABZ-577 FDP excess 6 min"
+ },
+ {
+  "s": "36330",
+  "to": "lachlan.abernethy6@fernhollow-air.example",
+  "refs": [
+   "FTL-00008"
+  ],
+  "body": "FTL-00008 E9-0923-ABZ-816 FDP excess 15 min"
+ },
+ {
+  "s": "37488",
+  "to": "orla.dalgleish2@fernhollow-air.example",
+  "refs": [
+   "FTL-00009"
+  ],
+  "body": "FTL-00009 E9-0915-ABZ-153 REST excess 27 min"
+ },
+ {
+  "s": "37712",
+  "to": "uisdean.elphinstone1@fernhollow-air.example",
+  "refs": [
+   "FTL-00010"
+  ],
+  "body": "FTL-00010 E9-0901-ABZ-562 FDP excess 7 min"
+ },
+ {
+  "s": "38571",
+  "to": "orla.gauld6@fernhollow-air.example",
+  "refs": [
+   "FTL-00011"
+  ],
+  "body": "FTL-00011 E9-0918-ABZ-844 FDP excess 41 min"
+ },
+ {
+  "s": "39638",
+  "to": "euan.erskine2@fernhollow-air.example",
+  "refs": [
+   "FTL-00012"
+  ],
+  "body": "FTL-00012 E9-0922-ABZ-773 DISCRETION excess 9 min"
+ },
+ {
+  "s": "40672",
+  "to": "kirsty.imrie1@fernhollow-air.example",
+  "refs": [
+   "FTL-00013"
+  ],
+  "body": "FTL-00013 E9-0914-ABZ-427 FDP excess 10 min"
+ },
+ {
+  "s": "43699",
+  "to": "neve.pitcairn5@fernhollow-air.example",
+  "refs": [
+   "FTL-00014"
+  ],
+  "body": "FTL-00014 E9-0915-ABZ-357 DISCRETION excess 23 min"
+ },
+ {
+  "s": "43840",
+  "to": "y[REDACTED]de.ormiston5@fernhollow-air.example",
+  "refs": [
+   "FTL-00015"
+  ],
+  "body": "FTL-00015 E9-0911-ABZ-467 FDP excess 35 min"
+ },
+ {
+  "s": "44873",
+  "to": "sorcha.cheyne4@fernhollow-air.example",
+  "refs": [
+   "FTL-00016"
+  ],
+  "body": "FTL-00016 E9-0913-ABZ-283 FDP excess 34 min"
+ },
+ {
+  "s": "45172",
+  "to": "orla.inglis@fernhollow-air.example",
+  "refs": [
+   "FTL-00017"
+  ],
+  "body": "FTL-00017 E9-0923-ABZ-939 FDP excess 51 min"
+ },
+ {
+  "s": "45175",
+  "to": "brodie.lumsden1@fernhollow-air.example",
+  "refs": [
+   "FTL-00018",
+   "FTL-00019",
+   "FTL-00020"
+  ],
+  "body": "FTL-00018 2026-09-24 DUTY_7D excess 165 min\nFTL-00019 E9-0922-ABZ-785 FDP excess 55 min\nFTL-00020 E9-0923-ABZ-367 FDP excess 25 min"
+ },
+ {
+  "s": "45269",
+  "to": "kenna.christie1@fernhollow-air.example",
+  "refs": [
+   "FTL-00021"
+  ],
+  "body": "FTL-00021 E9-0909-ABZ-573 FDP excess 26 min"
+ },
+ {
+  "s": "45677",
+  "to": "oran.thain@fernhollow-air.example",
+  "refs": [
+   "FTL-00022",
+   "FTL-00023"
+  ],
+  "body": "FTL-00022 E9-0921-ABZ-775 FDP excess 13 min\nFTL-00023 E9-0921-ABZ-775 REST excess 53 min"
+ },
+ {
+  "s": "47639",
+  "to": "fergus.abernethy4@fernhollow-air.example",
+  "refs": [
+   "FTL-00024"
+  ],
+  "body": "FTL-00024 E9-0904-ABZ-411 DISCRETION excess 14 min"
+ },
+ {
+  "s": "48146",
+  "to": "padraig.fordyce4@fernhollow-air.example",
+  "refs": [
+   "FTL-00025"
+  ],
+  "body": "FTL-00025 2026-09-10 DUTY_7D excess 25 min"
+ },
+ {
+  "s": "49130",
+  "to": "euan.ogilvie@fernhollow-air.example",
+  "refs": [
+   "FTL-00026",
+   "FTL-00027"
+  ],
+  "body": "FTL-00026 2026-09-07 DUTY_28D excess 39 min\nFTL-00027 E9-0918-ABZ-755 FDP excess 66 min"
+ },
+ {
+  "s": "49301",
+  "to": "bram.baird6@fernhollow-air.example",
+  "refs": [
+   "FTL-00028"
+  ],
+  "body": "FTL-00028 2026-09-12 DUTY_7D excess 85 min"
+ },
+ {
+  "s": "49580",
+  "to": "euan.forsyth5@fernhollow-air.example",
+  "refs": [
+   "FTL-00029"
+  ],
+  "body": "FTL-00029 E9-0920-ABZ-680 FDP excess 33 min"
+ },
+ {
+  "s": "49946",
+  "to": "caitrin.gilchrist4@fernhollow-air.example",
+  "refs": [
+   "FTL-00030"
+  ],
+  "body": "FTL-00030 E9-0903-ABZ-972 FDP excess 44 min"
+ }
+]

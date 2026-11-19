@@ -1,0 +1,438 @@
+[
+{
+"sn": "45175",
+"ref": "AM-1024-MGH-294",
+"lt": "SHIFT",
+"ed": "Rev 7",
+"limit": 705,
+"actual": 715,
+"excess": 10,
+"ev": [],
+"band": [
+810,
+839
+],
+"n": 4
+},
+{
+"sn": "45175",
+"ref": "2026-10-24",
+"lt": "HOURS_7D",
+"ed": "Rev 7",
+"limit": 3600,
+"actual": 3730,
+"excess": 130,
+"ev": [
+"BL-717"
+]
+},
+{
+"sn": "32894",
+"ref": "AM-1021-MGH-957",
+"lt": "REST",
+"ed": "Rev 7",
+"limit": 780,
+"actual": 762,
+"excess": 18,
+"ev": [],
+"prevref": "AM-1020-MGH-782",
+"prevend": "2026-10-21 01:25:00+00:00"
+},
+{
+"sn": "47639",
+"ref": "AM-1017-MGH-354",
+"lt": "EXTENSION",
+"ed": "Rev 7",
+"limit": 810,
+"actual": 836,
+"excess": 26,
+"ev": [
+"SEA-1377"
+],
+"band": [
+360,
+809
+],
+"n": 4
+},
+{
+"sn": "36330",
+"ref": "AM-1023-MGH-763",
+"lt": "SHIFT",
+"ed": "Rev 7",
+"limit": 750,
+"actual": 771,
+"excess": 21,
+"ev": [
+"TS-28498"
+],
+"band": [
+360,
+809
+],
+"n": 3
+},
+{
+"sn": "36330",
+"ref": "AM-1028-MGH-240",
+"lt": "SHIFT",
+"ed": "Rev 7",
+"limit": 780,
+"actual": 805,
+"excess": 25,
+"ev": [
+"SEA-6991"
+],
+"band": [
+360,
+809
+],
+"n": 2
+},
+{
+"sn": "49130",
+"ref": "2026-10-08",
+"lt": "HOURS_28D",
+"ed": "Rev 6",
+"limit": 11400,
+"actual": 11439.0,
+"excess": 39.0,
+"ev": []
+},
+{
+"sn": "37712",
+"ref": "AM-1002-MGH-643",
+"lt": "SHIFT",
+"ed": "Rev 6",
+"limit": 750,
+"actual": 757,
+"excess": 7,
+"ev": [],
+"band": [
+360,
+809
+],
+"n": 3
+},
+{
+"sn": "39638",
+"ref": "AM-1002-MGH-367",
+"lt": "EXTENSION",
+"ed": "Rev 6",
+"limit": 780,
+"actual": 795,
+"excess": 15,
+"ev": [],
+"band": [
+840,
+1049
+],
+"n": 4
+},
+{
+"sn": "48146",
+"ref": "2026-10-10",
+"lt": "HOURS_7D",
+"ed": "Rev 6",
+"limit": 3600,
+"actual": 3623.0,
+"excess": 23.0,
+"ev": []
+},
+{
+"sn": "49580",
+"ref": "AM-1025-MGH-380",
+"lt": "SHIFT",
+"ed": "Rev 7",
+"limit": 720,
+"actual": 736,
+"excess": 16,
+"ev": [],
+"band": [
+360,
+809
+],
+"n": 4
+},
+{
+"sn": "36107",
+"ref": "AM-1021-MGH-718",
+"lt": "SHIFT",
+"ed": "Rev 7",
+"limit": 630,
+"actual": 653,
+"excess": 23,
+"ev": [],
+"band": [
+300,
+359
+],
+"n": 4
+},
+{
+"sn": "36107",
+"ref": "AM-1021-MGH-718",
+"lt": "REST",
+"ed": "Rev 7",
+"limit": 660,
+"actual": 588,
+"excess": 72,
+"ev": [],
+"prevref": "AM-1020-MGH-805",
+"prevend": "2026-10-20 18:22:00+00:00"
+},
+{
+"sn": "31279",
+"ref": "2026-10-19",
+"lt": "HOURS_14D",
+"ed": "Rev 7",
+"limit": 6600,
+"actual": 6617,
+"excess": 17,
+"ev": []
+},
+{
+"sn": "45269",
+"ref": "AM-1002-MGH-242",
+"lt": "SHIFT",
+"ed": "Rev 6",
+"limit": 690,
+"actual": 704,
+"excess": 14,
+"ev": [
+"TS-10088"
+],
+"band": [
+360,
+809
+],
+"n": 5
+},
+{
+"sn": "37488",
+"ref": "AM-1025-MGH-348",
+"lt": "SHIFT",
+"ed": "Rev 7",
+"limit": 720,
+"actual": 850,
+"excess": 130,
+"ev": [],
+"band": [
+360,
+809
+],
+"n": 4
+},
+{
+"sn": "32319",
+"ref": "AM-1022-MGH-474",
+"lt": "SHIFT",
+"ed": "Rev 7",
+"limit": 690,
+"actual": 742,
+"excess": 52,
+"ev": [],
+"band": [
+300,
+359
+],
+"n": 2
+},
+{
+"sn": "32319",
+"ref": "AM-1022-MGH-474",
+"lt": "REST",
+"ed": "Rev 7",
+"limit": 660,
+"actual": 452,
+"excess": 208,
+"ev": [],
+"prevref": "AM-1021-MGH-745",
+"prevend": "2026-10-21 20:38:00+00:00"
+},
+{
+"sn": "49946",
+"ref": "AM-1012-MGH-572",
+"lt": "SHIFT",
+"ed": "Rev 6",
+"limit": 780,
+"actual": 824,
+"excess": 44,
+"ev": [],
+"band": [
+360,
+809
+],
+"n": 2
+},
+{
+"sn": "43699",
+"ref": "AM-1013-MGH-468",
+"lt": "EXTENSION",
+"ed": "Rev 7",
+"limit": 690,
+"actual": 706,
+"excess": 16,
+"ev": [],
+"band": [
+1050,
+299
+],
+"n": 4
+},
+{
+"sn": "43699",
+"ref": "2026-10-21",
+"lt": "HOURS_7D",
+"ed": "Rev 7",
+"limit": 3600,
+"actual": 3635,
+"excess": 35,
+"ev": [
+"BL-668"
+]
+},
+{
+"sn": "38571",
+"ref": "AM-1024-MGH-295",
+"lt": "SHIFT",
+"ed": "Rev 7",
+"limit": 750,
+"actual": 792,
+"excess": 42,
+"ev": [],
+"band": [
+360,
+809
+],
+"n": 3
+},
+{
+"sn": "45677",
+"ref": "AM-1018-MGH-628",
+"lt": "SHIFT",
+"ed": "Rev 7",
+"limit": 720,
+"actual": 733,
+"excess": 13,
+"ev": [
+"BL-119"
+],
+"band": [
+360,
+809
+],
+"n": 4
+},
+{
+"sn": "40672",
+"ref": "AM-1015-MGH-283",
+"lt": "SHIFT",
+"ed": "Rev 6",
+"limit": 600,
+"actual": 621,
+"excess": 21,
+"ev": [],
+"band": [
+1050,
+299
+],
+"n": 4
+},
+{
+"sn": "40672",
+"ref": "AM-1015-MGH-283",
+"lt": "REST",
+"ed": "Rev 6",
+"limit": 660,
+"actual": 598,
+"excess": 62,
+"ev": [],
+"prevref": "AM-1014-MGH-831",
+"prevend": "2026-10-14 12:22:00+00:00"
+},
+{
+"sn": "31527",
+"ref": "AM-1008-MGH-575",
+"lt": "REST",
+"ed": "Rev 6",
+"limit": 660,
+"actual": 624,
+"excess": 36,
+"ev": [],
+"prevref": "AM-1007-MGH-335",
+"prevend": "2026-10-07 09:40:00+00:00"
+},
+{
+"sn": "31564",
+"ref": "AM-1024-MGH-999",
+"lt": "SHIFT",
+"ed": "Rev 7",
+"limit": 660,
+"actual": 676,
+"excess": 16,
+"ev": [],
+"band": [
+840,
+1049
+],
+"n": 4
+},
+{
+"sn": "44873",
+"ref": "AM-1011-MGH-330",
+"lt": "SHIFT",
+"ed": "Rev 6",
+"limit": 720,
+"actual": 754,
+"excess": 34,
+"ev": [],
+"band": [
+360,
+809
+],
+"n": 4
+},
+{
+"sn": "43840",
+"ref": "AM-1006-MGH-429",
+"lt": "SHIFT",
+"ed": "Rev 6",
+"limit": 720,
+"actual": 755,
+"excess": 35,
+"ev": [],
+"band": [
+360,
+809
+],
+"n": 4
+},
+{
+"sn": "49301",
+"ref": "AM-1008-MGH-741",
+"lt": "REST",
+"ed": "Rev 6",
+"limit": 793,
+"actual": 772,
+"excess": 21,
+"ev": [],
+"prevref": "AM-1004-MGH-545",
+"prevend": "2026-10-04 23:43:00+00:00"
+},
+{
+"sn": "45172",
+"ref": "AM-1017-MGH-852",
+"lt": "SHIFT",
+"ed": "Rev 7",
+"limit": 720,
+"actual": 785,
+"excess": 65,
+"ev": [],
+"band": [
+360,
+809
+],
+"n": 4
+}
+]

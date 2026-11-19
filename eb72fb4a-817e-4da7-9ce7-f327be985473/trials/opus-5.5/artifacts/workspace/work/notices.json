@@ -1,0 +1,216 @@
+[
+ {
+  "sn": "31279",
+  "to": "somhairle.wardlaw@marrowgate-health.example",
+  "refs": [
+   "SSF-00014"
+  ],
+  "body": "SSF-00014 2026-10-19 HOURS_14D excess 17 min"
+ },
+ {
+  "sn": "31527",
+  "to": "brodie.christie2@marrowgate-health.example",
+  "refs": [
+   "SSF-00026"
+  ],
+  "body": "SSF-00026 AM-1008-MGH-575 REST excess 36 min"
+ },
+ {
+  "sn": "31564",
+  "to": "zander.fordyce3@marrowgate-health.example",
+  "refs": [
+   "SSF-00027"
+  ],
+  "body": "SSF-00027 AM-1024-MGH-999 SHIFT excess 16 min"
+ },
+ {
+  "sn": "32200",
+  "to": "padraig.lumsden3@marrowgate-health.example",
+  "refs": [
+   "SSF-00032"
+  ],
+  "body": "SSF-00032 AM-1018-MGH-445 SHIFT excess 42 min"
+ },
+ {
+  "sn": "32319",
+  "to": "shona.yuill3@marrowgate-health.example",
+  "refs": [
+   "SSF-00017",
+   "SSF-00018"
+  ],
+  "body": "SSF-00017 AM-1022-MGH-474 SHIFT excess 52 min\nSSF-00018 AM-1022-MGH-474 REST excess 208 min"
+ },
+ {
+  "sn": "32894",
+  "to": "shona.leask3@marrowgate-health.example",
+  "refs": [
+   "SSF-00003"
+  ],
+  "body": "SSF-00003 AM-1021-MGH-957 REST excess 18 min"
+ },
+ {
+  "sn": "36107",
+  "to": "ailsa.rintoul6@marrowgate-health.example",
+  "refs": [
+   "SSF-00012",
+   "SSF-00013"
+  ],
+  "body": "SSF-00012 AM-1021-MGH-718 SHIFT excess 23 min\nSSF-00013 AM-1021-MGH-718 REST excess 72 min"
+ },
+ {
+  "sn": "36330",
+  "to": "lachlan.abernethy6@marrowgate-health.example",
+  "refs": [
+   "SSF-00005",
+   "SSF-00006"
+  ],
+  "body": "SSF-00005 AM-1023-MGH-763 SHIFT excess 21 min\nSSF-00006 AM-1028-MGH-240 SHIFT excess 25 min"
+ },
+ {
+  "sn": "37488",
+  "to": "orla.dalgleish2@marrowgate-health.example",
+  "refs": [
+   "SSF-00016"
+  ],
+  "body": "SSF-00016 AM-1025-MGH-348 SHIFT excess 130 min"
+ },
+ {
+  "sn": "37712",
+  "to": "uisdean.elphinstone1@marrowgate-health.example",
+  "refs": [
+   "SSF-00008"
+  ],
+  "body": "SSF-00008 AM-1002-MGH-643 SHIFT excess 7 min"
+ },
+ {
+  "sn": "38571",
+  "to": "orla.gauld6@marrowgate-health.example",
+  "refs": [
+   "SSF-00022"
+  ],
+  "body": "SSF-00022 AM-1024-MGH-295 SHIFT excess 42 min"
+ },
+ {
+  "sn": "39638",
+  "to": "euan.erskine2@marrowgate-health.example",
+  "refs": [
+   "SSF-00009"
+  ],
+  "body": "SSF-00009 AM-1002-MGH-367 EXTENSION excess 15 min"
+ },
+ {
+  "sn": "40672",
+  "to": "kirsty.imrie1@marrowgate-health.example",
+  "refs": [
+   "SSF-00024",
+   "SSF-00025"
+  ],
+  "body": "SSF-00024 AM-1015-MGH-283 SHIFT excess 21 min\nSSF-00025 AM-1015-MGH-283 REST excess 62 min"
+ },
+ {
+  "sn": "43699",
+  "to": "neve.pitcairn5@marrowgate-health.example",
+  "refs": [
+   "SSF-00020",
+   "SSF-00021"
+  ],
+  "body": "SSF-00020 AM-1013-MGH-468 EXTENSION excess 16 min\nSSF-00021 2026-10-21 HOURS_7D excess 35 min"
+ },
+ {
+  "sn": "43840",
+  "to": "y[REDACTED]de.ormiston.fh@marrowgate-health.example",
+  "refs": [
+   "SSF-00029"
+  ],
+  "body": "SSF-00029 AM-1006-MGH-429 SHIFT excess 35 min"
+ },
+ {
+  "sn": "44873",
+  "to": "sorcha.cheyne4@marrowgate-health.example",
+  "refs": [
+   "SSF-00028"
+  ],
+  "body": "SSF-00028 AM-1011-MGH-330 SHIFT excess 34 min"
+ },
+ {
+  "sn": "45172",
+  "to": "orla.inglis@marrowgate-health.example",
+  "refs": [
+   "SSF-00031"
+  ],
+  "body": "SSF-00031 AM-1017-MGH-852 SHIFT excess 65 min"
+ },
+ {
+  "sn": "45175",
+  "to": "brodie.lumsden1@marrowgate-health.example",
+  "refs": [
+   "SSF-00001",
+   "SSF-00002"
+  ],
+  "body": "SSF-00001 AM-1024-MGH-294 SHIFT excess 10 min\nSSF-00002 2026-10-24 HOURS_7D excess 130 min"
+ },
+ {
+  "sn": "45269",
+  "to": "kenna.christie1@marrowgate-health.example",
+  "refs": [
+   "SSF-00015"
+  ],
+  "body": "SSF-00015 AM-1002-MGH-242 SHIFT excess 14 min"
+ },
+ {
+  "sn": "45677",
+  "to": "oran.thain@marrowgate-health.example",
+  "refs": [
+   "SSF-00023"
+  ],
+  "body": "SSF-00023 AM-1018-MGH-628 SHIFT excess 13 min"
+ },
+ {
+  "sn": "47639",
+  "to": "fergus.abernethy4@marrowgate-health.example",
+  "refs": [
+   "SSF-00004"
+  ],
+  "body": "SSF-00004 AM-1017-MGH-354 EXTENSION excess 26 min"
+ },
+ {
+  "sn": "48146",
+  "to": "padraig.fordyce4@marrowgate-health.example",
+  "refs": [
+   "SSF-00010"
+  ],
+  "body": "SSF-00010 2026-10-10 HOURS_7D excess 23 min"
+ },
+ {
+  "sn": "49130",
+  "to": "euan.ogilvie@marrowgate-health.example",
+  "refs": [
+   "SSF-00007"
+  ],
+  "body": "SSF-00007 2026-10-08 HOURS_28D excess 39 min"
+ },
+ {
+  "sn": "49301",
+  "to": "bram.baird6@marrowgate-health.example",
+  "refs": [
+   "SSF-00030"
+  ],
+  "body": "SSF-00030 AM-1008-MGH-741 REST excess 21 min"
+ },
+ {
+  "sn": "49580",
+  "to": "euan.forsyth5@marrowgate-health.example",
+  "refs": [
+   "SSF-00011"
+  ],
+  "body": "SSF-00011 AM-1025-MGH-380 SHIFT excess 16 min"
+ },
+ {
+  "sn": "49946",
+  "to": "caitrin.gilchrist4@marrowgate-health.example",
+  "refs": [
+   "SSF-00019"
+  ],
+  "body": "SSF-00019 AM-1012-MGH-572 SHIFT excess 44 min"
+ }
+]

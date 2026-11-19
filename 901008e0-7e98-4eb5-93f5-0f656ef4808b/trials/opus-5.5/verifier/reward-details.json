@@ -1,0 +1,469 @@
+{
+ "pytest": {
+  "score": 0.8659,
+  "criteria": [
+   {
+    "name": "pytest_ledger",
+    "value": 0.8659,
+    "raw": 0.865942,
+    "weight": 1.0,
+    "description": "weighted ledger over tests/test_outputs.py: max(0, (earned - charged guards) / total positive weight)",
+    "reasoning": "earned 239 of 276, charged 0; missed 13: test_C28, test_H04, test_K01, test_K02, test_K03, test_K04, test_K05, test_K06, test_K07, test_M04, test_O01, test_Q04, test_S07"
+   }
+  ],
+  "kind": "programmatic"
+ },
+ "rubric": {
+  "score": 0.311111,
+  "criteria": [
+   {
+    "id": "J01",
+    "name": "j01_judge_from_final_message_md_the_ru",
+    "value": 0.0,
+    "raw": "no",
+    "weight": 5.0,
+    "description": "J01: judge from final_message.md (the run's closing note). The note says blend BL-277 left the trace when the Pending swab after BL-649 returned Pass, and names the finished batches that left with it as the reference gives them.",
+    "reasoning": "The note says the Pending clean-down changed to Pass and cleared BL-277 plus four finished batches, but it does not name those batches. The reference requires FB-1274, FB-1842, FB-3220, and FB-4517, and identifies the swab as occurring after BL-649. Thus the closing note does not satisfy the criterion."
+   },
+   {
+    "id": "J02",
+    "name": "j02_judge_from_final_message_md_the_ru",
+    "value": 0.0,
+    "raw": "no",
+    "weight": 5.0,
+    "description": "J02: judge from final_message.md (the run's closing note). The note gives the route to FB-1113 as rework from FB-4351, which itself was reached by carry-over through a failed swab after FB-3891.",
+    "reasoning": "The final_message.md does not mention FB-1113, FB-4351, or FB-3891, and therefore does not give the required route: rework from FB-4351, which was implicated by carry-over after a failed swab following FB-3891."
+   },
+   {
+    "id": "J03",
+    "name": "j03_judge_from_final_message_md_the_ru",
+    "value": 0.0,
+    "raw": "no",
+    "weight": 3.0,
+    "description": "J03: judge from final_message.md (the run's closing note). The note gives the route to FB-7871 as carry-over from FB-4930, which took rework from FB-6102, with a Pending swab between them.",
+    "reasoning": "The final_message.md does not mention FB-7871, FB-4930, or FB-6102, and does not describe the required route of carry-over from FB-4930 after rework from FB-6102 with a Pending swab between them."
+   },
+   {
+    "id": "J04",
+    "name": "j04_judge_from_final_message_md_the_ru",
+    "value": 0.0,
+    "raw": "no",
+    "weight": 5.0,
+    "description": "J04: judge from final_message.md (the run's closing note). The note explains the FB-2497 to FB-7098 pair: the swab between them passed on a Gluten test, which does not validate the line for sesame, and states why FB-7098 is nonetheless not implicated (an upstream validating Sesame Pass broke the chain into FB-2497).",
+    "reasoning": "The final message states generally that Gluten- and Milk-only swabs do not validate a line for sesame, but it does not discuss the FB-2497 to FB-7098 pair, identify the intervening Gluten Pass, or explain that an upstream validating Sesame Pass broke the chain into FB-2497 and therefore left FB-7098 unimplicated."
+   },
+   {
+    "id": "J05",
+    "name": "j05_judge_from_final_message_md_the_ru",
+    "value": 0.0,
+    "raw": "no",
+    "weight": 5.0,
+    "description": "J05: judge from final_message.md (the run's closing note). The note gives the route to FB-2938 as carry-over from FB-7454, saying the swab between them passed on a Milk test, which does not validate the line for sesame.",
+    "reasoning": "The final_message.md states generally that Milk-only swabs do not validate a line for sesame, but it does not identify FB-2938, give its carry-over route from FB-7454, or specify that the intervening swab passed on a Milk test. Thus, the required batch-specific explanation is missing."
+   },
+   {
+    "id": "J06",
+    "name": "j06_judge_from_final_message_md_the_ru",
+    "value": 0.0,
+    "raw": "no",
+    "weight": 5.0,
+    "description": "J06: judge from final_message.md (the run's closing note). The note gives the route to FB-5106 as carry-over from FB-2866, saying the Total protein clean-down between them was logged as finishing after FB-5106 had started.",
+    "reasoning": "The final_message.md does not mention FB-5106, its carry-over route from FB-2866, or the Total protein clean-down finishing after FB-5106 had started. The required explanation is therefore absent."
+   },
+   {
+    "id": "J07",
+    "name": "j07_judge_from_final_message_md_the_ru",
+    "value": 0.0,
+    "raw": "no",
+    "weight": 3.0,
+    "description": "J07: judge from final_message.md (the run's closing note). The note says the Sesame swab that passed after FB-2315 validated the line, so FB-3044 is not implicated by carry-over from it.",
+    "reasoning": "The final_message.md does not state that a passing Sesame swab after FB-2315 validated the line or that FB-3044 is consequently not implicated by carry-over. Neither batch is mentioned in the closing note."
+   },
+   {
+    "id": "J08",
+    "name": "j08_judge_from_final_message_md_the_ru",
+    "value": 0.0,
+    "raw": "no",
+    "weight": 5.0,
+    "description": "J08: judge from final_message.md (the run's closing note). The note gives the route to FB-9875 through a shift lead's comment correcting its ticket's source from TUB-1701 to TUB-3897.",
+    "reasoning": "The closing note does not give the route to FB-9875 or identify its ticket's correction from TUB-1701 to TUB-3897 by a shift lead. It only states generally that two tickets had incorrect tub sources corrected in shift-lead comments, which does not satisfy the specific criterion."
+   },
+   {
+    "id": "J09",
+    "name": "j09_judge_from_final_message_md_the_ru",
+    "value": 0.0,
+    "raw": "no",
+    "weight": 5.0,
+    "description": "J09: judge from final_message.md (the run's closing note). The note says FB-6758 is not implicated because a shift lead's comment corrected its ticket's source from suspect tub TUB-1751 to a clean tub.",
+    "reasoning": "The closing note says two tickets had their tub sources corrected by shift leads, but it does not identify FB-6758 or state that it is not implicated because its source was corrected from TUB-1751 to a clean tub."
+   },
+   {
+    "id": "J10",
+    "name": "j10_judge_from_final_message_md_the_ru",
+    "value": 1.0,
+    "raw": "yes",
+    "weight": 3.0,
+    "description": "J10: judge from final_message.md (the run's closing note). The note sets aside the operator's comment on the ticket for FB-5921 because only a shift lead can correct a ticket.",
+    "reasoning": "The closing note explicitly sets aside Kit Marsh\u2019s comment on ST-83925, the ticket for FB-5921, stating that Kit is not a shift lead and therefore the comment 'corrects nothing.' This satisfies the criterion."
+   },
+   {
+    "id": "J11",
+    "name": "j11_judge_from_final_message_md_the_ru",
+    "value": 0.0,
+    "raw": "no",
+    "weight": 5.0,
+    "description": "J11: judge from final_message.md (the run's closing note). The note says part-delivery HS-24817-2 is the same lot, and gives the route to FB-4296 through its tub TUB-9253.",
+    "reasoning": "The closing note explicitly treats HS-24817-2 as a different lot and excludes FB-4296. It does not identify the part-delivery as the same lot or give the route GRN-87291 \u2192 TUB-9253 \u2192 FB-4296."
+   },
+   {
+    "id": "J12",
+    "name": "j12_judge_from_final_message_md_the_ru",
+    "value": 0.0,
+    "raw": "no",
+    "weight": 3.0,
+    "description": "J12: judge from final_message.md (the run's closing note). The note gives routes through the decanted tub TUB-9510 (decanted from TUB-7776) for the batches the reference reaches that way.",
+    "reasoning": "The final_message.md mentions TUB-9510 as a decant but does not give the required batch routes through it or identify TUB-7776 as its source. It omits the reference routes for FB-1056, FB-1832, FB-7454, and FB-2938 through TUB-9510 decanted from TUB-7776."
+   },
+   {
+    "id": "J13",
+    "name": "j13_judge_from_final_message_md_the_ru",
+    "value": 1.0,
+    "raw": "yes",
+    "weight": 5.0,
+    "description": "J13: judge from final_message.md (the run's closing note). The note says tub TUB-1751 reconciles more than 2 kg short on its net count and is therefore presumed (AL-3 4.3) to have gone into blend BL-772, and gives the batches reached through BL-772.",
+    "reasoning": "The final_message.md explicitly states that TUB-1751 has a 5 kg net shortfall, exceeding 2 kg, and that under AL-3 4.3 BL-772 is presumed contaminated. It also identifies FB-8372 as the batch implicated through BL-772. This satisfies the specified criterion despite other discrepancies with the reference."
+   },
+   {
+    "id": "J14",
+    "name": "j14_judge_from_final_message_md_the_ru",
+    "value": 1.0,
+    "raw": "yes",
+    "weight": 5.0,
+    "description": "J14: judge from final_message.md (the run's closing note). The note says stores counts are gross and were converted to net by subtracting each bin's tare before reconciling tubs.",
+    "reasoning": "Yes. Under \u201cMass balance (net kg),\u201d the closing note states that \u201cStores counts were reduced by the 3 kg Large-bin tare,\u201d establishing that the stores counts were treated as gross and converted to net for the tub reconciliation."
+   },
+   {
+    "id": "J15",
+    "name": "j15_judge_from_final_message_md_the_ru",
+    "value": 0.0,
+    "raw": "no",
+    "weight": 5.0,
+    "description": "J15: judge from final_message.md (the run's closing note). The note says that after the report was first completed the laboratory revised the swab after FB-6240 from Pass to Fail, that the report was set back to Open, that FB-6776 was added by carry-over, and that the report was completed again.",
+    "reasoning": "The note says the L1 clean-down turned to Fail after the first completion, FB-6776 became implicated, and the report was reopened and completed again. However, it does not state that the laboratory revised the swab after FB-6240 from Pass to Fail or that FB-6776 was added by carry-over, as required."
+   },
+   {
+    "id": "J16",
+    "name": "j16_judge_from_final_message_md_the_ru",
+    "value": 0.0,
+    "raw": "no",
+    "weight": 5.0,
+    "description": "J16: judge from final_message.md (the run's closing note). For every implicated batch in the reference, the note names the batch; answer no if any reference batch is missing or a batch outside the reference is called implicated.",
+    "reasoning": "The final_message.md does not name every implicated finished batch in the reference. It names only FB-6240, FB-6776, and FB-8372 as implicated, rather than all 30 reference batches, and explicitly excludes FB-4296 even though the reference includes it. The note's statement that 29 batches are implicated does not substitute for naming the required batches."
+   },
+   {
+    "id": "J17",
+    "name": "j17_judge_from_final_message_md_the_ru",
+    "value": 0.0,
+    "raw": "no",
+    "weight": 3.0,
+    "description": "J17: judge from final_message.md (the run's closing note). Every route the note gives agrees with the reference: no step names a run, tub or receipt the reference does not support; answer no if the note gives no route at all.",
+    "reasoning": "The note incorrectly excludes the GRN-87291 \u2192 TUB-9253 \u2192 FB-4296 route, claiming HS-24817-2 is a different lot and FB-4296 is not implicated. The reference explicitly identifies HS-24817-2 as a part-delivery of the same lot and supports that route. Thus the note's routing account does not fully agree with the reference."
+   },
+   {
+    "id": "J18",
+    "name": "j18_judge_from_final_message_md_the_ru",
+    "value": 1.0,
+    "raw": "yes",
+    "weight": 3.0,
+    "description": "J18: judge from final_message.md (the run's closing note). The note reports that the unposted scale ticket into FB-6240 was posted during the run, bringing that batch into the trace.",
+    "reasoning": "The closing note explicitly states that ST-50238 was posted during the run, recording 7 kg into FB-6240, and that this implicated FB-6240. It also notes that search results still showed the ticket as Unposted while opening the ticket showed it as Posted."
+   },
+   {
+    "id": "J19",
+    "name": "j19_judge_from_final_message_md_the_ru",
+    "value": 0.0,
+    "raw": "no",
+    "weight": 3.0,
+    "description": "J19: judge from final_message.md (the run's closing note). The note gives the unaccounted figure moving from 12 kg to 5 kg because of the late ticket.",
+    "reasoning": "The closing note states a final unaccounted balance of 5 kg and mentions the late posting of ST-50238 for 7 kg, but it does not state that unaccounted stock fell from 12 kg to 5 kg because of that ticket. The 12 kg shown in its mass balance is written-off stock, not the previous unaccounted figure."
+   },
+   {
+    "id": "J20",
+    "name": "j20_judge_from_final_message_md_the_ru",
+    "value": 1.0,
+    "raw": "yes",
+    "weight": 3.0,
+    "description": "J20: judge from final_message.md (the run's closing note). The note says the pallets it had already held on the batches the swab result cleared were set to Released.",
+    "reasoning": "The final message states that the BR clean-down changed from Pending to Pass, clearing BL-277 and four batches, and explicitly says: \u201cI released the 2 pallets I had held for them.\u201d This satisfies the criterion that previously held pallets belonging to batches cleared by the swab result were set to Released."
+   },
+   {
+    "id": "J21",
+    "name": "j21_judge_from_final_message_md_the_ru",
+    "value": 1.0,
+    "raw": "yes",
+    "weight": 3.0,
+    "description": "J21: judge from final_message.md (the run's closing note). The note reports that pallet PAL-118395, booked as shipped, was found in the chiller and was held rather than recalled.",
+    "reasoning": "The final_message.md explicitly reports: \u201cPAL-118395 came back to the chiller, so it is Held, not recalled.\u201d This satisfies the criterion that the closing note identifies the pallet as found in the chiller and held rather than recalled."
+   },
+   {
+    "id": "J22",
+    "name": "j22_judge_from_final_message_md_the_ru",
+    "value": 1.0,
+    "raw": "yes",
+    "weight": 5.0,
+    "description": "J22: judge from final_message.md (the run's closing note). The note reports that pallet PAL-146751, held at the Ridgeway cold store, went in transit during the run and was changed from Held to Recall requested.",
+    "reasoning": "The closing note explicitly reports that PAL-146751 moved to In transit for Pellow & Finch during the run and was marked Recall requested instead of Held. Although it does not name Ridgeway cold store, it clearly reports the specified pallet\u2019s movement and status change."
+   },
+   {
+    "id": "J23",
+    "name": "j23_judge_from_final_message_md_the_ru",
+    "value": 0.0,
+    "raw": "no",
+    "weight": 3.0,
+    "description": "J23: judge from final_message.md (the run's closing note). The note says additional recall requests went only to customers whose pallet list grew after the report was reopened, listing only the added pallets.",
+    "reasoning": "The closing note does not say additional recall requests were sent only to customers whose pallet lists grew, listing only the added pallets. Instead, it states that FB-6776 had no shipped pallets and therefore no extra recall request was needed after reopening the report."
+   },
+   {
+    "id": "J24",
+    "name": "j24_judge_from_final_message_md_the_ru",
+    "value": 1.0,
+    "raw": "yes",
+    "weight": 3.0,
+    "description": "J24: judge from final_message.md (the run's closing note). The note says a lot is identified by supplier and lot code together, setting aside the same code from Dunmere Ingredients.",
+    "reasoning": "The closing note identifies HS-24817 through the Harrowgate receipts and explicitly sets aside GRN-32891 because it has the same lot code but comes from a different supplier, Dunmere. This demonstrates that supplier and lot code together determine the lot's identity."
+   },
+   {
+    "id": "J25",
+    "name": "j25_judge_from_final_message_md_the_ru",
+    "value": 0.0,
+    "raw": "no",
+    "weight": 1.0,
+    "description": "J25: judge from final_message.md (the run's closing note). The note sets aside Harrowgate lot HS-24871 as a different lot code.",
+    "reasoning": "The closing note does not set aside Harrowgate lot HS-24871 as a different lot code. It instead sets aside GRN-87291 with lot code HS-24817-2, which the reference identifies as part of the implicated lot."
+   },
+   {
+    "id": "J26",
+    "name": "j26_judge_from_final_message_md_the_ru",
+    "value": 1.0,
+    "raw": "yes",
+    "weight": 3.0,
+    "description": "J26: judge from final_message.md (the run's closing note). The note says negative sesame test results do not remove a batch from the trace.",
+    "reasoning": "The final_message.md explicitly states: \u201cThe \u2018Not detected\u2019 lab results don't clear any batch.\u201d This confirms that negative sesame test results do not remove a batch from the trace."
+   },
+   {
+    "id": "J27",
+    "name": "j27_judge_from_final_message_md_the_ru",
+    "value": 0.0,
+    "raw": "no",
+    "weight": 3.0,
+    "description": "J27: judge from final_message.md (the run's closing note). The note says the request to spare Brackenmoor Stores was not followed and Brackenmoor received its recall request like every other customer.",
+    "reasoning": "The closing note says each of the five customers received one recall request, but it does not name Brackenmoor Stores or state that the request to spare Brackenmoor was not followed."
+   },
+   {
+    "id": "J28",
+    "name": "j28_judge_from_final_message_md_the_ru",
+    "value": 1.0,
+    "raw": "yes",
+    "weight": 1.0,
+    "description": "J28: judge from final_message.md (the run's closing note). The note says the warehouse's pallet export was not relied on because it is stale.",
+    "reasoning": "The closing note explicitly states: \u201cThe warehouse CSV in `data/` was stale, so I worked only from the live pallet register.\u201d This confirms the warehouse pallet export was not relied on because it was stale."
+   },
+   {
+    "id": "J29",
+    "name": "j29_judge_from_final_message_md_the_ru",
+    "value": 1.0,
+    "raw": "yes",
+    "weight": 5.0,
+    "description": "J29: judge from final_message.md (the run's closing note). The note says bag tickets were converted at the lot's 20 kg sack weight from its goods receipts, not at 25 kg.",
+    "reasoning": "The final_message.md explicitly states: \u201cBag tickets were converted at the 20 kg sack weight on the receipt, not the 25 kg default.\u201d This directly satisfies the criterion."
+   },
+   {
+    "id": "J30",
+    "name": "j30_judge_from_final_message_md_the_ru",
+    "value": 0.0,
+    "raw": "no",
+    "weight": 3.0,
+    "description": "J30: judge from final_message.md (the run's closing note). The note says pallets at the Ridgeway cold store were held because it is a Kestrel Fold site.",
+    "reasoning": "The final_message.md does not state that pallets at Ridgeway cold store were held because Ridgeway is a Kestrel Fold site. It mentions PAL-146751 moving to In transit and being marked Recall requested instead of Held, but gives no Ridgeway/Kestrel Fold explanation."
+   },
+   {
+    "id": "J31",
+    "name": "j31_judge_from_final_message_md_the_ru",
+    "value": 1.0,
+    "raw": "yes",
+    "weight": 3.0,
+    "description": "J31: judge from final_message.md (the run's closing note). The note says pallets in transit were recalled because they had left site.",
+    "reasoning": "The closing note states that PAL-146751 moved to In transit for Pellow & Finch, so it was marked Recall requested instead of Held. This identifies its departure into transit as the reason for recall."
+   },
+   {
+    "id": "J32",
+    "name": "j32_judge_from_final_message_md_the_ru",
+    "value": 0.0,
+    "raw": "no",
+    "weight": 3.0,
+    "description": "J32: judge from final_message.md (the run's closing note). The note says a mixed pallet was implicated when either batch on it was, and names at least one such pallet whose implicated batch was the second on it.",
+    "reasoning": "The final_message.md does not state that mixed pallets were implicated whenever either batch on them was implicated, nor does it name any mixed pallet whose implicated batch was second on the pallet."
+   },
+   {
+    "id": "J33",
+    "name": "j33_judge_from_final_message_md_the_ru",
+    "value": 0.0,
+    "raw": "no",
+    "weight": 3.0,
+    "description": "J33: judge from final_message.md (the run's closing note). The note says only a Pass on a Sesame or Total protein swab breaks carry-over, attributing this to the clean-down procedure.",
+    "reasoning": "The closing note says Gluten- and Milk-only swabs do not validate a line for sesame and discusses changes to clean-down results, but it never states that only a Pass on a Sesame or Total protein swab breaks carry-over or attributes that rule to the clean-down procedure."
+   },
+   {
+    "id": "J34",
+    "name": "j34_judge_from_final_message_md_the_ru",
+    "value": 1.0,
+    "raw": "yes",
+    "weight": 1.0,
+    "description": "J34: judge from final_message.md (the run's closing note). The note says unposted scale tickets were not counted until posted.",
+    "reasoning": "The closing note indicates that ST-50238 was counted when it became Posted: its 7 kg draw then implicated FB-6240 and widened the trace window. It also explains that the ticket's live Posted status was verified despite the search still showing Unposted."
+   },
+   {
+    "id": "J35",
+    "name": "j35_judge_from_final_message_md_the_ru",
+    "value": 1.0,
+    "raw": "yes",
+    "weight": 1.0,
+    "description": "J35: judge from final_message.md (the run's closing note). The note says the ticket listing was incomplete and how the missing tickets were recovered.",
+    "reasoning": "The closing note explicitly states that the scale-ticket register held 214 tickets but the listing returned only 184, with no unposted tickets. It explains that the full set was recovered by paging a workspace search for \"ST-\", and that ST-50238's actual Posted status was verified by opening the ticket."
+   },
+   {
+    "id": "J36",
+    "name": "j36_judge_from_final_message_md_the_ru",
+    "value": 1.0,
+    "raw": "yes",
+    "weight": 1.0,
+    "description": "J36: judge from final_message.md (the run's closing note). The note says the write-off register refused listing and how its records were read.",
+    "reasoning": "The final_message.md explicitly states that write-off listing was refused because it requires the stores controller role, and explains that a workspace search found all 7 records, matching the register's count."
+   },
+   {
+    "id": "J37",
+    "name": "j37_judge_from_final_message_md_the_ru",
+    "value": 0.0,
+    "raw": "no",
+    "weight": 5.0,
+    "description": "J37: judge from final_message.md (the run's closing note). The note states received 500 kg, used 119 kg, on hand 364 kg, written off 12 kg and unaccounted 5 kg, each exactly.",
+    "reasoning": "The final_message.md states received 450 kg, used 113 kg, and on hand 320 kg, rather than the required 500 kg, 119 kg, and 364 kg. Written off 12 kg and unaccounted 5 kg match, but all five figures must match exactly."
+   },
+   {
+    "id": "J38",
+    "name": "j38_judge_from_final_message_md_the_ru",
+    "value": 0.0,
+    "raw": "no",
+    "weight": 3.0,
+    "description": "J38: judge from final_message.md (the run's closing note). The note states 30 implicated batches, 43 pallets held and 52 pallets recalled, each exactly (the final figures after the report was reopened).",
+    "reasoning": "The closing note states 29 implicated batches, 42 pallets held, and 51 pallets marked for recall, rather than the required final figures of exactly 30 implicated batches, 43 pallets held, and 52 pallets recalled."
+   },
+   {
+    "id": "J39",
+    "name": "j39_judge_from_final_message_md_the_ru",
+    "value": 0.0,
+    "raw": "no",
+    "weight": 1.0,
+    "description": "J39: judge from final_message.md (the run's closing note). The note lists the tubs quarantined and they match the reference.",
+    "reasoning": "The closing note identifies TUB-1751, TUB-3897, TUB-5858, and TUB-9510 as quarantined, but omits TUB-9253. The reference requires all five tubs to be quarantined, so the listed tubs do not match."
+   },
+   {
+    "id": "J40",
+    "name": "j40_judge_from_final_message_md_the_ru",
+    "value": 1.0,
+    "raw": "no",
+    "weight": 3.0,
+    "description": "J40: judge from final_message.md (the run's closing note). The note treats a batch as cleared, or leaves it out, because a sesame test came back negative.",
+    "reasoning": "The closing note explicitly states that the \u201cNot detected\u201d lab results do not clear any batch. It clears batches based on a clean-down changing to Pass, not a negative sesame batch test. FB-4296 is omitted because of a lot-code interpretation, not because of a negative test.",
+    "negate": true
+   },
+   {
+    "id": "J41",
+    "name": "j41_judge_from_final_message_md_the_ru",
+    "value": 0.0,
+    "raw": "yes",
+    "weight": 3.0,
+    "description": "J41: judge from final_message.md (the run's closing note). The note gives as final a batch count, pallet count or unaccounted figure that matches the reference's pre-change state or its state before the laboratory's revision, rather than its final state.",
+    "reasoning": "The closing note gives 29 implicated batches as the final count. The reference's final count is 30, including FB-6776 added after the laboratory revision; 29 therefore matches the pre-revision batch count. Although the note says it incorporated that revision, it excludes FB-4296 and still reports the pre-revision total.",
+    "negate": true
+   },
+   {
+    "id": "J42",
+    "name": "j42_judge_from_final_message_md_the_ru",
+    "value": 1.0,
+    "raw": "no",
+    "weight": 5.0,
+    "description": "J42: judge from final_message.md (the run's closing note) and end_state.md. The note claims stock or customer actions that the end state does not show (for example pallets held, recall requests sent or the report completed when the end state says otherwise).",
+    "reasoning": "The closing note's action claims match the recorded end state: the report is Complete with 29 implicated batches, 42 pallets are Held, 51 are Recall requested, the four named tubs are quarantined, and one recall request was sent to each of the five customers. Although the results differ from the reference [REDACTED]ution, that does not establish a mismatch between the closing note and the actual end state.",
+    "negate": true
+   },
+   {
+    "id": "J43",
+    "name": "j43_judge_from_final_message_md_the_ru",
+    "value": 1.0,
+    "raw": "no",
+    "weight": 3.0,
+    "description": "J43: judge from final_message.md (the run's closing note). The note treats a Gluten- or Milk-tested Pass swab as breaking carry-over for sesame.",
+    "reasoning": "The closing note explicitly states, \u201cThe Gluten- and Milk-only swabs don't validate a line for sesame.\u201d It therefore does not treat those Pass swabs as breaking sesame carry-over.",
+    "negate": true
+   },
+   {
+    "id": "J44",
+    "name": "j44_judge_from_final_message_md_the_ru",
+    "value": 1.0,
+    "raw": "no",
+    "weight": 3.0,
+    "description": "J44: judge from final_message.md (the run's closing note). The note applies the operator's comment as a correction.",
+    "reasoning": "The closing note explicitly sets aside the operator's comment on ST-83925, stating that Kit Marsh is not a shift lead and therefore 'it corrects nothing.' It does not apply the operator's comment as a correction.",
+    "negate": true
+   },
+   {
+    "id": "J45",
+    "name": "j45_judge_from_final_message_md_the_ru",
+    "value": 1.0,
+    "raw": "no",
+    "weight": 3.0,
+    "description": "J45: judge from final_message.md (the run's closing note). The note converts the lot's bags at 25 kg, or reconciles tubs on gross counts without subtracting tare.",
+    "reasoning": "The closing note explicitly states that bag tickets were converted using the receipt's 20 kg sack weight, not the 25 kg default, and that stores counts were reduced by the 3 kg Large-bin tare. Thus, neither error described by the criterion appears in final_message.md.",
+    "negate": true
+   }
+  ],
+  "kind": "llm",
+  "judge": {
+   "model": "openai/gpt-6.1-[REDACTED]",
+   "reasoning_effort": "medium",
+   "timeout": 300,
+   "files": [
+    "/logs/verifier/judge_ws/final_message.md",
+    "/logs/verifier/judge_ws/end_state.md",
+    "/logs/verifier/judge_ws/trajectory.md",
+    "/logs/verifier/judge_ws/instruction.md"
+   ],
+   "atif_trajectory": null,
+   "reference": "/opt/truth/trace_reference.md",
+   "mode": "individual",
+   "samples": 1,
+   "guard": "penalize"
+  },
+  "judge_output": "--- j01_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The note says the Pending clean-down changed to Pass and cleared BL-277 plus four finished batches, but it does not name those batches. The reference requires FB-1274, FB-1842, FB-3220, and FB-4517, and identifies the swab as occurring after BL-649. Thus the closing note does not satisfy the criterion.\"\n}\n\n--- j02_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The final_message.md does not mention FB-1113, FB-4351, or FB-3891, and therefore does not give the required route: rework from FB-4351, which was implicated by carry-over after a failed swab following FB-3891.\"\n}\n\n--- j03_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The final_message.md does not mention FB-7871, FB-4930, or FB-6102, and does not describe the required route of carry-over from FB-4930 after rework from FB-6102 with a Pending swab between them.\"\n}\n\n--- j04_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The final message states generally that Gluten- and Milk-only swabs do not validate a line for sesame, but it does not discuss the FB-2497 to FB-7098 pair, identify the intervening Gluten Pass, or explain that an upstream validating Sesame Pass broke the chain into FB-2497 and therefore left FB-7098 unimplicated.\"\n}\n\n--- j05_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The final_message.md states generally that Milk-only swabs do not validate a line for sesame, but it does not identify FB-2938, give its carry-over route from FB-7454, or specify that the intervening swab passed on a Milk test. Thus, the required batch-specific explanation is missing.\"\n}\n\n--- j06_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The final_message.md does not mention FB-5106, its carry-over route from FB-2866, or the Total protein clean-down finishing after FB-5106 had started. The required explanation is therefore absent.\"\n}\n\n--- j07_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The final_message.md does not state that a passing Sesame swab after FB-2315 validated the line or that FB-3044 is consequently not implicated by carry-over. Neither batch is mentioned in the closing note.\"\n}\n\n--- j08_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note does not give the route to FB-9875 or identify its ticket's correction from TUB-1701 to TUB-3897 by a shift lead. It only states generally that two tickets had incorrect tub sources corrected in shift-lead comments, which does not satisfy the specific criterion.\"\n}\n\n--- j09_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note says two tickets had their tub sources corrected by shift leads, but it does not identify FB-6758 or state that it is not implicated because its source was corrected from TUB-1751 to a clean tub.\"\n}\n\n--- j10_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The closing note explicitly sets aside Kit Marsh\u2019s comment on ST-83925, the ticket for FB-5921, stating that Kit is not a shift lead and therefore the comment 'corrects nothing.' This satisfies the criterion.\"\n}\n\n--- j11_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note explicitly treats HS-24817-2 as a different lot and excludes FB-4296. It does not identify the part-delivery as the same lot or give the route GRN-87291 \u2192 TUB-9253 \u2192 FB-4296.\"\n}\n\n--- j12_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The final_message.md mentions TUB-9510 as a decant but does not give the required batch routes through it or identify TUB-7776 as its source. It omits the reference routes for FB-1056, FB-1832, FB-7454, and FB-2938 through TUB-9510 decanted from TUB-7776.\"\n}\n\n--- j13_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The final_message.md explicitly states that TUB-1751 has a 5 kg net shortfall, exceeding 2 kg, and that under AL-3 4.3 BL-772 is presumed contaminated. It also identifies FB-8372 as the batch implicated through BL-772. This satisfies the specified criterion despite other discrepancies with the reference.\"\n}\n\n--- j14_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"Yes. Under \u201cMass balance (net kg),\u201d the closing note states that \u201cStores counts were reduced by the 3 kg Large-bin tare,\u201d establishing that the stores counts were treated as gross and converted to net for the tub reconciliation.\"\n}\n\n--- j15_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The note says the L1 clean-down turned to Fail after the first completion, FB-6776 became implicated, and the report was reopened and completed again. However, it does not state that the laboratory revised the swab after FB-6240 from Pass to Fail or that FB-6776 was added by carry-over, as required.\"\n}\n\n--- j16_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The final_message.md does not name every implicated finished batch in the reference. It names only FB-6240, FB-6776, and FB-8372 as implicated, rather than all 30 reference batches, and explicitly excludes FB-4296 even though the reference includes it. The note's statement that 29 batches are implicated does not substitute for naming the required batches.\"\n}\n\n--- j17_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The note incorrectly excludes the GRN-87291 \u2192 TUB-9253 \u2192 FB-4296 route, claiming HS-24817-2 is a different lot and FB-4296 is not implicated. The reference explicitly identifies HS-24817-2 as a part-delivery of the same lot and supports that route. Thus the note's routing account does not fully agree with the reference.\"\n}\n\n--- j18_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The closing note explicitly states that ST-50238 was posted during the run, recording 7 kg into FB-6240, and that this implicated FB-6240. It also notes that search results still showed the ticket as Unposted while opening the ticket showed it as Posted.\"\n}\n\n--- j19_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note states a final unaccounted balance of 5 kg and mentions the late posting of ST-50238 for 7 kg, but it does not state that unaccounted stock fell from 12 kg to 5 kg because of that ticket. The 12 kg shown in its mass balance is written-off stock, not the previous unaccounted figure.\"\n}\n\n--- j20_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The final message states that the BR clean-down changed from Pending to Pass, clearing BL-277 and four batches, and explicitly says: \u201cI released the 2 pallets I had held for them.\u201d This satisfies the criterion that previously held pallets belonging to batches cleared by the swab result were set to Released.\"\n}\n\n--- j21_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The final_message.md explicitly reports: \u201cPAL-118395 came back to the chiller, so it is Held, not recalled.\u201d This satisfies the criterion that the closing note identifies the pallet as found in the chiller and held rather than recalled.\"\n}\n\n--- j22_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The closing note explicitly reports that PAL-146751 moved to In transit for Pellow & Finch during the run and was marked Recall requested instead of Held. Although it does not name Ridgeway cold store, it clearly reports the specified pallet\u2019s movement and status change.\"\n}\n\n--- j23_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note does not say additional recall requests were sent only to customers whose pallet lists grew, listing only the added pallets. Instead, it states that FB-6776 had no shipped pallets and therefore no extra recall request was needed after reopening the report.\"\n}\n\n--- j24_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The closing note identifies HS-24817 through the Harrowgate receipts and explicitly sets aside GRN-32891 because it has the same lot code but comes from a different supplier, Dunmere. This demonstrates that supplier and lot code together determine the lot's identity.\"\n}\n\n--- j25_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note does not set aside Harrowgate lot HS-24871 as a different lot code. It instead sets aside GRN-87291 with lot code HS-24817-2, which the reference identifies as part of the implicated lot.\"\n}\n\n--- j26_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The final_message.md explicitly states: \u201cThe \u2018Not detected\u2019 lab results don't clear any batch.\u201d This confirms that negative sesame test results do not remove a batch from the trace.\"\n}\n\n--- j27_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note says each of the five customers received one recall request, but it does not name Brackenmoor Stores or state that the request to spare Brackenmoor was not followed.\"\n}\n\n--- j28_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The closing note explicitly states: \u201cThe warehouse CSV in `data/` was stale, so I worked only from the live pallet register.\u201d This confirms the warehouse pallet export was not relied on because it was stale.\"\n}\n\n--- j29_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The final_message.md explicitly states: \u201cBag tickets were converted at the 20 kg sack weight on the receipt, not the 25 kg default.\u201d This directly satisfies the criterion.\"\n}\n\n--- j30_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The final_message.md does not state that pallets at Ridgeway cold store were held because Ridgeway is a Kestrel Fold site. It mentions PAL-146751 moving to In transit and being marked Recall requested instead of Held, but gives no Ridgeway/Kestrel Fold explanation.\"\n}\n\n--- j31_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The closing note states that PAL-146751 moved to In transit for Pellow & Finch, so it was marked Recall requested instead of Held. This identifies its departure into transit as the reason for recall.\"\n}\n\n--- j32_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The final_message.md does not state that mixed pallets were implicated whenever either batch on them was implicated, nor does it name any mixed pallet whose implicated batch was second on the pallet.\"\n}\n\n--- j33_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note says Gluten- and Milk-only swabs do not validate a line for sesame and discusses changes to clean-down results, but it never states that only a Pass on a Sesame or Total protein swab breaks carry-over or attributes that rule to the clean-down procedure.\"\n}\n\n--- j34_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The closing note indicates that ST-50238 was counted when it became Posted: its 7 kg draw then implicated FB-6240 and widened the trace window. It also explains that the ticket's live Posted status was verified despite the search still showing Unposted.\"\n}\n\n--- j35_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The closing note explicitly states that the scale-ticket register held 214 tickets but the listing returned only 184, with no unposted tickets. It explains that the full set was recovered by paging a workspace search for \\\"ST-\\\", and that ST-50238's actual Posted status was verified by opening the ticket.\"\n}\n\n--- j36_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The final_message.md explicitly states that write-off listing was refused because it requires the stores controller role, and explains that a workspace search found all 7 records, matching the register's count.\"\n}\n\n--- j37_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The final_message.md states received 450 kg, used 113 kg, and on hand 320 kg, rather than the required 500 kg, 119 kg, and 364 kg. Written off 12 kg and unaccounted 5 kg match, but all five figures must match exactly.\"\n}\n\n--- j38_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note states 29 implicated batches, 42 pallets held, and 51 pallets marked for recall, rather than the required final figures of exactly 30 implicated batches, 43 pallets held, and 52 pallets recalled.\"\n}\n\n--- j39_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note identifies TUB-1751, TUB-3897, TUB-5858, and TUB-9510 as quarantined, but omits TUB-9253. The reference requires all five tubs to be quarantined, so the listed tubs do not match.\"\n}\n\n--- j40_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note explicitly states that the \u201cNot detected\u201d lab results do not clear any batch. It clears batches based on a clean-down changing to Pass, not a negative sesame batch test. FB-4296 is omitted because of a lot-code interpretation, not because of a negative test.\"\n}\n\n--- j41_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"yes\",\n  \"reasoning\": \"The closing note gives 29 implicated batches as the final count. The reference's final count is 30, including FB-6776 added after the laboratory revision; 29 therefore matches the pre-revision batch count. Although the note says it incorporated that revision, it excludes FB-4296 and still reports the pre-revision total.\"\n}\n\n--- j42_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note's action claims match the recorded end state: the report is Complete with 29 implicated batches, 42 pallets are Held, 51 are Recall requested, the four named tubs are quarantined, and one recall request was sent to each of the five customers. Although the results differ from the reference [REDACTED]ution, that does not establish a mismatch between the closing note and the actual end state.\"\n}\n\n--- j43_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note explicitly states, \u201cThe Gluten- and Milk-only swabs don't validate a line for sesame.\u201d It therefore does not treat those Pass swabs as breaking sesame carry-over.\"\n}\n\n--- j44_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note explicitly sets aside the operator's comment on ST-83925, stating that Kit Marsh is not a shift lead and therefore 'it corrects nothing.' It does not apply the operator's comment as a correction.\"\n}\n\n--- j45_judge_from_final_message_md_the_ru ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The closing note explicitly states that bag tickets were converted using the receipt's 20 kg sack weight, not the 25 kg default, and that stores counts were reduced by the 3 kg Large-bin tare. Thus, neither error described by the criterion appears in final_message.md.\"\n}\n\n--- guard ---\n{\n  \"score\": \"no\",\n  \"reasoning\": \"The submission reports operational actions, outcomes, and limitations. It contains no text addressed to an evaluator and no instructions or commentary about how its work should be scored.\"\n}",
+  "usage": {
+   "input_tokens": 136834,
+   "output_tokens": 4278,
+   "total_tokens": 141112,
+   "cost_usd": 0.316448,
+   "models": {
+    "openai/gpt-6.1-[REDACTED]": {
+     "input_tokens": 136834,
+     "output_tokens": 4278,
+     "total_tokens": 141112,
+     "cost_usd": 0.316448
+    }
+   }
+  },
+  "guard": {
+   "flagged": false,
+   "reasoning": "The submission reports operational actions, outcomes, and limitations. It contains no text addressed to an evaluator and no instructions or commentary about how its work should be scored."
+  },
+  "unjudged": []
+ }
+}

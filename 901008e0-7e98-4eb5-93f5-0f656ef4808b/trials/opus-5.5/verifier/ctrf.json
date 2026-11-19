@@ -1,0 +1,808 @@
+{
+ "results": {
+  "tool": {
+   "name": "pytest"
+  },
+  "summary": {
+   "tests": 132,
+   "passed": 119,
+   "failed": 13,
+   "start": 1794995886355,
+   "stop": 1794995886595
+  },
+  "tests": [
+   {
+    "name": "test_H01",
+    "status": "passed",
+    "duration": 84,
+    "message": ""
+   },
+   {
+    "name": "test_H02",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H03",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H04",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: H04 not met\nE       assert False\nE        +  where False = <function <lambda>.<locals>.<lambda> at 0xffffb95aab60>()\n\ntest_outputs.py:432: AssertionError"
+   },
+   {
+    "name": "test_H05",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H06",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H07",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H08",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H09",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H10",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H11",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H12",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H13",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H14",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H15",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H16",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H17",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H18",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H19",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H20",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H21",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H22",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H23",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H24",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H25",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H26",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H27",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H28",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H29",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H30",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H31",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H32",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H33",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H34",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H35",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H36",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H37",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H38",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H39",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H40",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H41",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H42",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_H43",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C01",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C02",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C03",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C04",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C05",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C06",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C07",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C08",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C09",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C10",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C11",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C12",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C13",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C14",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C15",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C16",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C17",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C18",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C19",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C20",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C21",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C22",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C23",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C24",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C25",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C26",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C27",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C28",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: C28 not met\nE       assert False\nE        +  where False = <function <lambda>.<locals>.<lambda> at 0xffffb9389580>()\n\ntest_outputs.py:432: AssertionError"
+   },
+   {
+    "name": "test_C29",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C30",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C31",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C32",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C33",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C34",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C35",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C36",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C37",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C38",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C39",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C40",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C41",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C42",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C43",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C44",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C45",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C46",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C47",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C48",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C49",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C50",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C51",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_C52",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_Q01",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_Q02",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_Q03",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_Q04",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: Q04 not met\nE       assert False\nE        +  where False = <function <lambda>.<locals>.<lambda> at 0xffffb938a700>()\n\ntest_outputs.py:432: AssertionError"
+   },
+   {
+    "name": "test_Q05",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_M01",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_M02",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_M03",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_M04",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: M04 not met\nE       assert False\nE        +  where False = <function <lambda>.<locals>.<lambda> at 0xffffb938aa20>()\n\ntest_outputs.py:432: AssertionError"
+   },
+   {
+    "name": "test_M05",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_S01",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_S02",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_S03",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_S04",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_S05",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_S06",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_S07",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: S07 not met\nE       assert False\nE        +  where False = <function reopened at 0xffffb95aa7a0>()\n\ntest_outputs.py:432: AssertionError"
+   },
+   {
+    "name": "test_K01",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: K01 not met\nE       assert False\nE        +  where False = <function k_batches at 0xffffb95a9da0>()\n\ntest_outputs.py:432: AssertionError"
+   },
+   {
+    "name": "test_K02",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: K02 not met\nE       assert False\nE        +  where False = <function k_list at 0xffffb95a9e40>()\n\ntest_outputs.py:432: AssertionError"
+   },
+   {
+    "name": "test_K03",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: K03 not met\nE       assert False\nE        +  where False = <function k_held at 0xffffb95a9ee0>()\n\ntest_outputs.py:432: AssertionError"
+   },
+   {
+    "name": "test_K04",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: K04 not met\nE       assert False\nE        +  where False = <function k_recalled at 0xffffb95a9f80>()\n\ntest_outputs.py:432: AssertionError"
+   },
+   {
+    "name": "test_K05",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: K05 not met\nE       assert False\nE        +  where False = <function _mb.<locals>.<lambda> at 0xffffb95aa8e0>()\n\ntest_outputs.py:432: AssertionError"
+   },
+   {
+    "name": "test_K06",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: K06 not met\nE       assert False\nE        +  where False = <function _mb.<locals>.<lambda> at 0xffffb938ab60>()\n\ntest_outputs.py:432: AssertionError"
+   },
+   {
+    "name": "test_K07",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: K07 not met\nE       assert False\nE        +  where False = <function _mb.<locals>.<lambda> at 0xffffb938ac00>()\n\ntest_outputs.py:432: AssertionError"
+   },
+   {
+    "name": "test_K08",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_K09",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_K10",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_O01",
+    "status": "failed",
+    "duration": 0,
+    "message": "def test():\n>       assert VERDICTS[rid](), f\"{rid} not met\"\nE       AssertionError: O01 not met\nE       assert False\nE        +  where False = <function o_report_last at 0xffffb95aa200>()\n\ntest_outputs.py:432: AssertionError"
+   },
+   {
+    "name": "test_O02",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_G01",
+    "status": "passed",
+    "duration": 2,
+    "message": ""
+   },
+   {
+    "name": "test_G02",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_G03",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_G04",
+    "status": "passed",
+    "duration": 1,
+    "message": ""
+   },
+   {
+    "name": "test_G05",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_G06",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_G07",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   },
+   {
+    "name": "test_G08",
+    "status": "passed",
+    "duration": 0,
+    "message": ""
+   }
+  ]
+ }
+}

@@ -14,7 +14,7 @@
 <a href="#abstract">Abstract</a> ·
 <a href="#summary">Summary</a> ·
 <a href="#tasks">Tasks</a> ·
-<a href="#rollouts">Rollouts</a> ·
+<a href="#trials">Trials</a> ·
 <a href="#coverage">Coverage</a> ·
 <a href="#dataset-structure">Dataset structure</a> ·
 <a href="#reproduction">Reproduction</a> ·
@@ -56,11 +56,11 @@ Grading runs in a separate verifier container against a sealed key. Two channels
 | [`eb72fb4a`](eb72fb4a-817e-4da7-9ce7-f327be985473/) | Acute healthcare | Notion, Jira, Gmail, Drive, Teams, Calendar, PagerDuty | Audit October safe staffing for the Acute Medicine nurses at Marrowgate General across a DST transition, with on-call accounting and multimodal evidence |
 | [`ee57f383`](ee57f383-280f-5390-9e39-8d7878107a40/) | Road haulage | Notion, Monday, ServiceNow, Drive, Outlook, Slack, Calendar | Audit October drivers' hours and working time for the Keldford fleet against the edition in force, over a rolling reference period and a DST transition |
 
-## Rollouts
+## Trials
 
-Rollouts are stored in each task's `rollouts/opus-5.5/` and are published separately from the task bundles. This lane carries the five task bundles; the rollout folders are not yet resident.
+Trials are stored in each task's `trials/opus-5.5/` and are published separately from the task bundles. This lane carries the five task bundles; the trial folders are not yet resident.
 
-Each rollout folder is Harbor's trial output:
+Each trial folder is Harbor's trial output:
 
 | Path | Contents |
 | --- | --- |
@@ -145,7 +145,7 @@ Each task is one Harbor task in a directory named by its uuid.
 ├── environment/      sandbox image and the MCP servers standing in for the business systems
 ├── tests/            verifier and grading key, hidden from the agent
 ├── solution/         reference solution
-└── rollouts/
+└── trials/
     └── opus-5.5/     run with Claude Opus 5.5
 ```
 

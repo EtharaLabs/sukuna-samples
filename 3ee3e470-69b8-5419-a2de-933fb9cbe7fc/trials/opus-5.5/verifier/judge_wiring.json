@@ -1,0 +1,18 @@
+{
+ "criteria_dir": "/logs/verifier/criteria",
+ "judge_model": "openai/gpt-6.1-[REDACTED]",
+ "judge_model_applied": "openai/gpt-6.1-[REDACTED]",
+ "judge_skip": "0",
+ "judge_transport": "rewardkit",
+ "judged_channel_dropped": false,
+ "judged_channel_dropped_reason": "",
+ "stems": [
+  "claims_lib.py",
+  "judge.toml",
+  "old_env.json",
+  "oracle.json",
+  "reward.toml",
+  "test_output.py",
+  "test_weights.json"
+ ]
+}

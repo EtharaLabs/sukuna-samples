@@ -1,0 +1,13 @@
+[1/3 trajectory] final message taken from a callless agent step's own message (890 chars)
+[1/3 trajectory] final message taken from a callless agent step's own message (1763 chars)
+[1/3 trajectory] final message taken from a callless agent step's own message (1291 chars)
+[1/3 trajectory] final message taken from a callless agent step's own message (928 chars)
+[1/3 trajectory] final message taken from a callless agent step's own message (994 chars)
+[1/3 trajectory] final message taken from a callless agent step's own message (10806 chars)
+[1/3 trajectory] 787 steps, final message 10806 chars
+[2/3 state] snapshot present
+[2/3 state] 7 apps normalised
+[judge] transport=rewardkit model=openai/gpt-6.1-[REDACTED]
+[3/3 rewardkit] scoring over /logs/verifier/criteria
+reward: 0.3396
+[ctrf] wrote /logs/verifier/ctrf.json from /logs/verifier/reward-details.json: 0 passed, 11 failed of 11 declared prohibitions

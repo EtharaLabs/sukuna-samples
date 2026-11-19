@@ -1,0 +1,36 @@
+{
+  "task": {
+    "path": "."
+  },
+  "trial_name": "eb72fb4a-817e-4da7-9ce7-f327be98__Z4pe6Yn",
+  "trials_dir": "eb72fb4a-ov4a2",
+  "agent_timeout_multiplier": 3.0,
+  "verifier_timeout_multiplier": 4.0,
+  "agent_setup_timeout_multiplier": 4.0,
+  "environment_build_timeout_multiplier": 3.0,
+  "agent": {
+    "name": "claude-code",
+    "model_name": "anthropic/claude-opus-5-5",
+    "env": {
+      "ANTHROPIC_BASE_URL": "http://host.docker.internal:8642",
+      "ANTHROPIC_API_KEY": "${ANTHROPIC_API_KEY}",
+      "ANTHROPIC_MODEL": "claude-opus-5-5",
+      "CLAUDE_CODE_USE_BEDROCK": "0",
+      "UV_CONCURRENT_DOWNLOADS": "1",
+      "UV_HTTP_TIMEOUT": "120",
+      "UV_HTTP_CONNECT_TIMEOUT": "30",
+      "UV_HTTP_RETRIES": "8",
+      "UV_LINK_MODE": "copy"
+    }
+  },
+  "verifier": {
+    "env": {
+      "JUDGE_MODEL": "openai/gpt-6.1-[REDACTED]",
+      "JUDGE_TRANSPORT": "rewardkit",
+      "JUDGE_SKIP": "0",
+      "OPENAI_API_BASE": "http://host.docker.internal:8767/v1",
+      "OPENAI_API_KEY": "****"
+    }
+  },
+  "job_id": "6f7e74b3-aa43-4279-8eb0-24af2eda43ab"
+}

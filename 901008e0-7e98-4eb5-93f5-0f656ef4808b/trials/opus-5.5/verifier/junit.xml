@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="13" skipped="0" tests="132" time="0.238" timestamp="2026-11-18T09:58:06.355790+00:00" hostname="fad0babdc3b1"><testcase classname="test_outputs" name="test_H01" time="0.084" /><testcase classname="test_outputs" name="test_H02" time="0.000" /><testcase classname="test_outputs" name="test_H03" time="0.000" /><testcase classname="test_outputs" name="test_H04" time="0.000"><failure message="AssertionError: H04 not met&#10;assert False&#10; +  where False = &lt;function &lt;lambda&gt;.&lt;locals&gt;.&lt;lambda&gt; at 0xffffb95aab60&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: H04 not met
+E       assert False
+E        +  where False = &lt;function &lt;lambda&gt;.&lt;locals&gt;.&lt;lambda&gt; at 0xffffb95aab60&gt;()
+
+test_outputs.py:432: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_H05" time="0.000" /><testcase classname="test_outputs" name="test_H06" time="0.000" /><testcase classname="test_outputs" name="test_H07" time="0.000" /><testcase classname="test_outputs" name="test_H08" time="0.000" /><testcase classname="test_outputs" name="test_H09" time="0.000" /><testcase classname="test_outputs" name="test_H10" time="0.000" /><testcase classname="test_outputs" name="test_H11" time="0.000" /><testcase classname="test_outputs" name="test_H12" time="0.000" /><testcase classname="test_outputs" name="test_H13" time="0.000" /><testcase classname="test_outputs" name="test_H14" time="0.000" /><testcase classname="test_outputs" name="test_H15" time="0.000" /><testcase classname="test_outputs" name="test_H16" time="0.000" /><testcase classname="test_outputs" name="test_H17" time="0.000" /><testcase classname="test_outputs" name="test_H18" time="0.000" /><testcase classname="test_outputs" name="test_H19" time="0.000" /><testcase classname="test_outputs" name="test_H20" time="0.000" /><testcase classname="test_outputs" name="test_H21" time="0.000" /><testcase classname="test_outputs" name="test_H22" time="0.000" /><testcase classname="test_outputs" name="test_H23" time="0.000" /><testcase classname="test_outputs" name="test_H24" time="0.000" /><testcase classname="test_outputs" name="test_H25" time="0.000" /><testcase classname="test_outputs" name="test_H26" time="0.000" /><testcase classname="test_outputs" name="test_H27" time="0.000" /><testcase classname="test_outputs" name="test_H28" time="0.000" /><testcase classname="test_outputs" name="test_H29" time="0.000" /><testcase classname="test_outputs" name="test_H30" time="0.000" /><testcase classname="test_outputs" name="test_H31" time="0.000" /><testcase classname="test_outputs" name="test_H32" time="0.000" /><testcase classname="test_outputs" name="test_H33" time="0.000" /><testcase classname="test_outputs" name="test_H34" time="0.000" /><testcase classname="test_outputs" name="test_H35" time="0.000" /><testcase classname="test_outputs" name="test_H36" time="0.000" /><testcase classname="test_outputs" name="test_H37" time="0.000" /><testcase classname="test_outputs" name="test_H38" time="0.000" /><testcase classname="test_outputs" name="test_H39" time="0.000" /><testcase classname="test_outputs" name="test_H40" time="0.000" /><testcase classname="test_outputs" name="test_H41" time="0.000" /><testcase classname="test_outputs" name="test_H42" time="0.000" /><testcase classname="test_outputs" name="test_H43" time="0.000" /><testcase classname="test_outputs" name="test_C01" time="0.000" /><testcase classname="test_outputs" name="test_C02" time="0.000" /><testcase classname="test_outputs" name="test_C03" time="0.000" /><testcase classname="test_outputs" name="test_C04" time="0.000" /><testcase classname="test_outputs" name="test_C05" time="0.000" /><testcase classname="test_outputs" name="test_C06" time="0.000" /><testcase classname="test_outputs" name="test_C07" time="0.000" /><testcase classname="test_outputs" name="test_C08" time="0.000" /><testcase classname="test_outputs" name="test_C09" time="0.000" /><testcase classname="test_outputs" name="test_C10" time="0.000" /><testcase classname="test_outputs" name="test_C11" time="0.000" /><testcase classname="test_outputs" name="test_C12" time="0.000" /><testcase classname="test_outputs" name="test_C13" time="0.000" /><testcase classname="test_outputs" name="test_C14" time="0.000" /><testcase classname="test_outputs" name="test_C15" time="0.000" /><testcase classname="test_outputs" name="test_C16" time="0.000" /><testcase classname="test_outputs" name="test_C17" time="0.000" /><testcase classname="test_outputs" name="test_C18" time="0.000" /><testcase classname="test_outputs" name="test_C19" time="0.000" /><testcase classname="test_outputs" name="test_C20" time="0.000" /><testcase classname="test_outputs" name="test_C21" time="0.000" /><testcase classname="test_outputs" name="test_C22" time="0.000" /><testcase classname="test_outputs" name="test_C23" time="0.000" /><testcase classname="test_outputs" name="test_C24" time="0.000" /><testcase classname="test_outputs" name="test_C25" time="0.000" /><testcase classname="test_outputs" name="test_C26" time="0.000" /><testcase classname="test_outputs" name="test_C27" time="0.000" /><testcase classname="test_outputs" name="test_C28" time="0.000"><failure message="AssertionError: C28 not met&#10;assert False&#10; +  where False = &lt;function &lt;lambda&gt;.&lt;locals&gt;.&lt;lambda&gt; at 0xffffb9389580&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: C28 not met
+E       assert False
+E        +  where False = &lt;function &lt;lambda&gt;.&lt;locals&gt;.&lt;lambda&gt; at 0xffffb9389580&gt;()
+
+test_outputs.py:432: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_C29" time="0.000" /><testcase classname="test_outputs" name="test_C30" time="0.000" /><testcase classname="test_outputs" name="test_C31" time="0.000" /><testcase classname="test_outputs" name="test_C32" time="0.000" /><testcase classname="test_outputs" name="test_C33" time="0.000" /><testcase classname="test_outputs" name="test_C34" time="0.000" /><testcase classname="test_outputs" name="test_C35" time="0.000" /><testcase classname="test_outputs" name="test_C36" time="0.000" /><testcase classname="test_outputs" name="test_C37" time="0.000" /><testcase classname="test_outputs" name="test_C38" time="0.000" /><testcase classname="test_outputs" name="test_C39" time="0.000" /><testcase classname="test_outputs" name="test_C40" time="0.000" /><testcase classname="test_outputs" name="test_C41" time="0.000" /><testcase classname="test_outputs" name="test_C42" time="0.000" /><testcase classname="test_outputs" name="test_C43" time="0.000" /><testcase classname="test_outputs" name="test_C44" time="0.000" /><testcase classname="test_outputs" name="test_C45" time="0.000" /><testcase classname="test_outputs" name="test_C46" time="0.000" /><testcase classname="test_outputs" name="test_C47" time="0.000" /><testcase classname="test_outputs" name="test_C48" time="0.000" /><testcase classname="test_outputs" name="test_C49" time="0.000" /><testcase classname="test_outputs" name="test_C50" time="0.000" /><testcase classname="test_outputs" name="test_C51" time="0.000" /><testcase classname="test_outputs" name="test_C52" time="0.000" /><testcase classname="test_outputs" name="test_Q01" time="0.000" /><testcase classname="test_outputs" name="test_Q02" time="0.000" /><testcase classname="test_outputs" name="test_Q03" time="0.000" /><testcase classname="test_outputs" name="test_Q04" time="0.000"><failure message="AssertionError: Q04 not met&#10;assert False&#10; +  where False = &lt;function &lt;lambda&gt;.&lt;locals&gt;.&lt;lambda&gt; at 0xffffb938a700&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: Q04 not met
+E       assert False
+E        +  where False = &lt;function &lt;lambda&gt;.&lt;locals&gt;.&lt;lambda&gt; at 0xffffb938a700&gt;()
+
+test_outputs.py:432: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_Q05" time="0.000" /><testcase classname="test_outputs" name="test_M01" time="0.000" /><testcase classname="test_outputs" name="test_M02" time="0.000" /><testcase classname="test_outputs" name="test_M03" time="0.000" /><testcase classname="test_outputs" name="test_M04" time="0.000"><failure message="AssertionError: M04 not met&#10;assert False&#10; +  where False = &lt;function &lt;lambda&gt;.&lt;locals&gt;.&lt;lambda&gt; at 0xffffb938aa20&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: M04 not met
+E       assert False
+E        +  where False = &lt;function &lt;lambda&gt;.&lt;locals&gt;.&lt;lambda&gt; at 0xffffb938aa20&gt;()
+
+test_outputs.py:432: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_M05" time="0.000" /><testcase classname="test_outputs" name="test_S01" time="0.000" /><testcase classname="test_outputs" name="test_S02" time="0.000" /><testcase classname="test_outputs" name="test_S03" time="0.000" /><testcase classname="test_outputs" name="test_S04" time="0.000" /><testcase classname="test_outputs" name="test_S05" time="0.000" /><testcase classname="test_outputs" name="test_S06" time="0.000" /><testcase classname="test_outputs" name="test_S07" time="0.000"><failure message="AssertionError: S07 not met&#10;assert False&#10; +  where False = &lt;function reopened at 0xffffb95aa7a0&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: S07 not met
+E       assert False
+E        +  where False = &lt;function reopened at 0xffffb95aa7a0&gt;()
+
+test_outputs.py:432: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_K01" time="0.000"><failure message="AssertionError: K01 not met&#10;assert False&#10; +  where False = &lt;function k_batches at 0xffffb95a9da0&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: K01 not met
+E       assert False
+E        +  where False = &lt;function k_batches at 0xffffb95a9da0&gt;()
+
+test_outputs.py:432: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_K02" time="0.000"><failure message="AssertionError: K02 not met&#10;assert False&#10; +  where False = &lt;function k_list at 0xffffb95a9e40&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: K02 not met
+E       assert False
+E        +  where False = &lt;function k_list at 0xffffb95a9e40&gt;()
+
+test_outputs.py:432: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_K03" time="0.000"><failure message="AssertionError: K03 not met&#10;assert False&#10; +  where False = &lt;function k_held at 0xffffb95a9ee0&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: K03 not met
+E       assert False
+E        +  where False = &lt;function k_held at 0xffffb95a9ee0&gt;()
+
+test_outputs.py:432: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_K04" time="0.000"><failure message="AssertionError: K04 not met&#10;assert False&#10; +  where False = &lt;function k_recalled at 0xffffb95a9f80&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: K04 not met
+E       assert False
+E        +  where False = &lt;function k_recalled at 0xffffb95a9f80&gt;()
+
+test_outputs.py:432: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_K05" time="0.000"><failure message="AssertionError: K05 not met&#10;assert False&#10; +  where False = &lt;function _mb.&lt;locals&gt;.&lt;lambda&gt; at 0xffffb95aa8e0&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: K05 not met
+E       assert False
+E        +  where False = &lt;function _mb.&lt;locals&gt;.&lt;lambda&gt; at 0xffffb95aa8e0&gt;()
+
+test_outputs.py:432: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_K06" time="0.000"><failure message="AssertionError: K06 not met&#10;assert False&#10; +  where False = &lt;function _mb.&lt;locals&gt;.&lt;lambda&gt; at 0xffffb938ab60&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: K06 not met
+E       assert False
+E        +  where False = &lt;function _mb.&lt;locals&gt;.&lt;lambda&gt; at 0xffffb938ab60&gt;()
+
+test_outputs.py:432: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_K07" time="0.000"><failure message="AssertionError: K07 not met&#10;assert False&#10; +  where False = &lt;function _mb.&lt;locals&gt;.&lt;lambda&gt; at 0xffffb938ac00&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: K07 not met
+E       assert False
+E        +  where False = &lt;function _mb.&lt;locals&gt;.&lt;lambda&gt; at 0xffffb938ac00&gt;()
+
+test_outputs.py:432: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_K08" time="0.000" /><testcase classname="test_outputs" name="test_K09" time="0.000" /><testcase classname="test_outputs" name="test_K10" time="0.000" /><testcase classname="test_outputs" name="test_O01" time="0.000"><failure message="AssertionError: O01 not met&#10;assert False&#10; +  where False = &lt;function o_report_last at 0xffffb95aa200&gt;()">def test():
+&gt;       assert VERDICTS[rid](), f"{rid} not met"
+E       AssertionError: O01 not met
+E       assert False
+E        +  where False = &lt;function o_report_last at 0xffffb95aa200&gt;()
+
+test_outputs.py:432: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_O02" time="0.000" /><testcase classname="test_outputs" name="test_G01" time="0.002" /><testcase classname="test_outputs" name="test_G02" time="0.000" /><testcase classname="test_outputs" name="test_G03" time="0.000" /><testcase classname="test_outputs" name="test_G04" time="0.001" /><testcase classname="test_outputs" name="test_G05" time="0.000" /><testcase classname="test_outputs" name="test_G06" time="0.000" /><testcase classname="test_outputs" name="test_G07" time="0.000" /><testcase classname="test_outputs" name="test_G08" time="0.000" /></testsuite></testsuites>

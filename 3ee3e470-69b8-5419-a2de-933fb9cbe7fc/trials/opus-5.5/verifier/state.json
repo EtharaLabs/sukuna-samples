@@ -1,0 +1,47 @@
+{
+ "apps": [
+  "LightBox",
+  "LightGmail",
+  "LightMonday",
+  "LightNotion",
+  "LightServiceNow",
+  "LightSlack",
+  "LightTrello"
+ ],
+ "row_counts": {
+  "LightBox": {
+   "files": 13
+  },
+  "LightGmail": {
+   "drafts": 1,
+   "labels": 8,
+   "messages": 19
+  },
+  "LightMonday": {
+   "column_values": 98,
+   "items": 98
+  },
+  "LightNotion": {
+   "blocks": 10,
+   "comments": 4,
+   "databases": 14,
+   "pages": 591,
+   "properties": 580
+  },
+  "LightServiceNow": {
+   "incidents": 25
+  },
+  "LightSlack": {
+   "channels": 9,
+   "messages": 8
+  },
+  "LightTrello": {
+   "cards": 10,
+   "checklists": 2
+  }
+ },
+ "snapshot_present": true,
+ "state_error": "",
+ "truth_error": "",
+ "truth_present": true
+}

@@ -1,0 +1,15 @@
+{
+ "AM-1002-MGH-367": {"ext_signed": true},
+ "AM-1011-MGH-389": {"ext_signed": true},
+ "AM-1013-MGH-109": {"ext_signed": true},
+ "AM-1013-MGH-468": {"ext_signed": true},
+ "AM-1017-MGH-354": {"ext_signed": true, "ev": ["SEA-1377"]},
+ "AM-1020-MGH-782": {"ext_signed": true},
+ "AM-1022-MGH-240": {"ext_signed": true},
+ "AM-1028-MGH-240": {"ext_signed": false, "ev": ["SEA-6991"]},
+ "AM-1002-MGH-242": {"End": "2026-10-02T22:14Z", "Assignments": 5, "ev": ["TS-10088"]},
+ "AM-1023-MGH-763": {"End": "2026-10-23T19:36Z", "ev": ["TS-28498"]},
+ "AM-1018-MGH-628": {"Start": "2026-10-18T07:23Z", "transfer": true, "ev": ["BL-119"]},
+ "AM-1020-MGH-164": {"Type": "On-site on-call", "ev": ["BL-717"]},
+ "AM-1021-MGH-129": {"Type": "On-site on-call", "ev": ["BL-668"]}
+}
